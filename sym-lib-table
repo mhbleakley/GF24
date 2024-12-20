@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "MB-GNSS")(type "KiCad")(uri "${KIPRJMOD}/MB-GNSS.kicad_sym")(options "")(descr ""))
+)
