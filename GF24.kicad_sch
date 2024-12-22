@@ -2791,9 +2791,9 @@
 		)
 		(uuid "55c5b9a0-f3f3-4285-8c3f-818200edf0b5")
 	)
-	(text "Leave open:\n- V_BCKP\n- SDA\n- SCL\n- EXTINT\n- VIO_SEL\n"
+	(text "Leave open:\n- V_BCKP\n- SDA\n- SCL\n- EXTINT\n- VIO_SEL\n- TIMEPULSE"
 		(exclude_from_sim no)
-		(at 132.334 53.594 0)
+		(at 131.826 101.346 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2864,6 +2864,28 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 45.72 143.51 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "095c6586-e734-4db8-955f-6f83493e1837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 45.72 148.9943 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "PWR"
 		(shape input)
 		(at 104.14 76.2 180)
@@ -2930,7 +2952,7 @@
 			)
 		)
 	)
-	(global_label "GNSS-RESET_N"
+	(global_label "GNSS-RESET-N"
 		(shape input)
 		(at 120.65 90.17 180)
 		(fields_autoplaced yes)
@@ -2942,7 +2964,7 @@
 		)
 		(uuid "1ed1f5b2-4d4f-4ef3-9e38-68f7684756d4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.554 90.17 0)
+			(at 106.0702 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2996,7 +3018,7 @@
 			)
 		)
 	)
-	(global_label "GNSS-RF_IN"
+	(global_label "GNSS-RF-IN"
 		(shape input)
 		(at 153.67 87.63 0)
 		(fields_autoplaced yes)
@@ -3008,7 +3030,7 @@
 		)
 		(uuid "7204569f-4fad-425e-9269-94168660dda0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 165.5406 87.63 0)
+			(at 166.0244 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3062,7 +3084,7 @@
 			)
 		)
 	)
-	(global_label "OSC_OUT"
+	(global_label "OSC-OUT"
 		(shape input)
 		(at 106.68 29.21 90)
 		(fields_autoplaced yes)
@@ -3074,7 +3096,7 @@
 		)
 		(uuid "a0e40acd-e37f-436f-be55-4bcf06cb15d1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 106.68 20.0971 90)
+			(at 106.68 19.6133 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3084,7 +3106,7 @@
 			)
 		)
 	)
-	(global_label "OSC_OUT"
+	(global_label "OSC-OUT"
 		(shape input)
 		(at 26.67 76.2 180)
 		(fields_autoplaced yes)
@@ -3096,7 +3118,29 @@
 		)
 		(uuid "a35832b7-35b2-4cba-b931-0d06b2585955")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.5571 76.2 0)
+			(at 17.0733 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 26.67 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "a9bc9cbe-d3c6-44ed-ac01-579a51623475")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 21.1857 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3194,7 +3238,7 @@
 			)
 		)
 	)
-	(global_label "OSC_IN"
+	(global_label "OSC-IN"
 		(shape input)
 		(at 96.52 29.21 90)
 		(fields_autoplaced yes)
@@ -3206,7 +3250,7 @@
 		)
 		(uuid "e6b1bd04-6c23-4dc3-8351-d25a9aa7f929")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.52 21.4518 90)
+			(at 96.52 20.968 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3216,7 +3260,7 @@
 			)
 		)
 	)
-	(global_label "OSC_IN"
+	(global_label "OSC-IN"
 		(shape input)
 		(at 26.67 73.66 180)
 		(fields_autoplaced yes)
@@ -3228,7 +3272,7 @@
 		)
 		(uuid "e7d95158-6fff-4fde-b200-742ff3b2b556")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 18.9118 73.66 0)
+			(at 18.428 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3555,7 +3599,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "4.7uF"
 			(at 109.22 83.8199 0)
 			(effects
 				(font
@@ -3670,74 +3714,6 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 26.67 68.58 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c208cb5-beea-44a4-bdba-7c12b4bcc250")
-		(property "Reference" "#PWR05"
-			(at 26.67 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 26.67 73.66 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0f979e83-3b93-47dc-823b-4339e6e9883a")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4267,74 +4243,6 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 45.72 143.51 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "def52e63-c015-426e-9fb2-8be376027e71")
-		(property "Reference" "#PWR03"
-			(at 45.72 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 45.72 148.59 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 45.72 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1ea09f02-0f9d-4f78-893d-cbfc0ec73090")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
