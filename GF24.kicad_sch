@@ -3400,7 +3400,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 32.7152 31.75 0)
 			(effects
 				(font
@@ -3418,7 +3418,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
 			(at 31.75 27.94 0)
 			(effects
 				(font
@@ -3538,7 +3538,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 20.0152 31.75 0)
 			(effects
 				(font
@@ -3556,7 +3556,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
 			(at 19.05 27.94 0)
 			(effects
 				(font
@@ -3881,7 +3881,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
 			(at 46.6852 31.75 0)
 			(effects
 				(font
@@ -3899,7 +3899,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "Unpolarized capacitor, C1210C103K5RACTU"
 			(at 45.72 27.94 0)
 			(effects
 				(font
