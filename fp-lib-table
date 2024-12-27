@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "MB-GNSS")(type "KiCad")(uri "${KIPRJMOD}/MB-GNSS.pretty")(options "")(descr ""))
+  (lib (name "MB-Generic")(type "KiCad")(uri "${KIPRJMOD}/MB-Generic.pretty")(options "")(descr ""))
+  (lib (name "MB-Battery")(type "KiCad")(uri "${KIPRJMOD}/MB-Battery.pretty")(options "")(descr ""))
 )

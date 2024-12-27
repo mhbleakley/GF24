@@ -5,7 +5,7 @@
 	(uuid "d7f5d038-1fc1-4384-87c8-ac3b01beb09a")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x02"
+		(symbol "Connector:Conn_01x01_Pin"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
@@ -19,8 +19,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x02"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -45,13 +45,21 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x01, script generated"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
 				)
 			)
 			(property "ki_keywords" "connector"
@@ -72,10 +80,11 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x02_1_1"
-				(rectangle
-					(start -1.27 -2.413)
-					(end 0 -2.667)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -85,29 +94,18 @@
 					)
 				)
 				(rectangle
-					(start -1.27 0.127)
+					(start 0.8636 0.127)
 					(end 0 -0.127)
 					(stroke
 						(width 0.1524)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -3.81)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
+						(type outline)
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at 5.08 0 180)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -117,24 +115,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at -5.08 -2.54 0)
-					(length 3.81)
-					(name "Pin_2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3388,6 +3368,30 @@
 		(color 0 0 0 0)
 		(uuid "eddd3e47-5a18-457f-b251-c5c87c4417a3")
 	)
+	(no_connect
+		(at 99.06 72.39)
+		(uuid "0bdef818-c3d4-441b-a501-ad1e2a8e8c8d")
+	)
+	(no_connect
+		(at 129.54 64.77)
+		(uuid "8869e831-3a96-4994-9eea-644c8d9a6c90")
+	)
+	(no_connect
+		(at 129.54 69.85)
+		(uuid "99f1da09-b565-4a03-84c1-5fd206a1ccd0")
+	)
+	(no_connect
+		(at 129.54 67.31)
+		(uuid "a0cb79ac-eb4d-422f-8816-f2e1c06025fa")
+	)
+	(no_connect
+		(at 99.06 69.85)
+		(uuid "ba22a63e-699e-4a9d-9623-13b068c95424")
+	)
+	(no_connect
+		(at 99.06 74.93)
+		(uuid "ec85d16a-bb57-47b3-a240-a7e9e70d2a81")
+	)
 	(wire
 		(pts
 			(xy 223.52 26.67) (xy 223.52 27.94)
@@ -4410,6 +4414,16 @@
 		)
 		(uuid "0db5f3c8-ee1d-433b-9c53-90a8293a5da5")
 	)
+	(text "make custom\nfootprint"
+		(exclude_from_sim no)
+		(at 61.722 31.496 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3f7e309a-4111-4ecb-a267-fb9fe3f69c42")
+	)
 	(text "Check Passives"
 		(exclude_from_sim no)
 		(at 210.058 38.1 0)
@@ -4440,6 +4454,26 @@
 		)
 		(uuid "55c5b9a0-f3f3-4285-8c3f-818200edf0b5")
 	)
+	(text "make custom\nfootprint"
+		(exclude_from_sim no)
+		(at 175.26 34.798 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5c0cdda0-eb82-4959-aa3f-b56e628e06ae")
+	)
+	(text "make custom\nfootprint"
+		(exclude_from_sim no)
+		(at 255.016 40.386 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "6c840eee-459b-45e2-bbd4-873530fd9e05")
+	)
 	(text "Leave open:\n- V_BCKP\n- SDA\n- SCL\n- EXTINT\n- VIO_SEL\n- TIMEPULSE"
 		(exclude_from_sim no)
 		(at 108.966 93.726 0)
@@ -4460,6 +4494,16 @@
 			)
 		)
 		(uuid "9e5cd040-2100-450e-ab49-33a4aa467dc8")
+	)
+	(text "make custom\nfootprint"
+		(exclude_from_sim no)
+		(at 29.718 148.082 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a02612e5-4ee1-4112-ad5b-d5121043354a")
 	)
 	(text "Source\nof 3V3"
 		(exclude_from_sim no)
@@ -4501,6 +4545,17 @@
 		)
 		(uuid "cf2fb36f-cbc5-4e13-a4ee-ab7c60a1c820")
 	)
+	(text "add:\n- buttons\n- LEDs\n- buzzer"
+		(exclude_from_sim no)
+		(at 178.562 66.294 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "de0a3510-f06e-4168-94be-524d4cbba555")
+	)
 	(text "SWD Connector"
 		(exclude_from_sim no)
 		(at 254.254 14.732 0)
@@ -4511,16 +4566,6 @@
 		)
 		(uuid "de589f73-e1bf-410e-a3bf-9ed25fe21452")
 	)
-	(text "Check Passives"
-		(exclude_from_sim no)
-		(at 65.024 34.544 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "f007b41d-9324-4029-a0f5-930700636a3a")
-	)
 	(text "High Speed External Crystal"
 		(exclude_from_sim no)
 		(at 218.694 14.224 0)
@@ -4530,6 +4575,16 @@
 			)
 		)
 		(uuid "f1231e4c-a383-4610-b2ab-358bf510797f")
+	)
+	(text "select switch,\nmake footprint"
+		(exclude_from_sim no)
+		(at 140.716 19.304 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f7fc6c8e-4699-4aba-bb6a-681653270e17")
 	)
 	(global_label "PWR"
 		(shape input)
@@ -5197,7 +5252,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:R1206_medium"
 			(at 185.42 29.718 90)
 			(effects
 				(font
@@ -5215,7 +5270,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
+		(property "Description" "RC1206JR-1010KL"
 			(at 185.42 27.94 0)
 			(effects
 				(font
@@ -5267,7 +5322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 77.1652 33.02 0)
 			(effects
 				(font
@@ -5285,7 +5340,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
+		(property "Description" "C1206C106K9RACTU"
 			(at 76.2 29.21 0)
 			(effects
 				(font
@@ -5334,7 +5389,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
 			(at 48.26 25.4 0)
 			(effects
 				(font
@@ -5413,7 +5468,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 108.9152 29.21 0)
 			(effects
 				(font
@@ -5431,7 +5486,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
+		(property "Description" "C1206C475K9RACTU"
 			(at 107.95 25.4 0)
 			(effects
 				(font
@@ -5685,7 +5740,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:PCC-M0530M-H"
 			(at 63.5 22.86 0)
 			(effects
 				(font
@@ -5703,7 +5758,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Inductor, ETQ-P3M2R2HFP"
+		(property "Description" "ETQ-P3M2R2HFP"
 			(at 63.5 22.86 0)
 			(effects
 				(font
@@ -5728,25 +5783,24 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x02")
-		(at 15.24 25.4 180)
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 15.24 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4d8011ab-affd-4f7b-abfa-f6cf359a2bdd")
-		(property "Reference" "BAT"
-			(at 15.24 19.05 0)
+		(uuid "4c91c80e-daff-45b5-8534-c2110f49fe13")
+		(property "Reference" "BAT-1"
+			(at 15.494 26.924 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "Conn_01x02"
-			(at 15.24 19.05 0)
+		(property "Value" "Conn_01x01_Pin"
+			(at 15.875 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5754,7 +5808,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Battery:54"
 			(at 15.24 25.4 0)
 			(effects
 				(font
@@ -5772,7 +5826,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x01, script generated"
 			(at 15.24 25.4 0)
 			(effects
 				(font
@@ -5781,16 +5835,13 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "f937c9f3-c84b-4aa7-921a-a53bafa70281")
-		)
 		(pin "1"
-			(uuid "d8ec1b08-8ac4-4797-806a-9feecde23824")
+			(uuid "36bc1806-508c-46e6-8ee0-3275f3240a41")
 		)
 		(instances
-			(project ""
+			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "BAT")
+					(reference "BAT-1")
 					(unit 1)
 				)
 			)
@@ -5890,7 +5941,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 96.2152 29.21 0)
 			(effects
 				(font
@@ -5908,7 +5959,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
+		(property "Description" "C1206C475K9RACTU"
 			(at 95.25 25.4 0)
 			(effects
 				(font
@@ -6026,7 +6077,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 83.5152 78.74 0)
 			(effects
 				(font
@@ -6044,7 +6095,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1206C475K9RACTU"
 			(at 82.55 74.93 0)
 			(effects
 				(font
@@ -6096,7 +6147,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 31.4452 35.56 0)
 			(effects
 				(font
@@ -6114,7 +6165,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, C1210C475K5RACTU"
+		(property "Description" "C1206C475K9RACTU"
 			(at 30.48 31.75 0)
 			(effects
 				(font
@@ -6165,7 +6216,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:C0805_medium"
 			(at 213.0552 35.56 0)
 			(effects
 				(font
@@ -6367,7 +6418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC33-U_Vertical"
 			(at 218.44 27.94 0)
 			(effects
 				(font
@@ -6505,7 +6556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder"
+		(property "Footprint" "MB-Generic:C0603_medium"
 			(at 122.8852 29.21 0)
 			(effects
 				(font
@@ -6523,7 +6574,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, C1210C103K5RACTU"
+		(property "Description" "C0603C103K9RACTU"
 			(at 121.92 25.4 0)
 			(effects
 				(font
@@ -6646,7 +6697,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical"
 			(at 250.19 26.67 0)
 			(effects
 				(font
@@ -6740,7 +6791,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:C0805_medium"
 			(at 225.7552 35.56 0)
 			(effects
 				(font
@@ -6972,10 +7023,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "ccc51122-0e05-4761-8dfb-94eccaf92ec8")
 		(property "Reference" "SW1"
-			(at 138.43 26.6699 90)
+			(at 138.176 25.908 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6983,17 +7033,16 @@
 				(justify right)
 			)
 		)
-		(property "Value" "RST"
-			(at 138.43 27.9399 90)
+		(property "Value" "NRST"
+			(at 138.176 27.94 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
 			(at 132.08 26.67 0)
 			(effects
 				(font
@@ -7098,6 +7147,71 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 15.24 22.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "de65b17e-ab5c-4a45-8bca-9aec20f57586")
+		(property "Reference" "BAT+1"
+			(at 15.494 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Pin"
+			(at 15.875 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MB-Battery:54"
+			(at 15.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 15.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 15.24 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "71681649-2cf2-4b36-a7c8-b265e4035602")
+		)
+		(instances
+			(project ""
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "BAT+1")
 					(unit 1)
 				)
 			)
@@ -7340,7 +7454,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:C1206_medium"
 			(at 149.5552 30.48 0)
 			(effects
 				(font
@@ -7358,7 +7472,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C1206C104K9RACTU"
 			(at 148.59 26.67 0)
 			(effects
 				(font

@@ -1,4 +1,4 @@
-24413522196682461
+24420463957650230
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65575,6 +65575,34 @@ MAX-M10S
 0
 18
 18
+MB-Generic
+C0603_medium
+
+
+0
+0
+0
+MB-Generic
+C0805_medium
+
+
+0
+2
+2
+MB-Generic
+C1206_medium
+
+
+0
+2
+2
+MB-Generic
+PCC-M0530M-H
+
+
+0
+2
+2
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
