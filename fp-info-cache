@@ -1,4 +1,4 @@
-24420463957650230
+24430003097235875
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65568,6 +65568,13 @@ Yellow 5381 Series LED
 0
 2
 2
+MB-Battery
+54
+
+
+0
+3
+1
 MB-GNSS
 MAX-M10S
 
@@ -65580,8 +65587,8 @@ C0603_medium
 
 
 0
-0
-0
+2
+2
 MB-Generic
 C0805_medium
 
@@ -65603,6 +65610,34 @@ PCC-M0530M-H
 0
 2
 2
+MB-Generic
+R1206_medium
+
+
+0
+2
+2
+MB-SOT
+SOT-23-3
+SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+3
+3
+MB-SOT
+SOT-23-5
+SOT, 5 Pin (JEDEC MO-178 Var AA https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOT TO_SOT_SMD
+0
+5
+5
+MB-STM
+LQFP-48_7x7mm_P0.5mm
+LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+48
+48
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
