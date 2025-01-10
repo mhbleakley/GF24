@@ -4,4 +4,5 @@
   (lib (name "MB-V-REG")(type "KiCad")(uri "${KIPRJMOD}/MB-V-REG.kicad_sym")(options "")(descr ""))
   (lib (name "MB-Battery")(type "KiCad")(uri "${KIPRJMOD}/MB-Battery.kicad_sym")(options "")(descr ""))
   (lib (name "MB-EEPROM")(type "KiCad")(uri "${KIPRJMOD}/MB-EEPROM.kicad_sym")(options "")(descr ""))
+  (lib (name "MB-Opto")(type "KiCad")(uri "${KIPRJMOD}/MB-Opto.kicad_sym")(options "")(descr ""))
 )

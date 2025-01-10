@@ -432,7 +432,8 @@
       "MB-GNSS",
       "MB-Battery",
       "MB-EEPROM",
-      "MB-V-REG"
+      "MB-V-REG",
+      "MB-Opto"
     ]
   },
   "meta": {
