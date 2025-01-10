@@ -428,7 +428,12 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "MB-GNSS",
+      "MB-Battery",
+      "MB-EEPROM",
+      "MB-V-REG"
+    ]
   },
   "meta": {
     "filename": "GF24.kicad_pro",
