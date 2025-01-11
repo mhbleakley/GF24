@@ -5,4 +5,5 @@
   (lib (name "MB-Battery")(type "KiCad")(uri "${KIPRJMOD}/MB-Battery.pretty")(options "")(descr ""))
   (lib (name "MB-SOT")(type "KiCad")(uri "${KIPRJMOD}/MB-SOT.pretty")(options "")(descr ""))
   (lib (name "MB-STM")(type "KiCad")(uri "${KIPRJMOD}/MB-STM.pretty")(options "")(descr ""))
+  (lib (name "2137160001")(type "KiCad")(uri "${KIPRJMOD}/2137160001")(options "")(descr ""))
 )
