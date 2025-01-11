@@ -1766,6 +1766,290 @@
 				)
 			)
 		)
+		(symbol "Device:Q_PMOS_DGS"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at 5.08 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Q_PMOS_DGS"
+				(at 5.08 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "P-MOSFET transistor, drain/gate/source"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Q_PMOS_DGS_0_1"
+				(polyline
+					(pts
+						(xy 0.254 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 1.905) (xy 0.254 -1.905)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 -1.27) (xy 0.762 -2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 0.508) (xy 0.762 -0.508)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 2.286) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 2.54 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 -2.54) (xy 2.54 0) (xy 0.762 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.762 1.778) (xy 3.302 1.778) (xy 3.302 -1.778) (xy 0.762 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 0) (xy 1.27 0.381) (xy 1.27 -0.381) (xy 2.286 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -0.508) (xy 2.921 -0.381) (xy 3.683 -0.381) (xy 3.81 -0.254)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.302 -0.381) (xy 2.921 0.254) (xy 3.683 0.254) (xy 3.302 -0.381)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.651 0)
+					(radius 2.794)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.54 -1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 2.54 1.778)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "Q_PMOS_DGS_1_1"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "G"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "S"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R"
 			(pin_numbers hide)
 			(pin_names
@@ -5469,7 +5753,7 @@
 		(uuid "1aa02ce9-2115-402a-940e-188ff6f9c960")
 	)
 	(junction
-		(at 194.31 87.63)
+		(at 275.59 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1d5fa18b-d310-4527-8127-22b3f0c1d6fb")
@@ -5485,6 +5769,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "22c5107c-ea6a-486a-90eb-96b5fb3a407d")
+	)
+	(junction
+		(at 124.46 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "292ad64a-0567-4af5-987d-fafd11d3ab8c")
 	)
 	(junction
 		(at 35.56 92.71)
@@ -5517,19 +5807,19 @@
 		(uuid "2ea3f713-3a63-4f9d-a0e5-2f81aeeb81ec")
 	)
 	(junction
-		(at 157.48 87.63)
+		(at 238.76 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "37d63b3c-8418-4876-a2a9-36122a1c1e21")
 	)
 	(junction
-		(at 242.57 21.59)
+		(at 124.46 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3b738ed5-8dbf-45d1-a661-7b229ba6d06e")
+		(uuid "38cdfcea-322d-491b-95dd-107eab913922")
 	)
 	(junction
-		(at 229.87 38.1)
+		(at 228.6 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3cac1dfe-e14a-4856-8985-efc73a71cc51")
@@ -5553,19 +5843,19 @@
 		(uuid "4c9babf4-0911-47fd-b9c9-b378c42be283")
 	)
 	(junction
-		(at 157.48 101.6)
+		(at 238.76 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4e181c22-c443-452a-8c72-9ec6894a68ac")
 	)
 	(junction
-		(at 210.82 38.1)
+		(at 209.55 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "521bc113-59b1-43a3-ae8a-521df73efbad")
 	)
 	(junction
-		(at 182.88 100.33)
+		(at 264.16 95.25)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "53099875-fb2a-4c85-8e67-f65dfb31dcd1")
@@ -5583,13 +5873,13 @@
 		(uuid "60573a7b-ce0e-4bad-bdde-1a9176489044")
 	)
 	(junction
-		(at 251.46 21.59)
+		(at 243.84 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "66661fca-dab9-4a9a-abac-10cc534337d1")
 	)
 	(junction
-		(at 270.51 68.58)
+		(at 186.69 128.27)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67b0b122-e637-49fd-94f4-b36f33aa2edb")
@@ -5599,6 +5889,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6a40319d-c948-4c0c-9669-f29fe2725848")
+	)
+	(junction
+		(at 276.86 19.05)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6b987052-dcaa-4e53-a68d-8e3d34ee6755")
 	)
 	(junction
 		(at 80.01 104.14)
@@ -5637,7 +5933,7 @@
 		(uuid "774a258f-3fbb-4d7e-96b0-59d8ec683526")
 	)
 	(junction
-		(at 219.71 21.59)
+		(at 218.44 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8156f594-3695-457f-9407-c54f628d3eac")
@@ -5667,10 +5963,22 @@
 		(uuid "90fcc9d8-8225-44f8-b737-73b69506b059")
 	)
 	(junction
+		(at 152.4 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "922f5bf1-9ed2-41f9-bcda-8082b8901cb9")
+	)
+	(junction
 		(at 125.73 152.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "94030ae5-26ec-4053-9b16-799636b56446")
+	)
+	(junction
+		(at 267.97 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9d5df087-80ce-4f0c-b0b0-d6a406fb1f79")
 	)
 	(junction
 		(at 44.45 92.71)
@@ -5709,12 +6017,6 @@
 		(uuid "b3356b86-71b8-4e1e-9b2a-9f4acac480e9")
 	)
 	(junction
-		(at 242.57 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b4a550f1-60b6-438f-b60c-0bb07ada0643")
-	)
-	(junction
 		(at 281.94 140.97)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5745,13 +6047,13 @@
 		(uuid "d0a0cb28-18a1-4a3c-a802-d449d0118a9d")
 	)
 	(junction
-		(at 182.88 87.63)
+		(at 264.16 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d2bb5120-0efc-4ea8-9e29-a4f07bc94a5b")
 	)
 	(junction
-		(at 270.51 78.74)
+		(at 186.69 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d5a0dc39-962a-4124-a91f-6a7c8d8fc46a")
@@ -5769,7 +6071,7 @@
 		(uuid "d6b6233f-9f20-46d5-9c9f-8ff4be9a399e")
 	)
 	(junction
-		(at 210.82 21.59)
+		(at 209.55 21.59)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc577060-0202-427c-8cdd-354c68a59e45")
@@ -5779,12 +6081,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e9089f56-515a-4fa8-bf3f-a09f5b90508e")
-	)
-	(junction
-		(at 276.86 17.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "eb81913a-12d5-4d40-8341-60ad3f3c6960")
 	)
 	(junction
 		(at 88.9 106.68)
@@ -5799,16 +6095,16 @@
 		(uuid "eec5aff3-63a8-4154-bb68-79de70992794")
 	)
 	(junction
-		(at 167.64 87.63)
+		(at 248.92 82.55)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f1e5e7ba-1bfa-42ce-aef9-44571325f1b1")
 	)
 	(junction
-		(at 265.43 27.94)
+		(at 152.4 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f24791af-f537-4d5d-ac56-32582963954a")
+		(uuid "f20810c5-512b-4b93-ad54-0ce661c23a41")
 	)
 	(no_connect
 		(at 22.86 49.53)
@@ -5894,23 +6190,13 @@
 	)
 	(wire
 		(pts
-			(xy 254 20.32) (xy 254 21.59)
+			(xy 246.38 20.32) (xy 246.38 21.59)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "0113a26c-0d03-4d08-ac2e-d2f4fb2a2c06")
-	)
-	(wire
-		(pts
-			(xy 245.11 31.75) (xy 242.57 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "015c0fe8-3c64-49f8-b66e-1858a3dafc7d")
 	)
 	(wire
 		(pts
@@ -5924,7 +6210,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 21.59) (xy 251.46 24.13)
+			(xy 243.84 21.59) (xy 243.84 24.13)
 		)
 		(stroke
 			(width 0)
@@ -5941,6 +6227,16 @@
 			(type default)
 		)
 		(uuid "0329f888-822a-463b-9df6-02d36d69ed9b")
+	)
+	(wire
+		(pts
+			(xy 123.19 67.31) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "045cbb38-3345-47ca-8024-6f2e95abfb1c")
 	)
 	(wire
 		(pts
@@ -5964,7 +6260,17 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 266.7 77.47)
+			(xy 161.29 91.44) (xy 161.29 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05cd8c1f-37fb-4d21-b769-0091ba4a2066")
+	)
+	(wire
+		(pts
+			(xy 182.88 138.43) (xy 182.88 137.16)
 		)
 		(stroke
 			(width 0)
@@ -6004,7 +6310,27 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 21.59) (xy 199.39 21.59)
+			(xy 152.4 57.15) (xy 152.4 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d60bed0-3a87-441c-803f-d7c6243dfedb")
+	)
+	(wire
+		(pts
+			(xy 142.24 67.31) (xy 143.51 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ec6f135-7014-40fc-9f9d-5bbc09d4a81b")
+	)
+	(wire
+		(pts
+			(xy 196.85 21.59) (xy 198.12 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6024,7 +6350,7 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 67.31) (xy 240.03 68.58)
+			(xy 156.21 127) (xy 156.21 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6034,17 +6360,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 17.78) (xy 276.86 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "10321618-bb0e-4f00-a526-dc60051db276")
-	)
-	(wire
-		(pts
-			(xy 251.46 31.75) (xy 251.46 38.1)
+			(xy 243.84 31.75) (xy 243.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6074,7 +6390,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 100.33) (xy 182.88 100.33)
+			(xy 275.59 95.25) (xy 264.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -6084,7 +6400,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 62.23) (xy 76.2 62.23)
+			(xy 160.02 48.26) (xy 162.56 48.26)
 		)
 		(stroke
 			(width 0)
@@ -6104,7 +6420,17 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 90.17) (xy 270.51 91.44)
+			(xy 276.86 44.45) (xy 276.86 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "179664af-5038-4ba5-a6dc-48c610e760bb")
+	)
+	(wire
+		(pts
+			(xy 186.69 149.86) (xy 186.69 151.13)
 		)
 		(stroke
 			(width 0)
@@ -6134,6 +6460,16 @@
 	)
 	(wire
 		(pts
+			(xy 267.97 30.48) (xy 266.7 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1957589a-e283-4379-bfb9-9240b3bda1da")
+	)
+	(wire
+		(pts
 			(xy 99.06 48.26) (xy 115.57 48.26)
 		)
 		(stroke
@@ -6144,17 +6480,7 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 41.91) (xy 265.43 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1a720a8f-e1b2-4b1b-bb32-bc541dd56f1c")
-	)
-	(wire
-		(pts
-			(xy 229.87 38.1) (xy 251.46 38.1)
+			(xy 228.6 38.1) (xy 243.84 38.1)
 		)
 		(stroke
 			(width 0)
@@ -6184,6 +6510,16 @@
 	)
 	(wire
 		(pts
+			(xy 276.86 53.34) (xy 276.86 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5abdb4-6ce8-4914-8ace-f986695d06fe")
+	)
+	(wire
+		(pts
 			(xy 125.73 147.32) (xy 124.46 147.32)
 		)
 		(stroke
@@ -6194,13 +6530,23 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 59.69) (xy 76.2 59.69)
+			(xy 160.02 45.72) (xy 162.56 45.72)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "20df2b71-13f1-42dd-b9b9-9569162c3311")
+	)
+	(wire
+		(pts
+			(xy 276.86 19.05) (xy 276.86 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2152e8a7-d792-4a19-b6fd-436e90cdbec9")
 	)
 	(wire
 		(pts
@@ -6244,6 +6590,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26003150-014b-47ff-a8ea-1bf60d4cfe00")
+	)
+	(wire
+		(pts
 			(xy 49.53 124.46) (xy 73.66 124.46)
 		)
 		(stroke
@@ -6254,7 +6610,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 101.6) (xy 157.48 101.6)
+			(xy 248.92 96.52) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -6294,7 +6650,17 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 76.2) (xy 111.76 76.2)
+			(xy 133.35 62.23) (xy 133.35 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2b715172-1cd8-4d65-a19d-18acabcb0b2f")
+	)
+	(wire
+		(pts
+			(xy 133.35 90.17) (xy 133.35 91.44)
 		)
 		(stroke
 			(width 0)
@@ -6304,17 +6670,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 17.78) (xy 276.86 22.86)
+			(xy 267.97 30.48) (xy 269.24 30.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2bcc4c28-a9fe-4b79-a477-23b2ff193a2c")
+		(uuid "2c31f0b9-3644-4074-abc2-ead08e0a95c8")
 	)
 	(wire
 		(pts
-			(xy 273.05 76.2) (xy 273.05 78.74)
+			(xy 189.23 135.89) (xy 189.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6354,7 +6720,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 99.06)
+			(xy 264.16 95.25) (xy 264.16 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6371,6 +6737,16 @@
 			(type default)
 		)
 		(uuid "30411b29-a1e6-43c3-9d94-0bc8b8076a15")
+	)
+	(wire
+		(pts
+			(xy 152.4 57.15) (xy 151.13 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3136ed6b-0055-45e0-a0ba-702beac71f17")
 	)
 	(wire
 		(pts
@@ -6394,13 +6770,23 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 170.18 87.63)
+			(xy 248.92 82.55) (xy 251.46 82.55)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "332865e3-43e5-412b-b3d6-d6f12cc2da95")
+	)
+	(wire
+		(pts
+			(xy 161.29 57.15) (xy 152.4 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d30cd3-fe39-485c-86a6-097741658fc1")
 	)
 	(wire
 		(pts
@@ -6454,6 +6840,16 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 66.04) (xy 114.3 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3a489887-d28a-4a23-a0d0-9768656d9aef")
+	)
+	(wire
+		(pts
 			(xy 273.05 152.4) (xy 273.05 153.67)
 		)
 		(stroke
@@ -6484,7 +6880,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 80.01) (xy 242.57 80.01)
+			(xy 162.56 139.7) (xy 158.75 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6494,13 +6890,23 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 21.59) (xy 219.71 26.67)
+			(xy 218.44 21.59) (xy 218.44 26.67)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "3f1d0a5d-b097-4ef5-82dd-0abf8531aa3a")
+	)
+	(wire
+		(pts
+			(xy 133.35 72.39) (xy 133.35 73.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3fdc591b-e8eb-4769-9eaa-fa9aaf0f5827")
 	)
 	(wire
 		(pts
@@ -6514,23 +6920,13 @@
 	)
 	(wire
 		(pts
-			(xy 198.12 38.1) (xy 210.82 38.1)
+			(xy 196.85 38.1) (xy 209.55 38.1)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "40bee2bc-9fce-4fe8-945c-46f8062bc5dd")
-	)
-	(wire
-		(pts
-			(xy 265.43 27.94) (xy 265.43 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "41aad0bf-cdcb-41ed-b8dd-9ddae6f92a91")
 	)
 	(wire
 		(pts
@@ -6554,7 +6950,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 93.98) (xy 223.52 95.25)
+			(xy 139.7 153.67) (xy 139.7 154.94)
 		)
 		(stroke
 			(width 0)
@@ -6564,7 +6960,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 80.01) (xy 237.49 80.01)
+			(xy 148.59 139.7) (xy 153.67 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6614,7 +7010,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 74.93) (xy 259.08 76.2)
+			(xy 175.26 134.62) (xy 175.26 135.89)
 		)
 		(stroke
 			(width 0)
@@ -6631,16 +7027,6 @@
 			(type default)
 		)
 		(uuid "499f2d61-2640-4bd4-9226-505e4961e420")
-	)
-	(wire
-		(pts
-			(xy 242.57 30.48) (xy 242.57 31.75)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49cc38ee-49f2-4a11-a829-4a89bcc24c29")
 	)
 	(wire
 		(pts
@@ -6694,7 +7080,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 78.74) (xy 270.51 78.74)
+			(xy 182.88 138.43) (xy 186.69 138.43)
 		)
 		(stroke
 			(width 0)
@@ -6704,7 +7090,7 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 87.63) (xy 167.64 87.63)
+			(xy 247.65 82.55) (xy 248.92 82.55)
 		)
 		(stroke
 			(width 0)
@@ -6721,6 +7107,16 @@
 			(type default)
 		)
 		(uuid "4f84668e-b8e4-4182-b22e-324131652162")
+	)
+	(wire
+		(pts
+			(xy 267.97 20.32) (xy 267.97 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "51c6d4b5-0d4a-4760-8fa3-be3c164038c8")
 	)
 	(wire
 		(pts
@@ -6754,7 +7150,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 68.58) (xy 270.51 68.58)
+			(xy 182.88 128.27) (xy 186.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6764,33 +7160,23 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 50.8) (xy 276.86 52.07)
+			(xy 161.29 82.55) (xy 161.29 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "57de36a0-af1c-45d3-8685-a2aa42f4effa")
+		(uuid "590c5d50-fb12-41fb-932a-75c2d6a07fec")
 	)
 	(wire
 		(pts
-			(xy 242.57 80.01) (xy 242.57 78.74)
+			(xy 158.75 139.7) (xy 158.75 138.43)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "590cc8cf-49ae-432b-a6d7-0e0c5fb75c86")
-	)
-	(wire
-		(pts
-			(xy 265.43 19.05) (xy 265.43 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59f47d7e-b6d3-470c-9c72-74cfa64ab7e6")
 	)
 	(wire
 		(pts
@@ -6804,7 +7190,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 88.9) (xy 232.41 90.17)
+			(xy 148.59 148.59) (xy 148.59 149.86)
 		)
 		(stroke
 			(width 0)
@@ -6814,7 +7200,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 157.48 90.17)
+			(xy 238.76 82.55) (xy 238.76 85.09)
 		)
 		(stroke
 			(width 0)
@@ -6844,7 +7230,7 @@
 	)
 	(wire
 		(pts
-			(xy 273.05 71.12) (xy 273.05 68.58)
+			(xy 189.23 130.81) (xy 189.23 128.27)
 		)
 		(stroke
 			(width 0)
@@ -6854,7 +7240,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 87.63) (xy 182.88 88.9)
+			(xy 264.16 82.55) (xy 264.16 83.82)
 		)
 		(stroke
 			(width 0)
@@ -6864,7 +7250,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 21.59) (xy 251.46 21.59)
+			(xy 237.49 21.59) (xy 243.84 21.59)
 		)
 		(stroke
 			(width 0)
@@ -6884,7 +7270,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 87.63) (xy 194.31 92.71)
+			(xy 275.59 82.55) (xy 275.59 87.63)
 		)
 		(stroke
 			(width 0)
@@ -6894,7 +7280,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 85.09) (xy 259.08 83.82)
+			(xy 175.26 144.78) (xy 175.26 143.51)
 		)
 		(stroke
 			(width 0)
@@ -6934,7 +7320,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 81.28) (xy 246.38 80.01)
+			(xy 162.56 140.97) (xy 162.56 139.7)
 		)
 		(stroke
 			(width 0)
@@ -6951,6 +7337,16 @@
 			(type default)
 		)
 		(uuid "6a75accb-5363-41b8-ba8d-8cbecbd4d692")
+	)
+	(wire
+		(pts
+			(xy 267.97 19.05) (xy 276.86 19.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b63fdd4-584b-495f-b166-4e594d6b2479")
 	)
 	(wire
 		(pts
@@ -6974,33 +7370,13 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 17.78) (xy 278.13 17.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d99c9ae-eb4b-4bd2-9cd2-d208ce5dafa1")
-	)
-	(wire
-		(pts
-			(xy 232.41 81.28) (xy 232.41 80.01)
+			(xy 148.59 140.97) (xy 148.59 139.7)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "6e17e3b2-b87f-40c1-8aaf-5a338966ed03")
-	)
-	(wire
-		(pts
-			(xy 269.24 27.94) (xy 265.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee5e8f2-f7ef-4c18-bd27-f2a246184ffa")
 	)
 	(wire
 		(pts
@@ -7014,16 +7390,6 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 21.59) (xy 238.76 21.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71b422bb-27f2-447f-a14c-62b0f13002b1")
-	)
-	(wire
-		(pts
 			(xy 124.46 149.86) (xy 125.73 149.86)
 		)
 		(stroke
@@ -7034,7 +7400,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 78.74) (xy 270.51 80.01)
+			(xy 186.69 138.43) (xy 186.69 139.7)
 		)
 		(stroke
 			(width 0)
@@ -7094,6 +7460,16 @@
 	)
 	(wire
 		(pts
+			(xy 152.4 67.31) (xy 152.4 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e0271fa-8dac-4fd6-9e08-e995a6072620")
+	)
+	(wire
+		(pts
 			(xy 125.73 149.86) (xy 125.73 152.4)
 		)
 		(stroke
@@ -7124,7 +7500,7 @@
 	)
 	(wire
 		(pts
-			(xy 259.08 85.09) (xy 262.89 85.09)
+			(xy 175.26 144.78) (xy 179.07 144.78)
 		)
 		(stroke
 			(width 0)
@@ -7151,16 +7527,6 @@
 			(type default)
 		)
 		(uuid "829925c0-0f77-46b1-9260-53aef38f9d32")
-	)
-	(wire
-		(pts
-			(xy 92.71 76.2) (xy 93.98 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82b81a26-cba5-4469-acef-925a194a6c00")
 	)
 	(wire
 		(pts
@@ -7194,7 +7560,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 85.09) (xy 255.27 86.36)
+			(xy 171.45 144.78) (xy 171.45 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7211,6 +7577,16 @@
 			(type default)
 		)
 		(uuid "85d4460e-258e-4032-9fa2-7971879b2ceb")
+	)
+	(wire
+		(pts
+			(xy 267.97 27.94) (xy 267.97 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86efb3cd-b6c4-4814-885f-c4e2c8c850cd")
 	)
 	(wire
 		(pts
@@ -7234,7 +7610,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 101.6) (xy 157.48 102.87)
+			(xy 238.76 96.52) (xy 238.76 97.79)
 		)
 		(stroke
 			(width 0)
@@ -7254,7 +7630,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 87.63) (xy 167.64 91.44)
+			(xy 248.92 82.55) (xy 248.92 86.36)
 		)
 		(stroke
 			(width 0)
@@ -7264,23 +7640,13 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 77.47) (xy 157.48 78.74)
+			(xy 238.76 72.39) (xy 238.76 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "8bc368b5-334d-43a5-8d34-5e5d79829930")
-	)
-	(wire
-		(pts
-			(xy 265.43 26.67) (xy 265.43 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ef6ccdc-8772-4a90-b66a-64f973839d84")
 	)
 	(wire
 		(pts
@@ -7314,7 +7680,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 21.59) (xy 220.98 21.59)
+			(xy 218.44 21.59) (xy 219.71 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7334,7 +7700,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 85.09) (xy 223.52 86.36)
+			(xy 139.7 144.78) (xy 139.7 146.05)
 		)
 		(stroke
 			(width 0)
@@ -7354,7 +7720,7 @@
 	)
 	(wire
 		(pts
-			(xy 223.52 95.25) (xy 224.79 95.25)
+			(xy 139.7 154.94) (xy 140.97 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7394,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 21.59) (xy 210.82 24.13)
+			(xy 209.55 21.59) (xy 209.55 24.13)
 		)
 		(stroke
 			(width 0)
@@ -7411,16 +7777,6 @@
 			(type default)
 		)
 		(uuid "9bd35f5b-82ad-4a61-88f4-c81219152c0b")
-	)
-	(wire
-		(pts
-			(xy 276.86 33.02) (xy 276.86 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9c0e7583-7354-4c68-8b84-503ef0b3700c")
 	)
 	(wire
 		(pts
@@ -7464,16 +7820,6 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 64.77) (xy 102.87 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a0f8cc06-bd4b-4bb8-93b0-0b36ec444fb3")
-	)
-	(wire
-		(pts
 			(xy 58.42 36.83) (xy 59.69 36.83)
 		)
 		(stroke
@@ -7481,6 +7827,16 @@
 			(type default)
 		)
 		(uuid "a2893dc7-663f-430d-b5d9-1eaf8efe0a48")
+	)
+	(wire
+		(pts
+			(xy 257.81 30.48) (xy 259.08 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a39f9890-bed1-409e-9c42-fc3b144fe6b1")
 	)
 	(wire
 		(pts
@@ -7494,7 +7850,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 26.67) (xy 220.98 26.67)
+			(xy 218.44 26.67) (xy 219.71 26.67)
 		)
 		(stroke
 			(width 0)
@@ -7514,7 +7870,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 67.31) (xy 270.51 68.58)
+			(xy 186.69 127) (xy 186.69 128.27)
 		)
 		(stroke
 			(width 0)
@@ -7524,7 +7880,7 @@
 	)
 	(wire
 		(pts
-			(xy 209.55 21.59) (xy 210.82 21.59)
+			(xy 208.28 21.59) (xy 209.55 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7554,7 +7910,7 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 88.9) (xy 246.38 90.17)
+			(xy 162.56 148.59) (xy 162.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -7574,7 +7930,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 38.1) (xy 229.87 38.1)
+			(xy 209.55 38.1) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7584,17 +7940,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 64.77) (xy 93.98 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abf22ae5-4aac-4cc3-949d-383044c7835e")
-	)
-	(wire
-		(pts
-			(xy 242.57 31.75) (xy 238.76 31.75)
+			(xy 237.49 31.75) (xy 238.76 31.75)
 		)
 		(stroke
 			(width 0)
@@ -7614,7 +7960,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 86.36) (xy 182.88 87.63)
+			(xy 264.16 81.28) (xy 264.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7624,7 +7970,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 95.25) (xy 254 95.25)
+			(xy 171.45 154.94) (xy 170.18 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7654,7 +8000,17 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 100.33) (xy 232.41 101.6)
+			(xy 161.29 62.23) (xy 161.29 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b81ec122-8de9-4a80-8f1c-161e8a12ec48")
+	)
+	(wire
+		(pts
+			(xy 148.59 160.02) (xy 148.59 161.29)
 		)
 		(stroke
 			(width 0)
@@ -7694,7 +8050,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 21.59) (xy 219.71 21.59)
+			(xy 209.55 21.59) (xy 218.44 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7714,17 +8070,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 41.91) (xy 276.86 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bf5bd770-e06b-4623-b829-434da7737b04")
-	)
-	(wire
-		(pts
-			(xy 229.87 38.1) (xy 229.87 39.37)
+			(xy 228.6 38.1) (xy 228.6 39.37)
 		)
 		(stroke
 			(width 0)
@@ -7784,7 +8130,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 99.06) (xy 167.64 101.6)
+			(xy 248.92 93.98) (xy 248.92 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7804,7 +8150,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 21.59) (xy 254 21.59)
+			(xy 243.84 21.59) (xy 246.38 21.59)
 		)
 		(stroke
 			(width 0)
@@ -7814,7 +8160,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 31.75) (xy 210.82 38.1)
+			(xy 209.55 31.75) (xy 209.55 38.1)
 		)
 		(stroke
 			(width 0)
@@ -7874,7 +8220,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 100.33) (xy 157.48 101.6)
+			(xy 238.76 95.25) (xy 238.76 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7894,16 +8240,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 64.77) (xy 111.76 64.77)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cc26b70f-d59e-45a2-a560-a4d7c6995700")
-	)
-	(wire
-		(pts
 			(xy 22.86 44.45) (xy 21.59 44.45)
 		)
 		(stroke
@@ -7914,7 +8250,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 86.36) (xy 157.48 87.63)
+			(xy 238.76 81.28) (xy 238.76 82.55)
 		)
 		(stroke
 			(width 0)
@@ -7994,7 +8330,7 @@
 	)
 	(wire
 		(pts
-			(xy 229.87 35.56) (xy 229.87 38.1)
+			(xy 228.6 35.56) (xy 228.6 38.1)
 		)
 		(stroke
 			(width 0)
@@ -8004,7 +8340,7 @@
 	)
 	(wire
 		(pts
-			(xy 237.49 80.01) (xy 237.49 78.74)
+			(xy 153.67 139.7) (xy 153.67 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8044,6 +8380,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 57.15) (xy 124.46 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d93d4d3e-8bc1-495e-95a9-1f4bb2a51115")
+	)
+	(wire
+		(pts
 			(xy 128.27 35.56) (xy 129.54 35.56)
 		)
 		(stroke
@@ -8054,13 +8400,23 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 22.86) (xy 242.57 21.59)
+			(xy 152.4 67.31) (xy 153.67 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d9843f0a-1101-4d6e-bcdc-debdb1b68ed9")
+		(uuid "d96c8f16-e5d8-412c-bb01-f222f187520f")
+	)
+	(wire
+		(pts
+			(xy 124.46 67.31) (xy 125.73 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae399b0-8b80-489a-bb71-3d42ba97d80d")
 	)
 	(wire
 		(pts
@@ -8074,7 +8430,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 68.58) (xy 273.05 68.58)
+			(xy 186.69 128.27) (xy 189.23 128.27)
 		)
 		(stroke
 			(width 0)
@@ -8104,7 +8460,7 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 100.33) (xy 182.88 101.6)
+			(xy 264.16 95.25) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -8144,7 +8500,7 @@
 	)
 	(wire
 		(pts
-			(xy 193.04 87.63) (xy 194.31 87.63)
+			(xy 274.32 82.55) (xy 275.59 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8164,7 +8520,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 87.63) (xy 158.75 87.63)
+			(xy 238.76 82.55) (xy 240.03 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8184,7 +8540,7 @@
 	)
 	(wire
 		(pts
-			(xy 266.7 68.58) (xy 266.7 69.85)
+			(xy 182.88 128.27) (xy 182.88 129.54)
 		)
 		(stroke
 			(width 0)
@@ -8194,13 +8550,23 @@
 	)
 	(wire
 		(pts
-			(xy 182.88 77.47) (xy 182.88 78.74)
+			(xy 264.16 72.39) (xy 264.16 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "e9f69ec8-683e-4035-a323-72f8fb1b50b6")
+	)
+	(wire
+		(pts
+			(xy 151.13 67.31) (xy 152.4 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea0d15c6-db84-4d0d-97cd-4f4fb8523c0e")
 	)
 	(wire
 		(pts
@@ -8224,7 +8590,7 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 87.63) (xy 195.58 87.63)
+			(xy 275.59 82.55) (xy 276.86 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8244,7 +8610,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 76.2) (xy 102.87 76.2)
+			(xy 133.35 81.28) (xy 133.35 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8264,7 +8630,7 @@
 	)
 	(wire
 		(pts
-			(xy 255.27 93.98) (xy 255.27 95.25)
+			(xy 171.45 153.67) (xy 171.45 154.94)
 		)
 		(stroke
 			(width 0)
@@ -8284,13 +8650,63 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 100.33) (xy 246.38 101.6)
+			(xy 276.86 35.56) (xy 276.86 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d82678-ac2b-4816-b754-2016c8030300")
+	)
+	(wire
+		(pts
+			(xy 114.3 67.31) (xy 115.57 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1e206a2-a9cd-47ac-bc5a-491e23f15abc")
+	)
+	(wire
+		(pts
+			(xy 124.46 57.15) (xy 124.46 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2340431-5018-4024-a5a7-162c667ce736")
+	)
+	(wire
+		(pts
+			(xy 142.24 66.04) (xy 142.24 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f271461b-c791-44d9-a898-32f4a89ab463")
+	)
+	(wire
+		(pts
+			(xy 162.56 160.02) (xy 162.56 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "f4b6de28-e7db-49d9-bbb9-b3796bc268c1")
+	)
+	(wire
+		(pts
+			(xy 161.29 73.66) (xy 161.29 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f51a6b79-d055-415f-9adf-7a2fc64073c0")
 	)
 	(wire
 		(pts
@@ -8301,6 +8717,16 @@
 			(type default)
 		)
 		(uuid "f54f3016-aaab-426f-a6b5-72e6541560ef")
+	)
+	(wire
+		(pts
+			(xy 124.46 66.04) (xy 124.46 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f61bf25e-8d4b-4390-ac33-db1e38eddc2a")
 	)
 	(wire
 		(pts
@@ -8334,7 +8760,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 78.74) (xy 273.05 78.74)
+			(xy 186.69 138.43) (xy 189.23 138.43)
 		)
 		(stroke
 			(width 0)
@@ -8364,7 +8790,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 87.63) (xy 182.88 87.63)
+			(xy 266.7 82.55) (xy 264.16 82.55)
 		)
 		(stroke
 			(width 0)
@@ -8373,8 +8799,8 @@
 		(uuid "feccad33-7167-42b9-8c01-3abc7155c392")
 	)
 	(rectangle
-		(start 262.89 12.7)
-		(end 284.48 55.88)
+		(start 252.73 12.7)
+		(end 284.48 58.42)
 		(stroke
 			(width 0)
 			(type default)
@@ -8385,8 +8811,8 @@
 		(uuid 246c6d38-70e9-4658-b216-7b7c33e63969)
 	)
 	(rectangle
-		(start 180.34 69.85)
-		(end 201.93 105.41)
+		(start 261.62 64.77)
+		(end 283.21 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -8397,8 +8823,8 @@
 		(uuid 2a3c8996-e55e-4574-9e4c-4af1bbc2300e)
 	)
 	(rectangle
-		(start 222.25 60.96)
-		(end 256.54 105.41)
+		(start 138.43 120.65)
+		(end 172.72 165.1)
 		(stroke
 			(width 0)
 			(type default)
@@ -8433,8 +8859,8 @@
 		(uuid 3f9874c1-dd3f-4fcd-bf95-9a50dae7a8d8)
 	)
 	(rectangle
-		(start 153.67 69.85)
-		(end 179.07 106.68)
+		(start 234.95 64.77)
+		(end 260.35 101.6)
 		(stroke
 			(width 0)
 			(type default)
@@ -8445,8 +8871,8 @@
 		(uuid 5c8048a3-b2dd-41e5-8516-c80a779fb400)
 	)
 	(rectangle
-		(start 62.23 54.61)
-		(end 83.82 67.31)
+		(start 148.59 40.64)
+		(end 170.18 53.34)
 		(stroke
 			(width 0)
 			(type default)
@@ -8457,8 +8883,8 @@
 		(uuid 606ae4b6-2382-45ea-998d-d7cc289ab3e8)
 	)
 	(rectangle
-		(start 191.77 12.7)
-		(end 261.62 43.18)
+		(start 190.5 12.7)
+		(end 251.46 43.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -8469,8 +8895,8 @@
 		(uuid 8c4d877e-0f4f-438c-aaff-e616948517e3)
 	)
 	(rectangle
-		(start 257.81 60.96)
-		(end 283.21 95.25)
+		(start 173.99 120.65)
+		(end 199.39 154.94)
 		(stroke
 			(width 0)
 			(type default)
@@ -8493,8 +8919,8 @@
 		(uuid ca9883c1-d277-467b-82f6-180a262a9faf)
 	)
 	(rectangle
-		(start 85.09 54.61)
-		(end 121.92 78.74)
+		(start 113.03 54.61)
+		(end 170.18 95.25)
 		(stroke
 			(width 0)
 			(type default)
@@ -8518,7 +8944,7 @@
 	)
 	(text "Green"
 		(exclude_from_sim no)
-		(at 94.742 62.738 0)
+		(at 164.592 76.454 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8529,7 +8955,7 @@
 	)
 	(text "Default High"
 		(exclude_from_sim no)
-		(at 174.244 85.852 0)
+		(at 255.524 80.772 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8552,7 +8978,7 @@
 	)
 	(text "SET:\npress -> mark\nhold -> done\nGUARD:\nhold -> erase fence"
 		(exclude_from_sim no)
-		(at 164.338 79.248 0)
+		(at 245.618 74.168 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8587,7 +9013,7 @@
 	)
 	(text "Red"
 		(exclude_from_sim no)
-		(at 94.742 74.676 0)
+		(at 136.652 76.708 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8596,9 +9022,31 @@
 		)
 		(uuid "1befce48-825a-4ca9-9b82-258cfbc149dd")
 	)
+	(text "pull-up"
+		(exclude_from_sim no)
+		(at 265.938 23.622 90)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "285407c2-f718-453a-91db-74b38be76b00")
+	)
+	(text "in-rush\nprotection"
+		(exclude_from_sim no)
+		(at 119.126 65.278 0)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "2ce15e26-0a57-426c-b3a5-bae95f529820")
+	)
 	(text "Battery Terminals"
 		(exclude_from_sim no)
-		(at 73.152 66.548 0)
+		(at 159.512 52.578 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8620,9 +9068,20 @@
 		)
 		(uuid "3a7fcc23-6e43-4629-8a1e-c697243d33ef")
 	)
+	(text "in-rush\nprotection"
+		(exclude_from_sim no)
+		(at 262.89 28.448 0)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "3c84017d-4feb-4875-80cb-802a4c9f4333")
+	)
 	(text "OUTPUTS"
 		(exclude_from_sim no)
-		(at 255.27 60.198 0)
+		(at 183.642 120.142 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8633,9 +9092,9 @@
 		)
 		(uuid "40da588c-f0de-4522-a398-a99b26b05342")
 	)
-	(text "On when TPS745\nfalls out of PG"
+	(text "On when TPS745\nfalls out of PG\n& PG is open-drain"
 		(exclude_from_sim no)
-		(at 271.526 43.688 0)
+		(at 269.24 41.402 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8657,7 +9116,7 @@
 	)
 	(text "INPUTS"
 		(exclude_from_sim no)
-		(at 177.292 68.58 0)
+		(at 258.572 63.5 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8695,7 +9154,7 @@
 	)
 	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 264.922 65.024 0)
+		(at 181.102 124.714 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8707,7 +9166,7 @@
 	)
 	(text "CHARGING"
 		(exclude_from_sim no)
-		(at 54.102 65.024 0)
+		(at 99.822 63.5 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8720,7 +9179,7 @@
 	)
 	(text "On when there\nis a fault"
 		(exclude_from_sim no)
-		(at 113.03 74.168 0)
+		(at 127.508 77.47 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8753,7 +9212,7 @@
 	)
 	(text "Default High"
 		(exclude_from_sim no)
-		(at 198.374 86.36 0)
+		(at 279.654 81.28 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8764,7 +9223,7 @@
 	)
 	(text "Mode Switch"
 		(exclude_from_sim no)
-		(at 194.056 76.708 0)
+		(at 275.336 71.628 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8776,7 +9235,7 @@
 	)
 	(text "Flyback"
 		(exclude_from_sim no)
-		(at 262.636 73.66 0)
+		(at 178.816 133.35 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8796,9 +9255,20 @@
 		)
 		(uuid "6ddb07de-b9b4-405e-b767-1605b481284c")
 	)
+	(text "pull-up"
+		(exclude_from_sim no)
+		(at 150.368 61.722 90)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "79dab32c-1d21-47f5-b025-a2965ed8d406")
+	)
 	(text "Low Battery\nIndicator"
 		(exclude_from_sim no)
-		(at 271.526 16.256 0)
+		(at 270.002 16.764 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8811,7 +9281,7 @@
 	)
 	(text "Program Status"
 		(exclude_from_sim no)
-		(at 232.918 67.31 0)
+		(at 149.098 127 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8843,9 +9313,20 @@
 		)
 		(uuid "9e5cd040-2100-450e-ab49-33a4aa467dc8")
 	)
+	(text "pull-up"
+		(exclude_from_sim no)
+		(at 122.428 62.23 90)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "9ecb6419-631b-4f50-9fac-17bd6a73dd6a")
+	)
 	(text "Red"
 		(exclude_from_sim no)
-		(at 279.4 48.006 0)
+		(at 279.146 41.402 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8856,7 +9337,7 @@
 	)
 	(text "lmao"
 		(exclude_from_sim no)
-		(at 72.898 56.388 0)
+		(at 159.258 42.418 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8869,7 +9350,7 @@
 	)
 	(text "POWER"
 		(exclude_from_sim no)
-		(at 241.808 46.228 0)
+		(at 240.538 46.228 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8882,7 +9363,7 @@
 	)
 	(text "Source\nof 3V3"
 		(exclude_from_sim no)
-		(at 257.81 22.352 0)
+		(at 241.554 18.542 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8891,9 +9372,20 @@
 		)
 		(uuid "ae47ed5d-83c8-4416-a472-4e6ece4b08ef")
 	)
+	(text "in-rush\nprotection"
+		(exclude_from_sim no)
+		(at 146.812 65.278 0)
+		(effects
+			(font
+				(face "Futura")
+				(size 0.762 0.762)
+			)
+		)
+		(uuid "b9498df4-6d01-421d-92a7-5d2827fa4710")
+	)
 	(text "On when charging"
 		(exclude_from_sim no)
-		(at 106.426 67.818 0)
+		(at 154.94 76.962 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8915,7 +9407,7 @@
 	)
 	(text "Battery Regulator"
 		(exclude_from_sim no)
-		(at 217.424 16.002 0)
+		(at 216.154 16.002 0)
 		(effects
 			(font
 				(face "Futura")
@@ -8977,7 +9469,7 @@
 	)
 	(text "Charging Indicators"
 		(exclude_from_sim no)
-		(at 111.252 57.404 0)
+		(at 122.428 86.868 0)
 		(effects
 			(font
 				(face "Futura")
@@ -9015,7 +9507,7 @@
 	)
 	(text "PG is open\ndrain when power\nis not good (lmao)"
 		(exclude_from_sim no)
-		(at 242.824 40.894 0)
+		(at 241.554 40.894 0)
 		(effects
 			(font
 				(face "Futura")
@@ -9049,7 +9541,7 @@
 	)
 	(text "Action Button"
 		(exclude_from_sim no)
-		(at 167.894 73.152 0)
+		(at 249.174 68.072 0)
 		(effects
 			(font
 				(face "Futura")
@@ -9157,7 +9649,7 @@
 	)
 	(global_label "BAT-"
 		(shape input)
-		(at 198.12 38.1 180)
+		(at 196.85 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9168,7 +9660,7 @@
 		)
 		(uuid "13b5703a-f723-4d6c-8256-b0b494d8873a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8132 38.1 0)
+			(at 190.5432 38.1 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9227,30 +9719,6 @@
 			)
 		)
 	)
-	(global_label "BAT+"
-		(shape input)
-		(at 278.13 17.78 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "183ef7f8-dec9-4368-9ceb-eb6c180c6bc8")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 283.8549 17.78 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BUTTON"
 		(shape input)
 		(at 38.1 163.83 180)
@@ -9277,7 +9745,7 @@
 	)
 	(global_label "STATG"
 		(shape input)
-		(at 255.27 85.09 90)
+		(at 171.45 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9288,7 +9756,31 @@
 		)
 		(uuid "1e217a5e-0134-48d9-bd6d-1346a4460cb8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 255.27 78.843 90)
+			(at 171.45 138.533 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "N-FAULT"
+		(shape input)
+		(at 114.3 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "216a0de2-5c78-40cc-a574-1a5ed55de97a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 114.3 58.3855 90)
 			(effects
 				(font
 					(face "Futura")
@@ -9301,7 +9793,7 @@
 	)
 	(global_label "PG"
 		(shape input)
-		(at 245.11 31.75 0)
+		(at 238.76 31.75 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9312,7 +9804,7 @@
 		)
 		(uuid "23d1faa6-e040-4e3d-96c7-4c96b9801f2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 249.199 31.75 0)
+			(at 242.849 31.75 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9361,30 +9853,6 @@
 		(uuid "400912c6-ad41-4a92-8dc6-8bd698f5a2c9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 50.686 172.72 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 92.71 76.2 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "41c070b0-7da9-4d0d-b834-2d3a2927b81e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.4032 76.2 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9445,7 +9913,7 @@
 	)
 	(global_label "BUTTON"
 		(shape input)
-		(at 170.18 87.63 0)
+		(at 251.46 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9456,7 +9924,7 @@
 		)
 		(uuid "57bca1a0-961f-421f-8ae4-d4c138763168")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 178.3253 87.63 0)
+			(at 259.6053 82.55 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9467,9 +9935,33 @@
 			)
 		)
 	)
+	(global_label "PG"
+		(shape input)
+		(at 257.81 30.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "5b01e2f4-cb99-416f-bfda-7ef82fa2120e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 253.721 30.48 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BUZZER"
 		(shape input)
-		(at 259.08 74.93 90)
+		(at 175.26 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9480,7 +9972,7 @@
 		)
 		(uuid "5ed6b844-6d20-4127-98e0-da179835a5fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 259.08 67.7847 90)
+			(at 175.26 127.4747 90)
 			(effects
 				(font
 					(face "Futura")
@@ -9539,30 +10031,6 @@
 			)
 		)
 	)
-	(global_label "N-CHRG"
-		(shape input)
-		(at 111.76 64.77 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "6e051462-7d68-488f-bff3-1a27c1cf0d51")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.5826 64.77 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BAT+"
 		(shape input)
 		(at 139.7 27.94 0)
@@ -9613,7 +10081,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 198.12 21.59 180)
+		(at 196.85 21.59 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9624,7 +10092,31 @@
 		)
 		(uuid "82508c69-31b0-45cd-8edd-73ee71955433")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 191.8132 21.59 0)
+			(at 190.5432 21.59 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VBUS"
+		(shape input)
+		(at 123.19 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "8636b4a9-aba8-4a1a-aaa7-39925702b31e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 117.6011 57.15 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9637,7 +10129,7 @@
 	)
 	(global_label "BAT+"
 		(shape input)
-		(at 76.2 59.69 0)
+		(at 162.56 45.72 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9648,7 +10140,7 @@
 		)
 		(uuid "87524df9-0345-4936-9d44-a0e03f52bc44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5068 59.69 0)
+			(at 168.8668 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9707,6 +10199,30 @@
 			)
 		)
 	)
+	(global_label "VBUS"
+		(shape input)
+		(at 151.13 57.15 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right)
+		)
+		(uuid "8fdfaf88-d620-4a0c-8d17-87f0a621903a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 145.5411 57.15 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "STM32-RX"
 		(shape input)
 		(at 105.41 121.92 0)
@@ -9733,7 +10249,7 @@
 	)
 	(global_label "MODE"
 		(shape input)
-		(at 195.58 87.63 0)
+		(at 276.86 82.55 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9744,7 +10260,7 @@
 		)
 		(uuid "944912ec-eaae-49ea-ad2d-d8a8c4e2c43e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 201.9907 87.63 0)
+			(at 283.2707 82.55 0)
 			(effects
 				(font
 					(face "Futura")
@@ -9827,30 +10343,6 @@
 			)
 		)
 	)
-	(global_label "N-FAULT"
-		(shape input)
-		(at 111.76 76.2 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify left)
-		)
-		(uuid "c15b7441-1231-4ee3-808f-37abd1dc5408")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 120.873 76.2 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "VBUS"
 		(shape input)
 		(at 71.12 17.78 180)
@@ -9865,30 +10357,6 @@
 		(uuid "c261c2cc-7273-49a2-8b87-738b461e8697")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 65.5311 17.78 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VBUS"
-		(shape input)
-		(at 92.71 64.77 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "c5cdf565-c544-4afb-8007-67b559e832b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 86.4032 64.77 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10115,9 +10583,33 @@
 			)
 		)
 	)
+	(global_label "N-CHRG"
+		(shape input)
+		(at 142.24 66.04 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "e0844139-e79d-4ad6-bfb1-f30ad3df1a0b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 142.24 58.2049 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BAT-"
 		(shape input)
-		(at 76.2 62.23 0)
+		(at 162.56 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10128,7 +10620,7 @@
 		)
 		(uuid "e67ee44e-6f84-4158-b3e3-04caf570075b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.5068 62.23 0)
+			(at 168.8668 48.26 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10163,33 +10655,9 @@
 			)
 		)
 	)
-	(global_label "PG"
-		(shape input)
-		(at 265.43 45.72 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "faa3e619-e151-45bb-8138-2d3345ece4e5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 265.43 49.809 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "STATR"
 		(shape input)
-		(at 223.52 85.09 90)
+		(at 139.7 144.78 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10200,7 +10668,7 @@
 		)
 		(uuid "fc2ff015-89d2-41a7-b379-caa25117dc60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.52 79.2391 90)
+			(at 139.7 138.9291 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10359,7 +10827,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 240.03 67.31 0)
+		(at 156.21 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10367,7 +10835,7 @@
 		(dnp no)
 		(uuid "055648e6-f5e7-4a5e-a002-35599f0133f3")
 		(property "Reference" "#PWR026"
-			(at 240.03 71.12 0)
+			(at 156.21 130.81 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10377,7 +10845,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 240.03 63.246 0)
+			(at 156.21 122.936 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10386,7 +10854,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 240.03 67.31 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10396,7 +10864,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 240.03 67.31 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10406,7 +10874,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 240.03 67.31 0)
+			(at 156.21 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10429,15 +10897,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 22.86 180)
+		(at 161.29 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "05dc6cdc-0445-4afa-8114-2c8b59744ae9")
-		(property "Reference" "R19"
-			(at 267.716 22.86 90)
+		(uuid "057e15a0-0069-4e21-b6f1-c1839ccdbc0c")
+		(property "Reference" "R7"
+			(at 163.576 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10445,8 +10913,8 @@
 				)
 			)
 		)
-		(property "Value" "47"
-			(at 269.748 22.86 90)
+		(property "Value" "127"
+			(at 165.608 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10455,7 +10923,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 267.208 22.86 90)
+			(at 163.068 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10465,7 +10933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 22.86 0)
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10474,8 +10942,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
-			(at 265.43 22.86 0)
+		(property "Description" "RC1206FR-07127RL"
+			(at 161.29 86.36 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10485,15 +10953,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fb08c35b-cd56-4ba5-8784-d8992f503fc7")
+			(uuid "cb02d76a-3540-4350-8e20-65dfb6c60e58")
 		)
 		(pin "1"
-			(uuid "49258a17-e7cc-4c91-8ffd-6549cb243742")
+			(uuid "a669a17a-6613-44fa-ac74-fdbc77e4d92c")
 		)
 		(instances
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "R19")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10594,15 +11062,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 64.77 270)
+		(at 152.4 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "08ace2e0-f815-4ac5-b23e-e9863a595c36")
-		(property "Reference" "R7"
-			(at 106.68 62.484 90)
+		(uuid "0ab8f9ac-a793-43b8-8ec5-7dbcdcfbcb4c")
+		(property "Reference" "R21"
+			(at 154.686 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10610,8 +11078,8 @@
 				)
 			)
 		)
-		(property "Value" "100"
-			(at 106.68 60.452 90)
+		(property "Value" "10k"
+			(at 156.718 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10620,7 +11088,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 106.68 62.992 90)
+			(at 154.178 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10630,7 +11098,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 64.77 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10640,7 +11108,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 106.68 64.77 0)
+			(at 152.4 62.23 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10650,15 +11118,87 @@
 			)
 		)
 		(pin "2"
-			(uuid "64ea578d-20fe-491d-ad33-bb12cca4e663")
+			(uuid "9bd7eca4-fc3e-43ce-9c8a-682b8b313859")
 		)
 		(pin "1"
-			(uuid "7134dee9-7abe-4f4d-8d02-47ef3c59502d")
+			(uuid "63603883-9636-4d2b-8300-2c1561962cc1")
 		)
 		(instances
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "R7")
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 119.38 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0b0ab66b-54c8-49bc-8f87-444a78ec5299")
+		(property "Reference" "R22"
+			(at 119.38 69.596 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 119.38 71.628 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Generic:R1206_medium"
+			(at 119.38 69.088 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC1206JR-1010KL"
+			(at 119.38 67.31 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a62bfce-1191-4686-bd7c-a2f989002ca4")
+		)
+		(pin "1"
+			(uuid "bc182104-fcb1-4cd3-8166-ff3aa1aa2499")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10738,7 +11278,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 259.08 80.01 180)
+		(at 175.26 139.7 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10746,7 +11286,7 @@
 		(dnp no)
 		(uuid "0e8c96bc-952b-4d6a-922c-06be701ba48a")
 		(property "Reference" "R2"
-			(at 261.366 80.01 90)
+			(at 177.546 139.7 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10755,7 +11295,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 263.398 80.01 90)
+			(at 179.578 139.7 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10764,7 +11304,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 260.858 80.01 90)
+			(at 177.038 139.7 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10774,7 +11314,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 80.01 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10784,7 +11324,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 259.08 80.01 0)
+			(at 175.26 139.7 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10810,7 +11350,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 251.46 27.94 0)
+		(at 243.84 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10819,7 +11359,7 @@
 		(fields_autoplaced yes)
 		(uuid "1065e8c0-ce96-4d50-80b3-6b1612a50ede")
 		(property "Reference" "C9"
-			(at 255.27 26.6699 0)
+			(at 247.65 26.6699 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10829,7 +11369,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 255.27 29.2099 0)
+			(at 247.65 29.2099 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10839,7 +11379,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:C1206_medium"
-			(at 252.4252 31.75 0)
+			(at 244.8052 31.75 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10849,7 +11389,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 251.46 27.94 0)
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10859,7 +11399,7 @@
 			)
 		)
 		(property "Description" "C1206C106K9RACTU"
-			(at 251.46 27.94 0)
+			(at 243.84 27.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10885,7 +11425,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 246.38 101.6 0)
+		(at 162.56 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10895,7 +11435,7 @@
 		(fields_autoplaced yes)
 		(uuid "116930a8-7eae-4f0a-b836-301d2aa8ece6")
 		(property "Reference" "#PWR028"
-			(at 246.38 107.95 0)
+			(at 162.56 167.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10905,7 +11445,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 246.38 106.68 0)
+			(at 162.56 166.37 0)
 			(show_name yes)
 			(effects
 				(font
@@ -10916,7 +11456,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 246.38 101.6 0)
+			(at 162.56 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10926,7 +11466,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 246.38 101.6 0)
+			(at 162.56 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10936,7 +11476,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 246.38 101.6 0)
+			(at 162.56 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10958,8 +11498,152 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 276.86 19.05 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "122d2514-958a-4c45-94e8-e9d319fa844c")
+		(property "Reference" "#PWR030"
+			(at 276.86 22.86 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 276.86 13.97 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 19.05 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 276.86 19.05 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 276.86 19.05 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e961bc21-31da-4b34-b072-6ff772ff48db")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_DGS")
+		(at 274.32 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14704391-9b20-4f53-88a9-c7e98e3f0f68")
+		(property "Reference" "Q4"
+			(at 280.67 29.2099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2004K-7"
+			(at 280.67 31.7499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 279.4 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 274.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMP2004K-7"
+			(at 274.32 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "e195363b-07a3-4cd5-addd-9aff1688d9e5")
+		)
+		(pin "2"
+			(uuid "1ac60eed-7c4d-4963-b917-9140e2817db5")
+		)
+		(pin "1"
+			(uuid "abcfd2e5-a3c3-4b80-b08a-366753d82d7a")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 232.41 85.09 0)
+		(at 148.59 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10967,7 +11651,7 @@
 		(dnp no)
 		(uuid "14798e32-2756-4dcb-bb14-fc1b5b97503a")
 		(property "Reference" "R15"
-			(at 230.124 85.09 90)
+			(at 146.304 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10976,7 +11660,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 228.092 85.09 90)
+			(at 144.272 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10985,7 +11669,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 230.632 85.09 90)
+			(at 146.812 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -10995,7 +11679,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 232.41 85.09 0)
+			(at 148.59 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11005,7 +11689,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 232.41 85.09 0)
+			(at 148.59 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11031,7 +11715,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 97.79 76.2 180)
+		(at 133.35 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11040,7 +11724,7 @@
 		(fields_autoplaced yes)
 		(uuid "18078ca9-bdb2-444e-8a07-34cc79b6122c")
 		(property "Reference" "D3"
-			(at 99.3775 68.58 0)
+			(at 140.97 79.0575 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11049,7 +11733,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 99.3775 71.12 0)
+			(at 138.43 79.0575 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11058,7 +11742,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 76.2 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11068,7 +11752,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 76.2 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11078,7 +11762,7 @@
 			)
 		)
 		(property "Description" "APDA3020LSECK-J3-PF"
-			(at 97.79 76.2 0)
+			(at 133.35 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11104,7 +11788,7 @@
 	)
 	(symbol
 		(lib_id "MB-Opto:APBDA3020SURKCGKC-GX")
-		(at 240.03 73.66 90)
+		(at 156.21 133.35 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11113,7 +11797,7 @@
 		(fields_autoplaced yes)
 		(uuid "1971d8ed-a4cf-48d4-8773-d6dfd19f8b02")
 		(property "Reference" "D5"
-			(at 246.38 72.3899 90)
+			(at 162.56 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11122,7 +11806,7 @@
 			)
 		)
 		(property "Value" "APBDA3020SURKCGKC-GX"
-			(at 246.38 74.9299 90)
+			(at 162.56 134.6199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11132,7 +11816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 227.33 73.66 0)
+			(at 143.51 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11141,7 +11825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 251.46 73.66 0)
+			(at 167.64 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11150,7 +11834,7 @@
 			)
 		)
 		(property "Description" "APBDA3020SURKCGKC-GX"
-			(at 242.57 73.66 0)
+			(at 158.75 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11253,7 +11937,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 270.51 67.31 0)
+		(at 186.69 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11262,7 +11946,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e24d89b-1512-4884-bfc6-948401b0dafc")
 		(property "Reference" "#PWR012"
-			(at 270.51 71.12 0)
+			(at 186.69 130.81 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11272,7 +11956,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 270.51 62.23 0)
+			(at 186.69 121.92 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11281,7 +11965,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 67.31 0)
+			(at 186.69 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11291,7 +11975,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 67.31 0)
+			(at 186.69 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11301,7 +11985,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 270.51 67.31 0)
+			(at 186.69 127 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11323,80 +12007,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 242.57 26.67 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1fba02ae-6134-4831-9b85-f244c0055c5d")
-		(property "Reference" "R9"
-			(at 244.856 26.67 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47k"
-			(at 246.888 26.67 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 244.348 26.67 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 242.57 26.67 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC1206JR-1010KL"
-			(at 242.57 26.67 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "43f32715-88aa-40b6-862a-ceda2a192397")
-		)
-		(pin "1"
-			(uuid "717bd3e5-b916-4829-a86a-d2eef0485fa4")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 232.41 101.6 0)
+		(at 148.59 161.29 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11406,7 +12018,7 @@
 		(fields_autoplaced yes)
 		(uuid "1ff8a921-0dcb-4e99-ba8d-c18beb2a78a7")
 		(property "Reference" "#PWR027"
-			(at 232.41 107.95 0)
+			(at 148.59 167.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11416,7 +12028,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 232.41 106.68 0)
+			(at 148.59 166.37 0)
 			(show_name yes)
 			(effects
 				(font
@@ -11427,7 +12039,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 101.6 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11437,7 +12049,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 101.6 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11447,7 +12059,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 101.6 0)
+			(at 148.59 161.29 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11543,7 +12155,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 182.88 82.55 180)
+		(at 264.16 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11551,7 +12163,7 @@
 		(dnp no)
 		(uuid "2875e9c5-e1f7-445c-a88d-5113c3cddd54")
 		(property "Reference" "R14"
-			(at 185.166 82.55 90)
+			(at 266.446 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11560,7 +12172,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 187.198 82.55 90)
+			(at 268.478 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11569,7 +12181,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 184.658 82.55 90)
+			(at 265.938 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11579,7 +12191,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 82.55 0)
+			(at 264.16 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11589,7 +12201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 182.88 82.55 0)
+			(at 264.16 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11686,8 +12298,154 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Q_PMOS_DGS")
+		(at 158.75 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2c873ce6-6a40-4a1a-a38d-d50a747244ef")
+		(property "Reference" "Q6"
+			(at 165.1 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2004K-7"
+			(at 165.1 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 163.83 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMP2004K-7"
+			(at 158.75 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "9c05c29c-c52b-4056-b770-249211b2faad")
+		)
+		(pin "2"
+			(uuid "4218658f-ddbf-4297-a22c-62ad378706a7")
+		)
+		(pin "1"
+			(uuid "1643043a-9788-40af-b89f-6d0679261058")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "Q6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 276.86 49.53 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2e722c66-8cd7-4b81-8c99-a73a8eabeabe")
+		(property "Reference" "R9"
+			(at 279.146 49.53 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "51"
+			(at 281.178 49.53 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Generic:R1206_medium"
+			(at 278.638 49.53 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 49.53 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC0805JR-0751RL"
+			(at 276.86 49.53 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4ebdf77f-c556-4785-b42b-2b291459dc6f")
+		)
+		(pin "1"
+			(uuid "218d683b-9050-4270-8c4f-c1428edf9bdb")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "R9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3V3")
-		(at 182.88 77.47 0)
+		(at 264.16 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11696,7 +12454,7 @@
 		(fields_autoplaced yes)
 		(uuid "368d065c-2779-49e4-9023-90b676818f00")
 		(property "Reference" "#PWR024"
-			(at 182.88 81.28 0)
+			(at 264.16 76.2 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11706,7 +12464,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 182.88 72.39 0)
+			(at 264.16 67.31 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11715,7 +12473,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 77.47 0)
+			(at 264.16 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11725,7 +12483,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 77.47 0)
+			(at 264.16 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11735,7 +12493,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 182.88 77.47 0)
+			(at 264.16 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11830,7 +12588,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 157.48 95.25 90)
+		(at 238.76 90.17 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11838,7 +12596,7 @@
 		(dnp no)
 		(uuid "376b15f0-c461-4089-b16c-bdc15a09fcbf")
 		(property "Reference" "SW3"
-			(at 158.496 94.488 90)
+			(at 239.776 89.408 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11848,7 +12606,7 @@
 			)
 		)
 		(property "Value" "NRST"
-			(at 158.496 96.52 90)
+			(at 239.776 91.44 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11858,7 +12616,7 @@
 			)
 		)
 		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
-			(at 152.4 95.25 0)
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11868,7 +12626,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 152.4 95.25 0)
+			(at 233.68 90.17 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11878,7 +12636,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 95.25 0)
+			(at 238.76 90.17 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11977,7 +12735,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
-		(at 248.92 95.25 0)
+		(at 165.1 154.94 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11986,7 +12744,7 @@
 		(dnp no)
 		(uuid "3d18321c-90b6-4968-9db9-fc55d85df443")
 		(property "Reference" "Q3"
-			(at 243.84 93.98 0)
+			(at 160.02 153.67 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11996,7 +12754,7 @@
 			)
 		)
 		(property "Value" "3904"
-			(at 243.84 96.52 0)
+			(at 160.02 156.21 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12006,7 +12764,7 @@
 			)
 		)
 		(property "Footprint" "MB-SOT:SOT-23-3"
-			(at 243.84 97.155 0)
+			(at 160.02 156.845 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12018,7 +12776,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 248.92 95.25 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12029,7 +12787,7 @@
 			)
 		)
 		(property "Description" "MMBT3904LT1G"
-			(at 248.92 95.25 0)
+			(at 165.1 154.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12058,7 +12816,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 266.7 73.66 270)
+		(at 182.88 133.35 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12067,7 +12825,7 @@
 		(fields_autoplaced yes)
 		(uuid "413c84a6-5d39-479c-bf2d-b463d067428f")
 		(property "Reference" "D1"
-			(at 269.24 72.3899 90)
+			(at 185.42 132.0799 90)
 			(effects
 				(font
 					(face "Futura")
@@ -12077,7 +12835,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 269.24 74.9299 90)
+			(at 185.42 134.6199 90)
 			(effects
 				(font
 					(face "Futura")
@@ -12087,7 +12845,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 266.7 73.66 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12097,7 +12855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 266.7 73.66 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12107,7 +12865,7 @@
 			)
 		)
 		(property "Description" "MMSD4148T1G"
-			(at 266.7 73.66 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12117,7 +12875,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 266.7 73.66 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12127,7 +12885,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 266.7 73.66 0)
+			(at 182.88 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12226,7 +12984,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 270.51 91.44 0)
+		(at 186.69 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12235,7 +12993,7 @@
 		(fields_autoplaced yes)
 		(uuid "447fba5e-651b-4658-8cc5-e9035fc10de5")
 		(property "Reference" "#PWR015"
-			(at 270.51 97.79 0)
+			(at 186.69 157.48 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12245,7 +13003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 96.52 0)
+			(at 186.69 156.21 0)
 			(show_name yes)
 			(effects
 				(font
@@ -12256,7 +13014,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 91.44 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12266,7 +13024,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 91.44 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12276,7 +13034,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 91.44 0)
+			(at 186.69 151.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12446,80 +13204,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 276.86 38.1 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "50eab8ee-1dd9-4da8-bd2b-a64eb5607325")
-		(property "Reference" "R10"
-			(at 279.146 38.1 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "47"
-			(at 281.178 38.1 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 278.638 38.1 90)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 276.86 38.1 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "RC1206JR-1010KL"
-			(at 276.86 38.1 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6fca2bb6-78fa-406c-9fcf-3dcb7f722cb8")
-		)
-		(pin "1"
-			(uuid "c4305d18-c45a-4a14-9b01-683756cea800")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
-		(at 267.97 85.09 0)
+		(at 184.15 144.78 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12528,7 +13214,7 @@
 		(fields_autoplaced yes)
 		(uuid "5384cfef-2c2e-4e81-a689-08fdf84887e5")
 		(property "Reference" "Q1"
-			(at 273.05 83.82 0)
+			(at 189.23 143.51 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12538,7 +13224,7 @@
 			)
 		)
 		(property "Value" "3904"
-			(at 273.05 86.36 0)
+			(at 189.23 146.05 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12548,7 +13234,7 @@
 			)
 		)
 		(property "Footprint" "MB-SOT:SOT-23-3"
-			(at 273.05 86.995 0)
+			(at 189.23 146.685 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12560,7 +13246,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 267.97 85.09 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12571,7 +13257,7 @@
 			)
 		)
 		(property "Description" "MMBT3904LT1G"
-			(at 267.97 85.09 0)
+			(at 184.15 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12600,7 +13286,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 254 20.32 0)
+		(at 246.38 20.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12609,7 +13295,7 @@
 		(fields_autoplaced yes)
 		(uuid "54419381-2106-4105-97b4-5cfd3eb65184")
 		(property "Reference" "#PWR011"
-			(at 254 24.13 0)
+			(at 246.38 24.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12619,7 +13305,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 254 15.24 0)
+			(at 246.38 15.24 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12628,7 +13314,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 254 20.32 0)
+			(at 246.38 20.32 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12638,7 +13324,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 254 20.32 0)
+			(at 246.38 20.32 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12648,7 +13334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 254 20.32 0)
+			(at 246.38 20.32 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12770,7 +13456,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 157.48 82.55 180)
+		(at 238.76 77.47 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12778,7 +13464,7 @@
 		(dnp no)
 		(uuid "55d62a9f-300c-48c7-a4c8-a1cb1c854380")
 		(property "Reference" "R3"
-			(at 159.766 82.55 90)
+			(at 241.046 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -12787,7 +13473,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 161.798 82.55 90)
+			(at 243.078 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -12796,7 +13482,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 159.258 82.55 90)
+			(at 240.538 77.47 90)
 			(effects
 				(font
 					(face "Futura")
@@ -12806,7 +13492,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 82.55 0)
+			(at 238.76 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12816,7 +13502,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 157.48 82.55 0)
+			(at 238.76 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -12835,6 +13521,80 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 133.35 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5c455c9a-4e11-4acc-8154-da450d9d643d")
+		(property "Reference" "#PWR031"
+			(at 133.35 97.79 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 133.35 96.52 0)
+			(show_name yes)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 133.35 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "05a4f0e9-8a73-4d2f-9e5b-0d73b0dae199")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -13015,7 +13775,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 255.27 90.17 0)
+		(at 171.45 149.86 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13023,7 +13783,7 @@
 		(dnp no)
 		(uuid "5e02f6e0-9a06-4828-84ad-724dfb728e17")
 		(property "Reference" "R17"
-			(at 252.984 90.17 90)
+			(at 169.164 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13032,7 +13792,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 250.952 90.17 90)
+			(at 167.132 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13041,7 +13801,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 253.492 90.17 90)
+			(at 169.672 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13051,7 +13811,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 255.27 90.17 0)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13061,7 +13821,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 255.27 90.17 0)
+			(at 171.45 149.86 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13306,15 +14066,15 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 189.23 87.63 90)
+		(at 124.46 62.23 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "724f350b-e284-41ec-932c-12aeccaa96fe")
-		(property "Reference" "R13"
-			(at 189.23 89.916 90)
+		(uuid "6d95eaa3-ffe7-4716-9012-7b614b2d2129")
+		(property "Reference" "R19"
+			(at 126.746 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13323,7 +14083,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 189.23 91.948 90)
+			(at 128.778 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13332,7 +14092,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 189.23 89.408 90)
+			(at 126.238 62.23 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13342,7 +14102,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 189.23 87.63 0)
+			(at 124.46 62.23 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13352,7 +14112,79 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 189.23 87.63 0)
+			(at 124.46 62.23 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "80704428-7770-4dc3-9743-820287dba1a8")
+		)
+		(pin "1"
+			(uuid "ad6ff13d-148c-4155-a441-34561049f665")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 270.51 82.55 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "724f350b-e284-41ec-932c-12aeccaa96fe")
+		(property "Reference" "R13"
+			(at 270.51 84.836 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 270.51 86.868 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Generic:R1206_medium"
+			(at 270.51 84.328 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 270.51 82.55 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC1206JR-1010KL"
+			(at 270.51 82.55 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13378,7 +14210,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 210.82 27.94 0)
+		(at 209.55 27.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13387,7 +14219,7 @@
 		(fields_autoplaced yes)
 		(uuid "7517d27e-0bda-4f44-9921-368ea1347be5")
 		(property "Reference" "C8"
-			(at 214.63 26.6699 0)
+			(at 213.36 26.6699 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13397,7 +14229,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 214.63 29.2099 0)
+			(at 213.36 29.2099 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13407,7 +14239,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:C1206_medium"
-			(at 211.7852 31.75 0)
+			(at 210.5152 31.75 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13417,7 +14249,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 210.82 27.94 0)
+			(at 209.55 27.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13427,7 +14259,7 @@
 			)
 		)
 		(property "Description" "C1206C475K9RACTU"
-			(at 210.82 27.94 0)
+			(at 209.55 27.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13526,8 +14358,80 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 147.32 67.31 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "779ab594-8f87-4fc7-a065-4293ade2816e")
+		(property "Reference" "R23"
+			(at 147.32 69.596 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 147.32 71.628 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Generic:R1206_medium"
+			(at 147.32 69.088 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC1206JR-1010KL"
+			(at 147.32 67.31 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "88874945-a9d9-44d9-b045-b3e86e50060b")
+		)
+		(pin "1"
+			(uuid "8c71fc2a-329c-4e92-b511-849037bec3dd")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "R23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 157.48 102.87 0)
+		(at 238.76 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13536,7 +14440,7 @@
 		(fields_autoplaced yes)
 		(uuid "77b57d3c-2af6-4eb9-ba8f-801510f0af9e")
 		(property "Reference" "#PWR017"
-			(at 157.48 109.22 0)
+			(at 238.76 104.14 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13546,7 +14450,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 157.48 107.95 0)
+			(at 238.76 102.87 0)
 			(show_name yes)
 			(effects
 				(font
@@ -13557,7 +14461,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 102.87 0)
+			(at 238.76 97.79 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13567,7 +14471,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 102.87 0)
+			(at 238.76 97.79 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13577,7 +14481,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 157.48 102.87 0)
+			(at 238.76 97.79 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13673,7 +14577,7 @@
 	)
 	(symbol
 		(lib_id "Device:Buzzer")
-		(at 275.59 73.66 0)
+		(at 191.77 133.35 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13682,7 +14586,7 @@
 		(fields_autoplaced yes)
 		(uuid "7a155242-c9d9-4675-9430-160a1c84532e")
 		(property "Reference" "BZ1"
-			(at 279.4 72.3899 0)
+			(at 195.58 132.0799 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13692,7 +14596,7 @@
 			)
 		)
 		(property "Value" "CSQG703BP"
-			(at 279.4 74.9299 0)
+			(at 195.58 134.6199 0)
 			(effects
 				(font
 					(face "Futura")
@@ -13703,7 +14607,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.955 71.12 90)
+			(at 191.135 130.81 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13713,7 +14617,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.955 71.12 90)
+			(at 191.135 130.81 90)
 			(effects
 				(font
 					(face "Futura")
@@ -13723,7 +14627,7 @@
 			)
 		)
 		(property "Description" "CSQG703BP"
-			(at 275.59 73.66 0)
+			(at 191.77 133.35 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14094,7 +14998,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 68.58 62.23 0)
+		(at 154.94 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14102,7 +15006,7 @@
 		(dnp no)
 		(uuid "7ee8027b-2268-4cb8-a15f-6661eb4e966e")
 		(property "Reference" "BAT-1"
-			(at 67.564 63.754 0)
+			(at 153.924 49.784 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14111,7 +15015,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 69.215 59.69 0)
+			(at 155.575 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14121,7 +15025,7 @@
 			)
 		)
 		(property "Footprint" "MB-Battery:54"
-			(at 68.58 62.23 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14131,7 +15035,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 62.23 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14141,7 +15045,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 68.58 62.23 0)
+			(at 154.94 48.26 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14164,7 +15068,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Pin")
-		(at 68.58 59.69 0)
+		(at 154.94 45.72 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14172,7 +15076,7 @@
 		(dnp no)
 		(uuid "82813c42-a97a-49a7-ae91-70c5e5e215df")
 		(property "Reference" "BAT+1"
-			(at 67.564 58.166 0)
+			(at 153.924 44.196 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14181,7 +15085,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Pin"
-			(at 69.215 57.15 0)
+			(at 155.575 43.18 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14191,7 +15095,7 @@
 			)
 		)
 		(property "Footprint" "MB-Battery:54"
-			(at 68.58 59.69 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14201,7 +15105,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 59.69 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14211,7 +15115,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 68.58 59.69 0)
+			(at 154.94 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14234,7 +15138,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 97.79 64.77 180)
+		(at 161.29 77.47 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14243,7 +15147,7 @@
 		(fields_autoplaced yes)
 		(uuid "84cae2aa-ebe1-452d-80e5-f61c7dbfcb33")
 		(property "Reference" "D2"
-			(at 99.3775 57.15 0)
+			(at 168.91 79.0575 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14252,7 +15156,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 99.3775 59.69 0)
+			(at 166.37 79.0575 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14261,7 +15165,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 97.79 64.77 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14271,7 +15175,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 97.79 64.77 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14281,7 +15185,7 @@
 			)
 		)
 		(property "Description" "APDA3020LZGCK"
-			(at 97.79 64.77 0)
+			(at 161.29 77.47 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14379,7 +15283,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 229.87 39.37 0)
+		(at 228.6 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14388,7 +15292,7 @@
 		(fields_autoplaced yes)
 		(uuid "8796550f-078c-461a-a07e-2cb2e3db0a1d")
 		(property "Reference" "#PWR010"
-			(at 229.87 45.72 0)
+			(at 228.6 45.72 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14398,7 +15302,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 229.87 44.45 0)
+			(at 228.6 44.45 0)
 			(show_name yes)
 			(effects
 				(font
@@ -14409,7 +15313,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 39.37 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14419,7 +15323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 39.37 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14429,7 +15333,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 229.87 39.37 0)
+			(at 228.6 39.37 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14738,7 +15642,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 106.68 76.2 270)
+		(at 133.35 86.36 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14746,7 +15650,7 @@
 		(dnp no)
 		(uuid "9cb9dfdf-5e42-4c22-b069-0a58f33f38bf")
 		(property "Reference" "R8"
-			(at 106.68 73.914 90)
+			(at 135.636 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -14755,7 +15659,7 @@
 			)
 		)
 		(property "Value" "127"
-			(at 106.68 71.882 90)
+			(at 137.668 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -14764,7 +15668,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 106.68 74.422 90)
+			(at 135.128 86.36 90)
 			(effects
 				(font
 					(face "Futura")
@@ -14774,7 +15678,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 76.2 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14784,7 +15688,7 @@
 			)
 		)
 		(property "Description" "RC1206FR-07127RL"
-			(at 106.68 76.2 0)
+			(at 133.35 86.36 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14884,7 +15788,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 182.88 93.98 270)
+		(at 264.16 88.9 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14892,7 +15796,7 @@
 		(dnp no)
 		(uuid "a0e370b6-23e3-4ca3-afc0-c751b28b0a66")
 		(property "Reference" "SW5"
-			(at 185.674 96.52 90)
+			(at 266.954 91.44 90)
 			(effects
 				(font
 					(face "Futura")
@@ -14902,7 +15806,7 @@
 			)
 		)
 		(property "Value" "MODE"
-			(at 185.674 99.06 90)
+			(at 266.954 93.98 90)
 			(effects
 				(font
 					(face "Futura")
@@ -14912,7 +15816,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 93.98 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14922,7 +15826,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 182.88 93.98 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(face "Futura")
@@ -14932,7 +15836,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 182.88 93.98 0)
+			(at 264.16 88.9 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15107,7 +16011,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 265.43 38.1 180)
+		(at 262.89 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15115,7 +16019,7 @@
 		(dnp no)
 		(uuid "ab3ed971-4597-410b-b15c-ae367cdd1f08")
 		(property "Reference" "R20"
-			(at 267.716 38.1 90)
+			(at 262.89 32.766 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15123,8 +16027,8 @@
 				)
 			)
 		)
-		(property "Value" "47"
-			(at 269.748 38.1 90)
+		(property "Value" "1k"
+			(at 262.89 34.798 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15133,7 +16037,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 267.208 38.1 90)
+			(at 262.89 32.258 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15143,7 +16047,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 265.43 38.1 0)
+			(at 262.89 30.48 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15153,7 +16057,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 265.43 38.1 0)
+			(at 262.89 30.48 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15172,6 +16076,78 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 267.97 24.13 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "aeb86607-4653-4142-8f7f-d66fbcd284cc")
+		(property "Reference" "R10"
+			(at 270.256 24.13 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 272.288 24.13 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Generic:R1206_medium"
+			(at 269.748 24.13 90)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "RC1206JR-1010KL"
+			(at 267.97 24.13 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "52de210e-9cfc-46fd-9ea0-2ae309797a00")
+		)
+		(pin "1"
+			(uuid "230f26a4-01b9-4639-ba9e-a391151a8561")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -15254,7 +16230,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 157.48 77.47 0)
+		(at 238.76 72.39 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15263,7 +16239,7 @@
 		(fields_autoplaced yes)
 		(uuid "b07d31fe-be8d-4afb-8d77-cfde12eb2d1c")
 		(property "Reference" "#PWR016"
-			(at 157.48 81.28 0)
+			(at 238.76 76.2 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15273,7 +16249,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 157.48 72.39 0)
+			(at 238.76 67.31 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15282,7 +16258,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 157.48 77.47 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15292,7 +16268,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 157.48 77.47 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15302,7 +16278,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 157.48 77.47 0)
+			(at 238.76 72.39 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15568,7 +16544,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 52.07 0)
+		(at 276.86 54.61 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -15578,7 +16554,7 @@
 		(fields_autoplaced yes)
 		(uuid "b8f6253a-9667-4f88-8972-807ce4df40e5")
 		(property "Reference" "#PWR029"
-			(at 276.86 58.42 0)
+			(at 276.86 60.96 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15588,7 +16564,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 57.15 0)
+			(at 276.86 59.69 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15599,7 +16575,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 52.07 0)
+			(at 276.86 54.61 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15609,7 +16585,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 52.07 0)
+			(at 276.86 54.61 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15619,7 +16595,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 52.07 0)
+			(at 276.86 54.61 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15642,7 +16618,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 167.64 95.25 0)
+		(at 248.92 90.17 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15651,7 +16627,7 @@
 		(fields_autoplaced yes)
 		(uuid "bb638d11-6795-4da6-a993-6ea82dacca4c")
 		(property "Reference" "C10"
-			(at 171.45 93.9799 0)
+			(at 252.73 88.8999 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15661,7 +16637,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 171.45 96.5199 0)
+			(at 252.73 91.4399 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15671,7 +16647,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:C1206_medium"
-			(at 168.6052 99.06 0)
+			(at 249.8852 93.98 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15681,7 +16657,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 95.25 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15691,7 +16667,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 167.64 95.25 0)
+			(at 248.92 90.17 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15717,7 +16693,7 @@
 	)
 	(symbol
 		(lib_id "MB-V-REG:TPS74533PQWDRVRQ1")
-		(at 229.87 26.67 0)
+		(at 228.6 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15726,7 +16702,7 @@
 		(fields_autoplaced yes)
 		(uuid "bdaca5c8-aa01-4e24-9488-60cdfbfe0465")
 		(property "Reference" "U3"
-			(at 229.87 15.24 0)
+			(at 228.6 15.24 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15735,7 +16711,7 @@
 			)
 		)
 		(property "Value" "TPS745"
-			(at 229.87 17.78 0)
+			(at 228.6 17.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15744,7 +16720,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 229.87 24.13 0)
+			(at 228.6 24.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15754,7 +16730,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 24.13 0)
+			(at 228.6 24.13 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15764,7 +16740,7 @@
 			)
 		)
 		(property "Description" "TPS74533PQWDRVRQ1"
-			(at 230.124 47.498 0)
+			(at 228.854 47.498 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15802,7 +16778,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 182.88 101.6 0)
+		(at 264.16 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15811,7 +16787,7 @@
 		(fields_autoplaced yes)
 		(uuid "bde58d4c-429d-4766-bb26-5a14a88c90d3")
 		(property "Reference" "#PWR025"
-			(at 182.88 107.95 0)
+			(at 264.16 102.87 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15821,7 +16797,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 182.88 106.68 0)
+			(at 264.16 101.6 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15832,7 +16808,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 182.88 101.6 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15842,7 +16818,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 182.88 101.6 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15852,7 +16828,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 182.88 101.6 0)
+			(at 264.16 96.52 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15947,7 +16923,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 276.86 46.99 90)
+		(at 276.86 40.64 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15956,7 +16932,7 @@
 		(fields_autoplaced yes)
 		(uuid "c9b202b2-6f73-4d2f-97ed-ef5b5b4fd9e8")
 		(property "Reference" "D4"
-			(at 280.67 47.3075 90)
+			(at 280.67 40.9575 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15966,7 +16942,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 280.67 49.8475 90)
+			(at 280.67 43.4975 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15976,7 +16952,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 46.99 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15986,7 +16962,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 46.99 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15996,7 +16972,7 @@
 			)
 		)
 		(property "Description" "APDA3020LSECK-J3-PF"
-			(at 276.86 46.99 0)
+			(at 276.86 40.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16015,87 +16991,6 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:2SC4213")
-		(at 274.32 27.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc68fad5-7882-4ae3-bca6-e5902337f23a")
-		(property "Reference" "Q4"
-			(at 279.4 26.67 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "3904"
-			(at 279.4 29.21 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MB-SOT:SOT-23-3"
-			(at 279.4 29.845 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 274.32 27.94 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "MMBT3904LT1G"
-			(at 274.32 27.94 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "033d6e81-1fe7-47b8-991d-53e5ad98a8f8")
-		)
-		(pin "3"
-			(uuid "2cdbabd2-1bbf-460f-b999-c280c4e95273")
-		)
-		(pin "2"
-			(uuid "a3aa7130-2e17-4df3-857a-0d111318e65d")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -16170,6 +17065,80 @@
 			(project ""
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Q_PMOS_DGS")
+		(at 130.81 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7c44f86-bfad-4796-96a7-75eb1230c6cb")
+		(property "Reference" "Q5"
+			(at 137.16 66.0399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "DMP2004K-7"
+			(at 137.16 68.5799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "DMP2004K-7"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "334fb8ed-94ae-4a0a-b454-9d7a214dcfef")
+		)
+		(pin "2"
+			(uuid "cc983b26-9a7f-4887-af4c-cddca59748dc")
+		)
+		(pin "1"
+			(uuid "5d8223e7-f67b-4dc3-9b08-980b8e84f5de")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -16683,7 +17652,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPST")
-		(at 204.47 21.59 0)
+		(at 203.2 21.59 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16692,7 +17661,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5740f40-5406-4f6d-8a0a-ad49076335ce")
 		(property "Reference" "SW4"
-			(at 204.47 15.24 0)
+			(at 203.2 15.24 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16701,7 +17670,7 @@
 			)
 		)
 		(property "Value" "ON/OFF"
-			(at 204.47 17.78 0)
+			(at 203.2 17.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16710,7 +17679,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 204.47 21.59 0)
+			(at 203.2 21.59 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16720,7 +17689,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 204.47 21.59 0)
+			(at 203.2 21.59 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16730,7 +17699,7 @@
 			)
 		)
 		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 204.47 21.59 0)
+			(at 203.2 21.59 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16756,7 +17725,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 223.52 90.17 180)
+		(at 139.7 149.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16764,7 +17733,7 @@
 		(dnp no)
 		(uuid "ec85e554-21ed-4c54-9ee5-ef5d91ffcb9c")
 		(property "Reference" "R18"
-			(at 225.806 90.17 90)
+			(at 141.986 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16773,7 +17742,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 227.838 90.17 90)
+			(at 144.018 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16782,7 +17751,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 225.298 90.17 90)
+			(at 141.478 149.86 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16792,7 +17761,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 223.52 90.17 0)
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16802,7 +17771,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 223.52 90.17 0)
+			(at 139.7 149.86 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16828,7 +17797,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 162.56 87.63 90)
+		(at 243.84 82.55 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16836,7 +17805,7 @@
 		(dnp no)
 		(uuid "f1a0a7ad-333f-4785-b617-b730eb5cb13e")
 		(property "Reference" "R4"
-			(at 162.56 89.916 90)
+			(at 243.84 84.836 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16845,7 +17814,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 162.56 91.948 90)
+			(at 243.84 86.868 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16854,7 +17823,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 162.56 89.408 90)
+			(at 243.84 84.328 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16864,7 +17833,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 87.63 0)
+			(at 243.84 82.55 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16874,7 +17843,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 162.56 87.63 0)
+			(at 243.84 82.55 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16974,8 +17943,82 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 161.29 91.44 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f78a605d-b111-4f21-adf0-e47a2d7d3bc7")
+		(property "Reference" "#PWR032"
+			(at 161.29 97.79 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 161.29 96.52 0)
+			(show_name yes)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 161.29 91.44 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "95f1a38e-5667-4956-a04e-ab36d56b6848")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
-		(at 246.38 85.09 180)
+		(at 162.56 144.78 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16983,7 +18026,7 @@
 		(dnp no)
 		(uuid "f7b5a3fe-3ca4-4cb9-8686-dcb9ed0e6adf")
 		(property "Reference" "R16"
-			(at 248.666 85.09 90)
+			(at 164.846 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -16992,7 +18035,7 @@
 			)
 		)
 		(property "Value" "47"
-			(at 250.698 85.09 90)
+			(at 166.878 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -17001,7 +18044,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R1206_medium"
-			(at 248.158 85.09 90)
+			(at 164.338 144.78 90)
 			(effects
 				(font
 					(face "Futura")
@@ -17011,7 +18054,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 246.38 85.09 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17021,7 +18064,7 @@
 			)
 		)
 		(property "Description" "RC1206JR-1010KL"
-			(at 246.38 85.09 0)
+			(at 162.56 144.78 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17047,7 +18090,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
-		(at 229.87 95.25 0)
+		(at 146.05 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17056,7 +18099,7 @@
 		(fields_autoplaced yes)
 		(uuid "fb313a33-4f1f-41f0-9d54-f1dd6a993a5d")
 		(property "Reference" "Q2"
-			(at 234.95 93.98 0)
+			(at 151.13 153.67 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17066,7 +18109,7 @@
 			)
 		)
 		(property "Value" "3904"
-			(at 234.95 96.52 0)
+			(at 151.13 156.21 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17076,7 +18119,7 @@
 			)
 		)
 		(property "Footprint" "MB-SOT:SOT-23-3"
-			(at 234.95 97.155 0)
+			(at 151.13 156.845 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17088,7 +18131,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 229.87 95.25 0)
+			(at 146.05 154.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17099,7 +18142,7 @@
 			)
 		)
 		(property "Description" "MMBT3904LT1G"
-			(at 229.87 95.25 0)
+			(at 146.05 154.94 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17128,7 +18171,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 194.31 96.52 0)
+		(at 275.59 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17137,7 +18180,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbb35866-6c57-4288-b3c7-4fdc724a10fe")
 		(property "Reference" "C15"
-			(at 198.12 95.2499 0)
+			(at 279.4 90.1699 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17147,7 +18190,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 198.12 97.7899 0)
+			(at 279.4 92.7099 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17157,7 +18200,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:C1206_medium"
-			(at 195.2752 100.33 0)
+			(at 276.5552 95.25 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17167,7 +18210,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 194.31 96.52 0)
+			(at 275.59 91.44 0)
 			(effects
 				(font
 					(face "Futura")
@@ -17177,7 +18220,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 194.31 96.52 0)
+			(at 275.59 91.44 0)
 			(effects
 				(font
 					(face "Futura")
