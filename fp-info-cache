@@ -1,11 +1,4 @@
-24431739697942347
-2137160001
-MOLEX_2137160001
-
-
-0
-20
-20
+24440429071566602
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65582,6 +65575,13 @@ MB-Battery
 0
 3
 1
+MB-Buzzer
+CSQG703BP
+
+
+0
+2
+2
 MB-GNSS
 MAX-M10S
 
@@ -65589,6 +65589,20 @@ MAX-M10S
 0
 18
 18
+MB-GNSS
+SAM-M10Q
+
+
+0
+0
+0
+MB-Generic
+C0402_medium
+
+
+0
+2
+2
 MB-Generic
 C0603_medium
 
@@ -65624,6 +65638,27 @@ R1206_medium
 0
 2
 2
+MB-Opto
+Kingbright-APBDA3020
+
+
+0
+0
+0
+MB-Opto
+Kingbright-APDA3020
+
+
+0
+2
+2
+MB-SOD
+SOD-123-2
+
+
+0
+2
+1
 MB-SOT
 SOT-23-3
 SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
