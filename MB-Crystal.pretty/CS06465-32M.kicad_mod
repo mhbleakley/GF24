@@ -1,4 +1,4 @@
-(footprint "C0805_medium"
+(footprint "CS06465-32M"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -7,7 +7,7 @@
 		(at 0 -1.6 0)
 		(unlocked yes)
 		(layer "F.SilkS" knockout)
-		(uuid "e4dce6fd-a716-4d82-837b-65b1d4cfbb9b")
+		(uuid "d980afb8-d90f-4c2a-a942-b963ed44f4ee")
 		(effects
 			(font
 				(face "Futura")
@@ -65,11 +65,11 @@
 			)
 		)
 	)
-	(property "Value" "C0805_medium"
+	(property "Value" "CS06465-32M"
 		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "4a93ae3a-d2bc-47d2-933c-11a631801c59")
+		(uuid "73d7523e-a84d-4d2e-8b1c-9217342ac641")
 		(effects
 			(font
 				(size 1 1)
@@ -78,11 +78,11 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 0 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "eefb753e-3384-4e34-ba39-0421ce4ce2f3")
+		(uuid "1f22baf9-f424-4a61-a760-5f8b218d78ed")
 		(effects
 			(font
 				(size 1 1)
@@ -91,11 +91,11 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 0 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "845b3204-4e8f-453c-a694-7e12a8fc4062")
+		(uuid "2865e393-267c-4ab0-b74c-a697e8961d26")
 		(effects
 			(font
 				(size 1 1)
@@ -104,11 +104,11 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 0 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "a08748c8-f424-4067-b111-5abbb5ff1539")
+		(uuid "b0bc685d-142d-4563-8304-4e477043f0fe")
 		(effects
 			(font
 				(size 1 1)
@@ -118,53 +118,64 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -0.75 0.975)
-		(end 0.75 0.975)
+		(start -0.525 1.15)
+		(end 0.525 1.15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "53b82e41-9597-4f58-bc5b-1b22e21216ad")
+		(uuid "414adbcd-fef4-493c-9ce3-63cb6c097982")
 	)
 	(fp_arc
-		(start -0.75 0.975)
-		(mid -0.856066 0.931066)
-		(end -0.9 0.825)
+		(start -0.525 1.15)
+		(mid -0.631066 1.106066)
+		(end -0.675 1)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8bf35cea-fa29-48c2-9bc9-059e677852b7")
+		(uuid "f8e259ac-05ab-4742-b6c7-d4b2e7cf4447")
 	)
 	(fp_arc
-		(start 0.9 0.825)
-		(mid 0.856066 0.931066)
-		(end 0.75 0.975)
+		(start 0.675 1)
+		(mid 0.631066 1.106066)
+		(end 0.525 1.15)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "fa0a719e-ff3d-4783-a0dd-6268b400125d")
+		(uuid "23ae906e-563b-468f-8726-8b63886c6f9b")
+	)
+	(fp_circle
+		(center -1.4 0.525)
+		(end -1.2 0.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "b0093d29-35a8-4a2e-a5e0-a6a38d4ac0d1")
 	)
 	(fp_rect
-		(start -1.75 -1)
-		(end 1.75 1)
+		(start -1.2 -1)
+		(end 1.2 1)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
 		(fill none)
 		(layer "F.CrtYd")
-		(uuid "07a86974-fbf1-4ce5-a3a8-4be202df8806")
+		(uuid "892c7e75-d793-4445-b49a-18a9b0059353")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "1b913a7b-4e75-4a27-95ab-92cc91ae583b")
+		(uuid "65398873-aaff-444f-8075-da00955ccc99")
 		(effects
 			(font
 				(size 1 1)
@@ -173,30 +184,46 @@
 		)
 	)
 	(pad "1" smd roundrect
-		(at -0.9 0)
-		(size 1.15 1.45)
+		(at -0.675 0.525)
+		(size 0.85 0.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "252ff906-4cc5-4eb9-afc9-52289866748f")
+		(uuid "eccecad6-13fc-4f12-840c-b9b67a827008")
 	)
 	(pad "2" smd roundrect
-		(at 0.9 0)
-		(size 1.15 1.45)
+		(at 0.675 0.525)
+		(size 0.85 0.75)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(thermal_bridge_angle 45)
-		(uuid "9d009d33-ce9e-4b53-bea3-29ce23b9f91b")
+		(uuid "d4768092-b255-4a24-b3ba-7b0865e0c4bc")
 	)
-	(model "${KIPRJMOD}/3D/C0805C104K9RACTU.step"
+	(pad "3" smd roundrect
+		(at 0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "4598c165-c87c-4318-836a-c37727ba5eb8")
+	)
+	(pad "4" smd roundrect
+		(at -0.675 -0.525)
+		(size 0.85 0.75)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "596a1aef-f31f-410c-868a-e02127cb81f2")
+	)
+	(model "${KIPRJMOD}/3D/NX2016SA_NDK.step"
 		(offset
-			(xyz 0 -0 0.9)
+			(xyz 0 0 0)
 		)
 		(scale
 			(xyz 1 1 1)
 		)
 		(rotate
-			(xyz 90 0 0)
+			(xyz 0 0 -90)
 		)
 	)
 )

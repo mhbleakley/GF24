@@ -1266,27 +1266,28 @@
 				)
 			)
 		)
-		(symbol "Device:Crystal"
-			(pin_numbers hide)
+		(symbol "Device:Crystal_GND24"
 			(pin_names
 				(offset 1.016) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "Y"
-				(at 0 3.81 0)
+				(at 3.175 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
-			(property "Value" "Crystal"
-				(at 0 -3.81 0)
+			(property "Value" "Crystal_GND24"
+				(at 3.175 3.175 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left)
 				)
 			)
 			(property "Footprint" ""
@@ -1307,7 +1308,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Two pin crystal"
+			(property "Description" "Four pin crystal, GND on pins 2 and 4"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1334,7 +1335,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Crystal_0_1"
+			(symbol "Crystal_GND24_0_1"
 				(rectangle
 					(start -1.143 2.54)
 					(end 1.143 -2.54)
@@ -1348,7 +1349,7 @@
 				)
 				(polyline
 					(pts
-						(xy -2.54 0) (xy -1.905 0)
+						(xy -2.54 0) (xy -2.032 0)
 					)
 					(stroke
 						(width 0)
@@ -1360,7 +1361,7 @@
 				)
 				(polyline
 					(pts
-						(xy -1.905 -1.27) (xy -1.905 1.27)
+						(xy -2.032 -1.27) (xy -2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1372,7 +1373,31 @@
 				)
 				(polyline
 					(pts
-						(xy 1.905 -1.27) (xy 1.905 1.27)
+						(xy 0 -3.81) (xy 0 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 3.556) (xy 0 3.81)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.032 -1.27) (xy 2.032 1.27)
 					)
 					(stroke
 						(width 0.508)
@@ -1384,7 +1409,31 @@
 				)
 				(polyline
 					(pts
-						(xy 2.54 0) (xy 1.905 0)
+						(xy 2.032 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 -2.286) (xy -2.54 -3.556) (xy 2.54 -3.556) (xy 2.54 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.54 2.286) (xy -2.54 3.556) (xy 2.54 3.556) (xy 2.54 2.286)
 					)
 					(stroke
 						(width 0)
@@ -1395,7 +1444,7 @@
 					)
 				)
 			)
-			(symbol "Crystal_1_1"
+			(symbol "Crystal_GND24_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 1.27)
@@ -1415,7 +1464,7 @@
 					)
 				)
 				(pin passive line
-					(at 3.81 0 180)
+					(at 0 5.08 270)
 					(length 1.27)
 					(name "2"
 						(effects
@@ -1425,6 +1474,42 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 1.27)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6864,6 +6949,16 @@
 	)
 	(wire
 		(pts
+			(xy 54.61 127) (xy 54.61 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22da8303-c27c-4892-8d32-c6455e20cc8d")
+	)
+	(wire
+		(pts
 			(xy 260.35 57.15) (xy 260.35 58.42)
 		)
 		(stroke
@@ -6981,6 +7076,16 @@
 			(type default)
 		)
 		(uuid "2cb903f1-8ed0-4012-bd30-0a2c7f81d989")
+	)
+	(wire
+		(pts
+			(xy 57.15 127) (xy 54.61 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e0a5686-14da-4494-b6b8-7017ceb9214e")
 	)
 	(wire
 		(pts
@@ -7251,6 +7356,16 @@
 			(type default)
 		)
 		(uuid "4388ebcf-5afe-40ef-bddf-641e4940ffcf")
+	)
+	(wire
+		(pts
+			(xy 57.15 128.27) (xy 57.15 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43ad17c7-a77f-4aa5-87a3-8e3c2544877b")
 	)
 	(wire
 		(pts
@@ -9021,6 +9136,16 @@
 			(type default)
 		)
 		(uuid "f271461b-c791-44d9-a898-32f4a89ab463")
+	)
+	(wire
+		(pts
+			(xy 54.61 140.97) (xy 54.61 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f2e84afa-fbae-4632-970c-5e16e6c2e416")
 	)
 	(wire
 		(pts
@@ -11314,7 +11439,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 192.278 44.45 90)
 			(effects
 				(font
@@ -11334,7 +11459,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206FR-07127RL"
+		(property "Description" "RC0603FR-07127RL"
 			(at 190.5 44.45 0)
 			(effects
 				(font
@@ -11389,7 +11514,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-DFN:8-UFDFN"
 			(at 228.6 39.37 0)
 			(effects
 				(font
@@ -11479,7 +11604,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 183.388 20.32 90)
 			(effects
 				(font
@@ -11499,7 +11624,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 181.61 20.32 0)
 			(effects
 				(font
@@ -11551,7 +11676,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 148.59 27.178 90)
 			(effects
 				(font
@@ -11571,7 +11696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071KL"
 			(at 148.59 25.4 0)
 			(effects
 				(font
@@ -11623,7 +11748,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 38.1 121.158 90)
 			(effects
 				(font
@@ -11643,7 +11768,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 38.1 119.38 0)
 			(effects
 				(font
@@ -11695,7 +11820,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 217.678 133.35 90)
 			(effects
 				(font
@@ -11715,7 +11840,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-07180RL"
 			(at 215.9 133.35 0)
 			(effects
 				(font
@@ -11790,7 +11915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C106K9RACTU"
+		(property "Description" "C0805C105K8RACTU"
 			(at 166.37 85.09 0)
 			(effects
 				(font
@@ -11960,6 +12085,79 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Crystal_GND24")
+		(at 54.61 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "13a0d720-6ddf-4970-a401-c0f5173a368f")
+		(property "Reference" "Y1"
+			(at 61.468 132.334 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CS06465-32M"
+			(at 67.056 134.366 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MB-Crystal:CS06465-32M"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "CS06465-32M"
+			(at 54.61 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "d9ded2c3-53b0-400b-92bd-c3d161184fa0")
+		)
+		(pin "3"
+			(uuid "1bb7d991-ff72-4d93-b041-5507c174fe49")
+		)
+		(pin "1"
+			(uuid "ccee4009-44c8-4cba-be89-320a97e7e8e4")
+		)
+		(pin "2"
+			(uuid "bc282700-2eb5-4803-9078-20a9b157792b")
+		)
+		(instances
+			(project ""
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "Y1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Q_PMOS_DGS")
 		(at 196.85 87.63 0)
 		(unit 1)
@@ -11988,7 +12186,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SOT:SOT-23-3"
 			(at 201.93 85.09 0)
 			(effects
 				(font
@@ -12060,7 +12258,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 254.762 137.16 90)
 			(effects
 				(font
@@ -12080,7 +12278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0747RL"
 			(at 256.54 137.16 0)
 			(effects
 				(font
@@ -12207,7 +12405,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Opto:Kingbright-APBDA3020"
 			(at 251.46 125.73 0)
 			(effects
 				(font
@@ -12302,7 +12500,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C475K9RACTU"
+		(property "Description" "C1206C475K8RACTU"
 			(at 66.04 97.79 0)
 			(effects
 				(font
@@ -12572,7 +12770,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 240.538 83.82 90)
 			(effects
 				(font
@@ -12592,7 +12790,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RC0603FR-071KL"
 			(at 238.76 83.82 0)
 			(effects
 				(font
@@ -12644,7 +12842,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 76.708 25.4 90)
 			(effects
 				(font
@@ -12664,7 +12862,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0805FR-074K12L"
+		(property "Description" "RC0603FR-074K12L"
 			(at 74.93 25.4 0)
 			(effects
 				(font
@@ -12718,7 +12916,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SOT:SOT-23-3"
 			(at 193.04 22.86 0)
 			(effects
 				(font
@@ -12790,7 +12988,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 201.168 106.68 90)
 			(effects
 				(font
@@ -12810,7 +13008,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC0805JR-0751RL"
+		(property "Description" "RC0603FR-0751RL"
 			(at 199.39 106.68 0)
 			(effects
 				(font
@@ -12933,7 +13131,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 39.878 167.64 90)
 			(effects
 				(font
@@ -12953,7 +13151,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-074K7L"
 			(at 38.1 167.64 0)
 			(effects
 				(font
@@ -13007,7 +13205,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "Connector_Molex:Molex_MicroClasp_55932-0410_1x04_P2.00mm_Vertical"
 			(at 257.81 96.52 0)
 			(effects
 				(font
@@ -13027,7 +13225,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "PV0H240SS-231"
 			(at 262.89 96.52 0)
 			(effects
 				(font
@@ -13081,7 +13279,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SOT:SOT-23-3"
 			(at 267.97 144.78 0)
 			(effects
 				(font
@@ -13563,7 +13761,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C104K9RACTU"
+		(property "Description" "C0603C104K8RACTU"
 			(at 83.82 40.64 0)
 			(effects
 				(font
@@ -13770,7 +13968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-MSOP:10-MSOP"
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -13790,7 +13988,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "LTC1733EMSE#TRPBF"
 			(at 109.22 34.29 0)
 			(effects
 				(font
@@ -13866,7 +14064,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 264.668 83.82 90)
 			(effects
 				(font
@@ -13886,7 +14084,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "RC0603FR-071KL"
 			(at 262.89 83.82 0)
 			(effects
 				(font
@@ -14011,7 +14209,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2137160001:MOLEX_2137160001"
+		(property "Footprint" "MB-Conn:MOLEX_2137160001"
 			(at 34.29 39.37 0)
 			(effects
 				(font
@@ -14021,7 +14219,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.molex.com/webdocs/datasheets/pdf/en-us/2137160001_IO_CONNECTORS.pdf"
+		(property "Datasheet" ""
 			(at 34.29 39.37 0)
 			(effects
 				(font
@@ -14281,7 +14479,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C475K9RACTU"
+		(property "Description" "C1206C475K8RACTU"
 			(at 53.34 97.79 0)
 			(effects
 				(font
@@ -14404,7 +14602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 155.448 20.32 90)
 			(effects
 				(font
@@ -14424,7 +14622,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 153.67 20.32 0)
 			(effects
 				(font
@@ -14476,7 +14674,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 245.11 90.678 90)
 			(effects
 				(font
@@ -14496,7 +14694,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 245.11 88.9 0)
 			(effects
 				(font
@@ -14571,7 +14769,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C475K9RACTU"
+		(property "Description" "C0805C105K8RACTU"
 			(at 132.08 86.36 0)
 			(effects
 				(font
@@ -14615,7 +14813,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
+		(property "Value" "10pF"
 			(at 39.37 140.716 0)
 			(effects
 				(font
@@ -14625,7 +14823,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MB-Generic:C0603_medium"
+		(property "Footprint" "MB-Generic:C0402_medium"
 			(at 49.2252 143.51 0)
 			(effects
 				(font
@@ -14645,7 +14843,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C0402C100C8GACTU"
 			(at 48.26 139.7 0)
 			(effects
 				(font
@@ -14697,7 +14895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 176.53 27.178 90)
 			(effects
 				(font
@@ -14717,7 +14915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071KL"
 			(at 176.53 25.4 0)
 			(effects
 				(font
@@ -14994,7 +15192,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 74.93 38.1 0)
 			(effects
 				(font
@@ -15066,7 +15264,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 47.498 167.64 90)
 			(effects
 				(font
@@ -15086,7 +15284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-074K7L"
 			(at 45.72 167.64 0)
 			(effects
 				(font
@@ -15210,7 +15408,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-GNSS:SAM-M10Q"
 			(at 270.51 26.67 0)
 			(effects
 				(font
@@ -15230,7 +15428,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "SAM-M10Q"
 			(at 270.51 26.67 0)
 			(effects
 				(font
@@ -15549,7 +15747,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 94.488 41.91 90)
 			(effects
 				(font
@@ -15569,7 +15767,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071K5L"
 			(at 92.71 41.91 0)
 			(effects
 				(font
@@ -15732,79 +15930,6 @@
 			(project ""
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Crystal")
-		(at 54.61 135.89 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "93eb7ee2-216a-48eb-9fc7-ab19a750a246")
-		(property "Reference" "Y1"
-			(at 54.61 128.27 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Crystal"
-			(at 54.61 130.81 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Crystal:Crystal_HC33-U_Vertical"
-			(at 54.61 135.89 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 135.89 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Two pin crystal"
-			(at 54.61 135.89 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8cb98e73-842b-4517-a72e-4e6a3aa90b6a")
-		)
-		(pin "1"
-			(uuid "74e5cda9-ec82-4459-8a63-752072b74569")
-		)
-		(instances
-			(project ""
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -15980,7 +16105,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 164.338 44.45 90)
 			(effects
 				(font
@@ -16000,7 +16125,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206FR-07127RL"
+		(property "Description" "RC0603FR-07127RL"
 			(at 162.56 44.45 0)
 			(effects
 				(font
@@ -16074,7 +16199,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C104K9RACTU"
+		(property "Description" "C0603C104K8RACTU"
 			(at 217.17 26.67 0)
 			(effects
 				(font
@@ -16128,7 +16253,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SW:1101M2S5AQE2"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -16148,7 +16273,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "1101M2S5AQE2"
 			(at 238.76 95.25 0)
 			(effects
 				(font
@@ -16223,7 +16348,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C0603C103K9RACTU"
+		(property "Description" "C0402C103K8RACTU"
 			(at 80.01 97.79 0)
 			(effects
 				(font
@@ -16297,7 +16422,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C475K9RACTU"
+		(property "Description" "C1206C475K8RACTU"
 			(at 66.04 31.75 0)
 			(effects
 				(font
@@ -16349,7 +16474,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 185.42 89.408 90)
 			(effects
 				(font
@@ -16369,7 +16494,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071KL"
 			(at 185.42 87.63 0)
 			(effects
 				(font
@@ -16421,7 +16546,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 192.278 81.28 90)
 			(effects
 				(font
@@ -16441,7 +16566,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 190.5 81.28 0)
 			(effects
 				(font
@@ -16493,7 +16618,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 245.872 142.24 90)
 			(effects
 				(font
@@ -16513,7 +16638,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071KL"
 			(at 247.65 142.24 0)
 			(effects
 				(font
@@ -16556,7 +16681,7 @@
 				)
 			)
 		)
-		(property "Value" "SW_Nidec_CAS-120A1"
+		(property "Value" "BOOT"
 			(at 34.036 113.792 0)
 			(effects
 				(font
@@ -16565,7 +16690,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Button_Switch_SMD:Nidec_Copal_CAS-120A"
+		(property "Footprint" "MB-SW:CJS-1200TA"
 			(at 26.67 109.22 0)
 			(effects
 				(font
@@ -16575,7 +16700,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.nidec-components.com/e/catalog/switch/cas.pdf"
+		(property "Datasheet" ""
 			(at 26.67 111.76 0)
 			(effects
 				(font
@@ -16585,7 +16710,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Switch, single pole double throw"
+		(property "Description" "CJS-1200TA"
 			(at 26.67 119.38 0)
 			(effects
 				(font
@@ -16703,7 +16828,7 @@
 				)
 			)
 		)
-		(property "Value" "Conn_02x05_Odd_Even"
+		(property "Value" "3220-10-0300-00"
 			(at 130.81 143.51 0)
 			(effects
 				(font
@@ -16713,7 +16838,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "Connector_PinSocket_1.27mm:PinSocket_2x05_P1.27mm_Vertical"
+		(property "Footprint" "MB-Conn:CONN_3220-10-0100-00_CNC"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -16733,7 +16858,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, double row, 02x05, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "3220-10-0300-00"
 			(at 132.08 152.4 0)
 			(effects
 				(font
@@ -16881,7 +17006,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SOT:SOT-23-3"
 			(at 259.08 144.78 0)
 			(effects
 				(font
@@ -16937,7 +17062,7 @@
 		(fields_autoplaced yes)
 		(uuid "b726d154-c7aa-4218-a16f-160dfa877d04")
 		(property "Reference" "C6"
-			(at 64.77 138.4299 0)
+			(at 64.77 138.43 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16946,8 +17071,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1uF"
-			(at 64.77 140.9699 0)
+		(property "Value" "10pF"
+			(at 64.77 140.97 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16956,7 +17081,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "MB-Generic:C0603_medium"
+		(property "Footprint" "MB-Generic:C0402_medium"
 			(at 61.9252 143.51 0)
 			(effects
 				(font
@@ -16976,7 +17101,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" "C0402C100C8GACTU"
 			(at 60.96 139.7 0)
 			(effects
 				(font
@@ -17125,7 +17250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C0805C105K8RACTU"
 			(at 273.05 96.52 0)
 			(effects
 				(font
@@ -17145,6 +17270,79 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "C10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 128.27 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bc337cdd-20d0-4449-bb1d-cc729c86de48")
+		(property "Reference" "#PWR033"
+			(at 57.15 134.62 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 133.35 0)
+			(show_name yes)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 128.27 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "66c9e0e3-4a54-4d11-8738-5722c510ced7")
+		)
+		(instances
+			(project "GF24"
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17178,7 +17376,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-DFN:6-WDFN"
 			(at 151.13 81.28 0)
 			(effects
 				(font
@@ -17484,7 +17682,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Button_Switch_THT:SW_PUSH-12mm"
+		(property "Footprint" "MB-SW:PTS815SJM250SMTRLFS"
 			(at 19.05 97.79 0)
 			(effects
 				(font
@@ -17504,7 +17702,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
+		(property "Description" "PTS815SJM250SMTRLFS"
 			(at 24.13 97.79 0)
 			(effects
 				(font
@@ -17558,7 +17756,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SOT:SOT-23-3"
 			(at 165.1 22.86 0)
 			(effects
 				(font
@@ -17717,7 +17915,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.st.com/resource/en/datasheet/stm32f031c4.pdf"
+		(property "Datasheet" ""
 			(at 88.9 149.86 0)
 			(effects
 				(font
@@ -17939,7 +18137,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C104K9RACTU"
+		(property "Description" "C0603C104K8RACTU"
 			(at 245.11 24.13 0)
 			(effects
 				(font
@@ -18084,7 +18282,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "C1206C104K9RACTU"
+		(property "Description" "C0603C104K8RACTU"
 			(at 35.56 97.79 0)
 			(effects
 				(font
@@ -18137,7 +18335,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "MB-SW:1101M2S5AQE2"
 			(at 125.73 78.74 0)
 			(effects
 				(font
@@ -18157,7 +18355,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
+		(property "Description" "1101M2S5AQE2"
 			(at 125.73 78.74 0)
 			(effects
 				(font
@@ -18209,7 +18407,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 267.97 90.678 90)
 			(effects
 				(font
@@ -18229,7 +18427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0710KL"
 			(at 267.97 88.9 0)
 			(effects
 				(font
@@ -18304,7 +18502,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C0805C105K8RACTU"
 			(at 132.08 40.64 0)
 			(effects
 				(font
@@ -18430,7 +18628,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 272.288 137.16 90)
 			(effects
 				(font
@@ -18450,7 +18648,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-0747RL"
 			(at 270.51 137.16 0)
 			(effects
 				(font
@@ -18502,7 +18700,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MB-Generic:R1206_medium"
+		(property "Footprint" "MB-Generic:R0603_medium"
 			(at 281.178 142.24 90)
 			(effects
 				(font
@@ -18522,7 +18720,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "RC1206JR-1010KL"
+		(property "Description" "RC0603FR-071KL"
 			(at 279.4 142.24 0)
 			(effects
 				(font
@@ -18597,7 +18795,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "C0805C105K8RACTU"
 			(at 250.19 97.79 0)
 			(effects
 				(font

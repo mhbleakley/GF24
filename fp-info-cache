@@ -1,4 +1,4 @@
-24440429071566602
+24459533139867621
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65582,6 +65582,41 @@ CSQG703BP
 0
 2
 2
+MB-Conn
+CONN_3220-10-0100-00_CNC
+
+3220-10-0100-00 
+0
+10
+10
+MB-Conn
+MOLEX_2137160001
+
+
+0
+20
+20
+MB-Crystal
+CS06465-32M
+
+
+0
+4
+4
+MB-DFN
+6-WDFN
+
+
+0
+7
+7
+MB-DFN
+8-UFDFN
+
+
+0
+9
+9
 MB-GNSS
 MAX-M10S
 
@@ -65594,8 +65629,8 @@ SAM-M10Q
 
 
 0
-0
-0
+100
+20
 MB-Generic
 C0402_medium
 
@@ -65632,19 +65667,33 @@ PCC-M0530M-H
 2
 2
 MB-Generic
+R0603_medium
+
+
+0
+2
+2
+MB-Generic
 R1206_medium
 
 
 0
 2
 2
+MB-MSOP
+10-MSOP
+
+
+0
+11
+11
 MB-Opto
 Kingbright-APBDA3020
 
 
 0
-0
-0
+3
+3
 MB-Opto
 Kingbright-APDA3020
 
@@ -65658,7 +65707,7 @@ SOD-123-2
 
 0
 2
-1
+2
 MB-SOT
 SOT-23-3
 SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -65680,6 +65729,34 @@ LQFP QFP
 0
 48
 48
+MB-SW
+1101M2S5AQE2
+
+
+0
+5
+5
+MB-SW
+CJS-1200TA
+
+
+0
+3
+3
+MB-SW
+ES02MSABE
+
+
+0
+5
+5
+MB-SW
+PTS815SJM250SMTRLFS
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

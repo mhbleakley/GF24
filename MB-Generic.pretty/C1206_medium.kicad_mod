@@ -66,7 +66,7 @@
 		)
 	)
 	(property "Value" "C1206_medium"
-		(at 0 5 0)
+		(at 0 2 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "65743689-6031-4d61-85a0-56c72bd3e233")
@@ -78,7 +78,7 @@
 		)
 	)
 	(property "Footprint" ""
-		(at 0 4 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -91,7 +91,7 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 4 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -104,7 +104,7 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 4 0)
+		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -161,7 +161,7 @@
 		(uuid "1bd01894-60aa-453d-8b56-5ba16530fe0f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 6.5 0)
+		(at 0 3.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "d9561601-99d7-48c0-8fa5-c45520027d0e")
