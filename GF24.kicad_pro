@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [],
@@ -208,7 +208,106 @@
       "mfg": "",
       "mpn": ""
     },
-    "layer_presets": [],
+    "layer_presets": [
+      {
+        "activeLayer": -2,
+        "layers": [
+          31,
+          32,
+          34,
+          36,
+          38,
+          44,
+          46
+        ],
+        "name": "B",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
+        ]
+      },
+      {
+        "activeLayer": -2,
+        "layers": [
+          0,
+          33,
+          35,
+          37,
+          39,
+          44,
+          47
+        ],
+        "name": "F",
+        "renderLayers": [
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          133,
+          134,
+          135,
+          137,
+          138,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          157,
+          158,
+          159,
+          160,
+          161,
+          164,
+          165
+        ]
+      }
+    ],
     "viewports": []
   },
   "boards": [],
@@ -427,13 +526,28 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "MB-Conn",
+      "MB-Battery",
+      "MB-Buzzer",
+      "MB-Crystal",
+      "MB-DFN",
+      "MB-Generic",
+      "MB-GNSS",
+      "MB-MSOP",
+      "MB-Opto",
+      "MB-SOD",
+      "MB-SOT",
+      "MB-STM",
+      "MB-SW"
+    ],
     "pinned_symbol_libs": [
       "MB-GNSS",
       "MB-Battery",
       "MB-EEPROM",
       "MB-V-REG",
-      "MB-Opto"
+      "MB-Opto",
+      "MB-Conn"
     ]
   },
   "meta": {

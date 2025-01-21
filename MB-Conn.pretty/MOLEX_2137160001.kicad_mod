@@ -803,28 +803,6 @@
 		(layer "F.Fab")
 		(uuid "33a85112-9af7-4c4c-834e-e683857b8ed4")
 	)
-	(fp_text user "PTH Slot 1.6 +/- 0.05 X 0.7 +/- 0.05"
-		(at 0 -10.865 0)
-		(layer "Dwgs.User")
-		(uuid "3b9b4f80-60f9-4ec6-a6cf-5005e6ea2863")
-		(effects
-			(font
-				(size 0.393701 0.393701)
-				(thickness 0.15)
-			)
-		)
-	)
-	(fp_text user "PTH Slot 2.0 +/- 0.05 X 0.7 +/- 0.05"
-		(at 0 -11.5 0)
-		(layer "Dwgs.User")
-		(uuid "8516499e-f9c1-4eea-bb7a-2a56fa35456b")
-		(effects
-			(font
-				(size 0.393701 0.393701)
-				(thickness 0.15)
-			)
-		)
-	)
 	(fp_text user "PCB Edge"
 		(at 0 -1 0)
 		(layer "F.Fab")
