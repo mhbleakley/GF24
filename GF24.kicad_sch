@@ -6076,12 +6076,6 @@
 		(uuid "1f841833-6966-45e9-a78c-ad8b773f4aee")
 	)
 	(junction
-		(at 45.72 175.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22c5107c-ea6a-486a-90eb-96b5fb3a407d")
-	)
-	(junction
 		(at 153.67 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6398,6 +6392,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "eec5aff3-63a8-4154-bb68-79de70992794")
+	)
+	(junction
+		(at 46.99 175.26)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efbd6256-23b1-43e3-b724-7dca175f851d")
 	)
 	(junction
 		(at 273.05 88.9)
@@ -7095,6 +7095,16 @@
 	)
 	(wire
 		(pts
+			(xy 256.54 142.24) (xy 256.54 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3202b18a-db76-4ec6-9dac-b4f948216a30")
+	)
+	(wire
+		(pts
 			(xy 273.05 88.9) (xy 275.59 88.9)
 		)
 		(stroke
@@ -7555,16 +7565,6 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 140.97) (xy 256.54 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5bc0f4d0-cedc-4a7f-8a56-6349b88dc82c")
-	)
-	(wire
-		(pts
 			(xy 262.89 88.9) (xy 262.89 91.44)
 		)
 		(stroke
@@ -7592,6 +7592,16 @@
 			(type default)
 		)
 		(uuid "604cb341-a70c-43a0-ba72-d386b7e2c30a")
+	)
+	(wire
+		(pts
+			(xy 38.1 162.56) (xy 38.1 163.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e6b99d-f4a6-4149-b92a-ace787eada6e")
 	)
 	(wire
 		(pts
@@ -7685,16 +7695,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 175.26) (xy 73.66 175.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "68f146bb-7194-4bf0-b496-6bbaa8ff3f6e")
-	)
-	(wire
-		(pts
 			(xy 270.51 133.35) (xy 270.51 132.08)
 		)
 		(stroke
@@ -7752,6 +7752,16 @@
 			(type default)
 		)
 		(uuid "6bf08826-fdd5-4574-b18b-23b82b0c512c")
+	)
+	(wire
+		(pts
+			(xy 46.99 175.26) (xy 73.66 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cf09d70-685c-491e-87b9-a33f7472fbb2")
 	)
 	(wire
 		(pts
@@ -7925,7 +7935,7 @@
 	)
 	(wire
 		(pts
-			(xy 41.91 119.38) (xy 73.66 119.38)
+			(xy 48.26 119.38) (xy 73.66 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8015,7 +8025,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 175.26) (xy 45.72 175.26)
+			(xy 35.56 175.26) (xy 46.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -8255,7 +8265,7 @@
 	)
 	(wire
 		(pts
-			(xy 31.75 119.38) (xy 34.29 119.38)
+			(xy 31.75 119.38) (xy 40.64 119.38)
 		)
 		(stroke
 			(width 0)
@@ -8295,7 +8305,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 171.45) (xy 45.72 175.26)
+			(xy 46.99 171.45) (xy 46.99 175.26)
 		)
 		(stroke
 			(width 0)
@@ -9165,16 +9175,6 @@
 	)
 	(wire
 		(pts
-			(xy 38.1 162.56) (xy 38.1 163.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f9a92e1b-9ac0-4278-9114-67b16fdf98dc")
-	)
-	(wire
-		(pts
 			(xy 227.33 132.08) (xy 229.87 132.08)
 		)
 		(stroke
@@ -9195,7 +9195,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 162.56) (xy 45.72 163.83)
+			(xy 46.99 162.56) (xy 46.99 163.83)
 		)
 		(stroke
 			(width 0)
@@ -10024,6 +10024,18 @@
 		)
 		(uuid "fd18ecdf-0aa5-44c4-aae8-abe4e4a96cc7")
 	)
+	(label "CH-PROG"
+		(at 92.71 36.83 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "016cc839-30c4-437d-b050-c8b4397ca008")
+	)
 	(label "NRST"
 		(at 68.58 114.3 0)
 		(fields_autoplaced yes)
@@ -10035,6 +10047,18 @@
 			(justify left bottom)
 		)
 		(uuid "06514dc5-f90c-409f-ac59-85d34cfc9af9")
+	)
+	(label "FAULT_QG"
+		(at 153.67 25.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a358574-f403-475d-91b1-840bbbe23a5d")
 	)
 	(label "SWDIO"
 		(at 118.11 147.32 0)
@@ -10060,6 +10084,198 @@
 		)
 		(uuid "312e5b02-eaed-429d-aece-c00ae6f2c8c6")
 	)
+	(label "CHRG_QG"
+		(at 181.61 25.4 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3306717a-6148-452f-94b9-87820aad0541")
+	)
+	(label "BUZZ-QB"
+		(at 219.71 138.43 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "3e867cf2-06e0-4b75-9b3d-fdd65a76bca8")
+	)
+	(label "FAULT_RES"
+		(at 162.56 40.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "496fdda5-372f-4c04-a74d-9b3ee9d3bef6")
+	)
+	(label "REG_I"
+		(at 134.62 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "4e2f386c-c241-413c-bf03-946479356579")
+	)
+	(label "CHRG_RES"
+		(at 190.5 39.37 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "50256b53-a7f2-46f9-ac9e-b889f885ebe8")
+	)
+	(label "CH-TIMER"
+		(at 83.82 34.29 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5339fb87-a2b2-4a38-95b1-8f16a8d21a9a")
+	)
+	(label "STATR_QI"
+		(at 256.54 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "556cfb33-60fa-469b-84ef-9751796246ee")
+	)
+	(label "CHRG_QO"
+		(at 190.5 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5673466e-f40a-45ef-b27e-147a80b711ac")
+	)
+	(label "BOOT0_RES"
+		(at 33.02 119.38 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "5ae28155-f1c7-4fd2-98b9-49a6b746914a")
+	)
+	(label "ACT-H"
+		(at 262.89 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "72c6a2de-ef9c-4865-8b0c-063a4352a444")
+	)
+	(label "STATG_QI"
+		(at 270.51 142.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "7ed2b2e5-0baf-4690-8866-af50de4d4d13")
+	)
+	(label "STATR_QG"
+		(at 247.65 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "86c135c0-e30f-4e56-a4c4-eee4368dc0b0")
+	)
+	(label "PG_QO"
+		(at 199.39 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "912a7d83-1c0a-4bd0-b9c5-b329c142e297")
+	)
+	(label "MODE-H"
+		(at 238.76 88.9 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "93fc3892-65c6-4cac-a8bf-aaf1b3edd841")
+	)
+	(label "FAULT_QO"
+		(at 162.56 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "a5acf294-6828-426a-b962-c8673dc2c587")
+	)
+	(label "BUZZ-"
+		(at 229.87 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "b10910e1-683a-4f69-88c4-2a89430604a6")
+	)
 	(label "BOOT0"
 		(at 67.31 119.38 0)
 		(fields_autoplaced yes)
@@ -10071,6 +10287,18 @@
 			(justify left bottom)
 		)
 		(uuid "b6cb30c2-f7b6-4f89-a357-f5bd03324f82")
+	)
+	(label "CH-TH-DIV"
+		(at 77.47 31.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "bc1b6bf9-d9b3-4807-9361-61d7a08cd8c5")
 	)
 	(label "SWDCLK"
 		(at 118.11 149.86 0)
@@ -10096,7 +10324,67 @@
 		)
 		(uuid "d134db5a-0fee-4c48-a644-b6f387381546")
 	)
-	(global_label "BAT-"
+	(label "STATG_RES"
+		(at 270.51 132.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "d4ace346-53c5-472d-8b81-1f144c68afcf")
+	)
+	(label "STATR_RES"
+		(at 256.54 132.08 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left bottom)
+		)
+		(uuid "dd24bf08-070e-4d1e-917a-2aed300e14fe")
+	)
+	(label "STATG_QG"
+		(at 279.4 147.32 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "e45b37be-739b-42b7-80e0-a149f2876fa0")
+	)
+	(label "PG_RES"
+		(at 199.39 102.87 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "eb926f98-62fb-4a80-8374-019fa82b422e")
+	)
+	(label "PG_QG"
+		(at 190.5 87.63 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify right bottom)
+		)
+		(uuid "f76dbaa7-a9d4-4ed8-837a-2e88ab059733")
+	)
+	(global_label "GND"
 		(shape input)
 		(at 133.35 48.26 0)
 		(fields_autoplaced yes)
@@ -10109,7 +10397,7 @@
 		)
 		(uuid "081696fa-a9fc-4a69-9bfd-d17328881601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.6568 48.26 0)
+			(at 138.8505 48.26 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10120,7 +10408,7 @@
 			)
 		)
 	)
-	(global_label "BAT-"
+	(global_label "GND"
 		(shape input)
 		(at 119.38 95.25 180)
 		(fields_autoplaced yes)
@@ -10133,7 +10421,7 @@
 		)
 		(uuid "13b5703a-f723-4d6c-8256-b0b494d8873a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 113.0732 95.25 0)
+			(at 113.8795 95.25 0)
 			(effects
 				(font
 					(face "Futura")
@@ -10380,6 +10668,30 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "3V3"
+		(shape input)
+		(at 168.91 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(face "Futura")
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "562225f8-75b6-489b-9919-2c1665bfafab")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 173.6224 78.74 0)
+			(effects
+				(font
+					(face "Futura")
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -11080,7 +11392,7 @@
 			)
 		)
 	)
-	(global_label "BAT-"
+	(global_label "GND"
 		(shape input)
 		(at 69.85 62.23 0)
 		(fields_autoplaced yes)
@@ -11093,7 +11405,7 @@
 		)
 		(uuid "e67ee44e-6f84-4158-b3e3-04caf570075b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.1568 62.23 0)
+			(at 75.3505 62.23 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11679,7 +11991,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 38.1 119.38 90)
+		(at 44.45 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11687,7 +11999,7 @@
 		(dnp no)
 		(uuid "0cfea1f2-cdab-4310-911b-853c2f8ed248")
 		(property "Reference" "R1"
-			(at 38.1 121.666 90)
+			(at 44.45 121.666 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11696,7 +12008,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 38.1 123.698 90)
+			(at 44.45 123.698 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11705,7 +12017,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R0603_medium"
-			(at 38.1 121.158 90)
+			(at 44.45 121.158 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11715,7 +12027,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 38.1 119.38 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(face "Futura")
@@ -11725,7 +12037,7 @@
 			)
 		)
 		(property "Description" "RC0603FR-0710KL"
-			(at 38.1 119.38 0)
+			(at 44.45 119.38 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15022,7 +15334,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 45.72 167.64 180)
+		(at 46.99 167.64 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15030,7 +15342,7 @@
 		(dnp no)
 		(uuid "7b3edfb8-d345-45a3-8709-87b60979a944")
 		(property "Reference" "R12"
-			(at 48.006 167.64 90)
+			(at 49.276 167.64 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15039,7 +15351,7 @@
 			)
 		)
 		(property "Value" "4.7k"
-			(at 50.038 167.64 90)
+			(at 51.308 167.64 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15048,7 +15360,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R0603_medium"
-			(at 47.498 167.64 90)
+			(at 48.768 167.64 90)
 			(effects
 				(font
 					(face "Futura")
@@ -15058,7 +15370,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 167.64 0)
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -15068,7 +15380,7 @@
 			)
 		)
 		(property "Description" "RC0603FR-074K7L"
-			(at 45.72 167.64 0)
+			(at 46.99 167.64 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16803,7 +17115,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 45.72 162.56 0)
+		(at 46.99 162.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16811,7 +17123,7 @@
 		(dnp no)
 		(uuid "b6aad6af-cf48-4b86-a47e-8954cfbff46b")
 		(property "Reference" "#PWR021"
-			(at 45.72 166.37 0)
+			(at 46.99 166.37 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16821,7 +17133,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 45.72 158.496 0)
+			(at 46.99 158.496 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16830,7 +17142,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 45.72 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16840,7 +17152,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 45.72 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(face "Futura")
@@ -16850,7 +17162,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 45.72 162.56 0)
+			(at 46.99 162.56 0)
 			(effects
 				(font
 					(face "Futura")
