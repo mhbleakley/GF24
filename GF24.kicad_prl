@@ -1,19 +1,10 @@
 {
   "board": {
-    "active_layer": 44,
+    "active_layer": 0,
     "active_layer_preset": "All",
     "auto_track_width": true,
-    "hidden_netclasses": [
-      "POWER"
-    ],
-    "hidden_nets": [
-      "BAT+",
-      "GND",
-      "VBUS",
-      "/BUZZ-",
-      "/REG_I",
-      "3V3"
-    ],
+    "hidden_netclasses": [],
+    "hidden_nets": [],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
