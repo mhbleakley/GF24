@@ -2583,7 +2583,7 @@
 					)
 				)
 			)
-			(property "Footprint" "2137160001_MOL"
+			(property "Footprint" "MB-Conn:MOLEX_2137160001"
 				(at 21.59 -24.638 0)
 				(effects
 					(font
@@ -2610,14 +2610,6 @@
 						(size 1.27 1.27)
 					)
 					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
 				)
 			)
 			(property "ki_keywords" "2137160001"
@@ -2725,7 +2717,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 2.54 -2.54 0)
 					(length 5.08)
 					(name "VBUS"
@@ -2815,7 +2807,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 2.54 -15.24 0)
 					(length 5.08)
 					(name "VBUS"
@@ -2869,7 +2861,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 25.4 -17.78 180)
 					(length 5.08)
 					(name "VBUS"
@@ -2959,7 +2951,7 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at 25.4 -5.08 180)
 					(length 5.08)
 					(name "VBUS"
@@ -6058,12 +6050,6 @@
 		(uuid "17d08fc4-b1ca-4bb4-9c54-afca0dfb570a")
 	)
 	(junction
-		(at 66.04 48.26)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1aa02ce9-2115-402a-940e-188ff6f9c960")
-	)
-	(junction
 		(at 250.19 88.9)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6418,8 +6404,16 @@
 		(uuid "ffcc7f33-060a-47cf-85ac-c6d61df97d08")
 	)
 	(no_connect
+		(at 124.46 154.94)
+		(uuid "29661667-a767-439a-8948-992be79586a4")
+	)
+	(no_connect
 		(at 255.27 48.26)
 		(uuid "2bc9b32a-153f-45de-9546-541178ed6d39")
+	)
+	(no_connect
+		(at 73.66 160.02)
+		(uuid "304b0a12-99fd-4f4d-9729-7f2aa3e52f94")
 	)
 	(no_connect
 		(at 255.27 43.18)
@@ -6430,8 +6424,20 @@
 		(uuid "3d7f30b2-7344-4aef-9fb4-7756448ebff4")
 	)
 	(no_connect
+		(at 73.66 137.16)
+		(uuid "3ee0f9b5-8744-4cd8-acb4-b6ff991f0f6f")
+	)
+	(no_connect
 		(at 22.86 43.18)
 		(uuid "44ab7533-8f23-46ef-a3cb-290d242e82ea")
+	)
+	(no_connect
+		(at 73.66 165.1)
+		(uuid "4ddbefb1-8a6a-4448-9dbf-de0662a39800")
+	)
+	(no_connect
+		(at 73.66 132.08)
+		(uuid "52482994-4afc-4605-b046-eb7704be7873")
 	)
 	(no_connect
 		(at 45.72 40.64)
@@ -6442,8 +6448,52 @@
 		(uuid "60fb3971-5446-4f60-8fe3-d5fad16b1307")
 	)
 	(no_connect
+		(at 104.14 114.3)
+		(uuid "6c29a116-e336-48d4-b214-07884149feef")
+	)
+	(no_connect
+		(at 73.66 162.56)
+		(uuid "74fba9b1-7503-4ef6-ba34-c5c628859bc1")
+	)
+	(no_connect
+		(at 73.66 180.34)
+		(uuid "7ee09fea-1d63-4f6b-9e38-2b295cd7544b")
+	)
+	(no_connect
+		(at 137.16 154.94)
+		(uuid "82a8e6c2-a868-411f-86cb-d129e216a93a")
+	)
+	(no_connect
+		(at 104.14 132.08)
+		(uuid "83da24c4-cae9-41db-9e17-8c6f42464018")
+	)
+	(no_connect
+		(at 73.66 129.54)
+		(uuid "841ac00f-af1b-44ca-af22-43bd2dbb48d6")
+	)
+	(no_connect
+		(at 73.66 154.94)
+		(uuid "86c218b1-9c3e-47c5-ac13-179666c12390")
+	)
+	(no_connect
 		(at 255.27 27.94)
 		(uuid "88777198-5f35-434a-b981-26d9c68aad22")
+	)
+	(no_connect
+		(at 73.66 149.86)
+		(uuid "8f2d661b-594e-4360-9983-a7be2c161eed")
+	)
+	(no_connect
+		(at 73.66 139.7)
+		(uuid "907ecef9-370c-477c-bf48-cdb268ddcac0")
+	)
+	(no_connect
+		(at 104.14 129.54)
+		(uuid "9849982e-9d59-4074-ab7c-58c5b859431d")
+	)
+	(no_connect
+		(at 73.66 185.42)
+		(uuid "98b62b9b-2e96-46a5-bfe6-f030d14e7c11")
 	)
 	(no_connect
 		(at 273.05 21.59)
@@ -6454,24 +6504,64 @@
 		(uuid "a0dc8fc1-538b-4f18-acc9-27aa62e26e5c")
 	)
 	(no_connect
+		(at 104.14 134.62)
+		(uuid "a2189c63-cce6-402c-9695-538e42d30de9")
+	)
+	(no_connect
 		(at 45.72 38.1)
 		(uuid "b47fd8ec-64f1-4555-8425-4d1ddf3ba4c3")
+	)
+	(no_connect
+		(at 73.66 142.24)
+		(uuid "b606c8e2-03ea-4968-84ec-697ee6e2e8b9")
 	)
 	(no_connect
 		(at 45.72 43.18)
 		(uuid "c60583c6-cd2e-48ec-b803-54dfde1f0f79")
 	)
 	(no_connect
+		(at 73.66 147.32)
+		(uuid "c6941422-7c6f-4edc-8919-867baefbc329")
+	)
+	(no_connect
+		(at 104.14 152.4)
+		(uuid "c733fb87-a09f-4c23-b360-66181ad4c4bf")
+	)
+	(no_connect
 		(at 22.86 38.1)
 		(uuid "cfa02208-3c83-4c5e-874a-2d0299710bbb")
+	)
+	(no_connect
+		(at 73.66 182.88)
+		(uuid "e2c0ffdc-b66e-481d-b75d-d1fd054c9b46")
 	)
 	(no_connect
 		(at 255.27 30.48)
 		(uuid "e31f5f51-9024-43d5-a08c-9c7a64cf0c66")
 	)
 	(no_connect
+		(at 104.14 139.7)
+		(uuid "e441c4a0-0c3d-43c2-b45b-1593ca68fe18")
+	)
+	(no_connect
+		(at 104.14 127)
+		(uuid "e4912229-8b7d-4306-bbbb-2893cacd802a")
+	)
+	(no_connect
 		(at 22.86 40.64)
 		(uuid "e6d8c064-c922-4a57-9396-08dcb4f5723d")
+	)
+	(no_connect
+		(at 73.66 157.48)
+		(uuid "e90ccc95-3010-4709-a0aa-34e73f3eed68")
+	)
+	(no_connect
+		(at 104.14 137.16)
+		(uuid "efd65720-093f-4459-9809-d350a6357cf0")
+	)
+	(no_connect
+		(at 124.46 152.4)
+		(uuid "f433d7dd-d19f-4532-b310-203de0852a32")
 	)
 	(wire
 		(pts
@@ -6612,6 +6702,16 @@
 			(type default)
 		)
 		(uuid "0adbacf2-690b-4a4e-9061-f2b961abdb2f")
+	)
+	(wire
+		(pts
+			(xy 72.39 167.64) (xy 73.66 167.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d07188f-36c0-4d1a-9da0-8125608bc84a")
 	)
 	(wire
 		(pts
@@ -7225,7 +7325,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 33.02) (xy 49.53 50.8)
+			(xy 49.53 33.02) (xy 49.53 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7582,6 +7682,16 @@
 			(type default)
 		)
 		(uuid "5dfca0e8-24fa-47ae-9158-a9c9e0895120")
+	)
+	(wire
+		(pts
+			(xy 72.39 170.18) (xy 73.66 170.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e1f4d30-75da-4fe0-8ff5-83de15a99abf")
 	)
 	(wire
 		(pts
@@ -8702,16 +8812,6 @@
 			(type default)
 		)
 		(uuid "d1b143a3-4f06-441f-afb0-0a73fc3e17a0")
-	)
-	(wire
-		(pts
-			(xy 64.77 48.26) (xy 66.04 48.26)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d31497f6-3d64-4f83-8082-8811cb05877c")
 	)
 	(wire
 		(pts
@@ -10648,9 +10748,9 @@
 			)
 		)
 	)
-	(global_label "USB-GND"
+	(global_label "GND"
 		(shape input)
-		(at 49.53 50.8 270)
+		(at 49.53 52.07 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10661,7 +10761,7 @@
 		)
 		(uuid "50fd6957-fe33-4c27-ba59-0f829d8857c0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 49.53 59.4669 90)
+			(at 49.53 57.5705 90)
 			(effects
 				(font
 					(face "Futura")
@@ -11412,30 +11512,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "USB-GND"
-		(shape input)
-		(at 64.77 48.26 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(face "Futura")
-				(size 1.016 1.016)
-			)
-			(justify right)
-		)
-		(uuid "edbebcd3-3f35-4d00-a032-4e0f6be2ff49")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 56.1031 48.26 0)
-			(effects
-				(font
-					(face "Futura")
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
