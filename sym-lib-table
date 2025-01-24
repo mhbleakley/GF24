@@ -5,6 +5,5 @@
   (lib (name "MB-Battery")(type "KiCad")(uri "${KIPRJMOD}/MB-Battery.kicad_sym")(options "")(descr ""))
   (lib (name "MB-EEPROM")(type "KiCad")(uri "${KIPRJMOD}/MB-EEPROM.kicad_sym")(options "")(descr ""))
   (lib (name "MB-Opto")(type "KiCad")(uri "${KIPRJMOD}/MB-Opto.kicad_sym")(options "")(descr ""))
-  (lib (name "2137160001")(type "KiCad")(uri "${KIPRJMOD}/2137160001/2137160001.kicad_sym")(options "")(descr ""))
   (lib (name "MB-Conn")(type "KiCad")(uri "${KIPRJMOD}/MB-Conn.kicad_sym")(options "")(descr ""))
 )
