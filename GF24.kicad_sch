@@ -6278,12 +6278,6 @@
 		(uuid "a6f962d2-93d6-417a-bfba-d1ffd7da89a6")
 	)
 	(junction
-		(at 245.11 20.32)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a73d4f9c-baaf-4bbc-a4e0-1996f4c0a9fa")
-	)
-	(junction
 		(at 267.97 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7531,7 +7525,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 20.32) (xy 267.97 20.32)
+			(xy 256.54 20.32) (xy 267.97 20.32)
 		)
 		(stroke
 			(width 0)
@@ -7791,7 +7785,7 @@
 	)
 	(wire
 		(pts
-			(xy 245.11 20.32) (xy 245.11 19.05)
+			(xy 256.54 20.32) (xy 256.54 19.05)
 		)
 		(stroke
 			(width 0)
@@ -8798,16 +8792,6 @@
 			(type default)
 		)
 		(uuid "ce2c91f3-db28-4c36-8048-d61bfd470620")
-	)
-	(wire
-		(pts
-			(xy 245.11 27.94) (xy 245.11 29.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cf563f6c-6c2d-4df2-a72e-1d571d559082")
 	)
 	(wire
 		(pts
@@ -11385,74 +11369,6 @@
 			(project ""
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 245.11 29.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0260a14f-c677-41a0-b47a-f9c373084216")
-		(property "Reference" "#PWR023"
-			(at 245.11 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 245.11 34.29 0)
-			(show_name yes)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 245.11 29.21 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "25ff30d3-8a4f-43ff-a68b-1d6ade178668")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15022,7 +14938,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 245.11 19.05 0)
+		(at 256.54 19.05 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15030,7 +14946,7 @@
 		(dnp no)
 		(uuid "7c2a0b64-9b7d-4bac-b8b1-c682b691200f")
 		(property "Reference" "#PWR014"
-			(at 245.11 22.86 0)
+			(at 256.54 22.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15039,7 +14955,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 245.11 14.986 0)
+			(at 256.54 14.986 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15047,7 +14963,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 19.05 0)
+			(at 256.54 19.05 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15056,7 +14972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 19.05 0)
+			(at 256.54 19.05 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15065,7 +14981,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 245.11 19.05 0)
+			(at 256.54 19.05 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -17740,75 +17656,6 @@
 			(project ""
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 245.11 24.13 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e24a97d8-cb7e-423b-8569-a593895db3ed")
-		(property "Reference" "C7"
-			(at 247.904 22.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 247.904 25.4 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "MB-Generic:C0603_medium"
-			(at 246.0752 27.94 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 245.11 24.13 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "C0603C104K8RACTU"
-			(at 245.11 24.13 0)
-			(effects
-				(font
-					(size 0.75 0.75)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "db54b033-4508-4e88-993c-e05b2567b462")
-		)
-		(pin "2"
-			(uuid "031ec5d8-d63e-4246-8307-6f44c5c9b4b1")
-		)
-		(instances
-			(project "GF24"
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "C7")
 					(unit 1)
 				)
 			)
