@@ -22,8 +22,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 0)
+		(property "Footprint" "MB-MSOP:10-MSOP-TE"
+			(at 0.508 -23.368 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -141,7 +141,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -12.7 90)
+				(at -1.27 -12.7 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -223,6 +223,26 @@
 					)
 				)
 				(number "9"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "LTC1733_1_0"
+			(pin power_in line
+				(at 1.27 -12.7 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "11"
 					(effects
 						(font
 							(size 1.27 1.27)

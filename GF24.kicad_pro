@@ -116,21 +116,21 @@
       },
       "rules": {
         "max_error": 0.005,
-        "min_clearance": 0.0,
+        "min_clearance": 0.1,
         "min_connection": 0.15,
-        "min_copper_edge_clearance": 0.5,
-        "min_hole_clearance": 0.25,
+        "min_copper_edge_clearance": 0.2,
+        "min_hole_clearance": 0.2,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
         "min_resolved_spokes": 2,
         "min_silk_clearance": 0.0,
-        "min_text_height": 0.8,
-        "min_text_thickness": 0.15,
-        "min_through_hole_diameter": 0.2,
-        "min_track_width": 0.15,
-        "min_via_annular_width": 0.15,
-        "min_via_diameter": 0.5,
+        "min_text_height": 1.0,
+        "min_text_thickness": 0.153,
+        "min_through_hole_diameter": 0.15,
+        "min_track_width": 0.1,
+        "min_via_annular_width": 0.18,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -689,14 +689,14 @@
       },
       {
         "bus_width": 12,
-        "clearance": 0.0,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "NC",
+        "name": "GNSS",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.16,
@@ -713,13 +713,47 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "POWER",
+        "name": "OSC",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.3,
+        "track_width": 0.16,
         "via_diameter": 0.6,
         "via_drill": 0.3,
-        "wire_width": 9
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "PWR",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.1,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "USB",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.16,
+        "via_diameter": 0.6,
+        "via_drill": 0.3,
+        "wire_width": 6
       }
     ],
     "meta": {
@@ -730,41 +764,37 @@
       "/OSC-OUT": "rgb(255, 0, 255)",
       "BAT+": "rgb(255, 153, 0)",
       "GND": "rgb(132, 132, 132)",
+      "GNSS-TX": "rgb(0, 72, 0)",
+      "I2C-SCL": "rgb(0, 0, 194)",
+      "I2C-SDA": "rgb(0, 72, 0)",
       "SCL": "rgb(0, 0, 194)",
       "SDA": "rgb(0, 0, 194)",
       "STM32-RX": "rgb(0, 72, 0)",
       "STM32-TX": "rgb(0, 72, 0)",
-      "VBUS": "rgb(128, 77, 0)"
+      "VBUS": "rgb(128, 77, 0)",
+      "unconnected-(J2-DN1-PadA7)": "rgb(0, 0, 194)"
     },
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "POWER",
-        "pattern": "3V3"
+        "netclass": "GNSS",
+        "pattern": "GNSS*"
       },
       {
-        "netclass": "POWER",
-        "pattern": "BAT+"
+        "netclass": "PWR",
+        "pattern": "+3*"
       },
       {
-        "netclass": "POWER",
+        "netclass": "PWR",
         "pattern": "GND"
       },
       {
-        "netclass": "POWER",
-        "pattern": "/REG_I"
-      },
-      {
-        "netclass": "POWER",
-        "pattern": "/BUZZ-"
-      },
-      {
-        "netclass": "POWER",
+        "netclass": "USB",
         "pattern": "VBUS"
       },
       {
-        "netclass": "NC",
-        "pattern": "unconnected"
+        "netclass": "OSC",
+        "pattern": "/OSC*"
       }
     ]
   },
@@ -887,6 +917,78 @@
           "group_by": false,
           "label": "MANUFACTURER",
           "name": "MANUFACTURER",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer PN",
+          "name": "Manufacturer PN",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Distributor Link",
+          "name": "Distributor Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DigiKey_Part_Number",
+          "name": "DigiKey_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Package",
+          "name": "Package",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Price",
+          "name": "Price",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MP",
+          "name": "MP",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "MF",
+          "name": "MF",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Check_prices",
+          "name": "Check_prices",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SnapEDA_Link",
+          "name": "SnapEDA_Link",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Availability",
+          "name": "Availability",
           "show": false
         }
       ],
