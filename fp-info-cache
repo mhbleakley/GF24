@@ -1,4 +1,4 @@
-24461280676334829
+24470037293924044
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65582,6 +65582,13 @@ CSQG703BP
 0
 2
 2
+MB-Buzzer
+ST-025BH_SOB
+
+ST-025BH 
+0
+4
+4
 MB-Conn
 CONN_3220-10-0100-00_CNC
 
@@ -65596,6 +65603,13 @@ GCT_USB4110GFA
 0
 16
 16
+MB-Conn
+JST_S2B-PH-SM4-TB
+
+
+0
+4
+4
 MB-Conn
 MOLEX_2137160001
 
@@ -65688,7 +65702,7 @@ R1206_medium
 2
 2
 MB-MSOP
-10-MSOP
+10-MSOP-TE
 
 
 0
@@ -65715,6 +65729,13 @@ SOD-123-2
 0
 2
 2
+MB-SOIC
+SO-8_STM
+
+M24C02-WMN6TP 
+0
+8
+8
 MB-SOT
 SOT-23-3
 SOT, 3 Pin (JEDEC MO-178 inferred 3-pin variant https://www.jedec.org/document_search?search_api_views_fulltext=MO-178), generated with kicad-footprint-generator ipc_gullwing_generator.py
@@ -65759,6 +65780,20 @@ ES02MSABE
 5
 MB-SW
 PTS815SJM250SMTRLFS
+
+
+0
+4
+4
+MB-SW
+SW_500ASSP1SM6QE
+
+
+0
+5
+5
+MB-SW
+TL1016AAF160QG
 
 
 0

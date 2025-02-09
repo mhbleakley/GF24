@@ -413,6 +413,192 @@
 			)
 		)
 	)
+	(symbol "S2B-PH-SM4-TB"
+		(pin_names
+			(offset 1.016)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "J"
+			(at -1.27 2.794 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Value" "S2B-PH-SM4-TB"
+			(at -8.128 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "MB-Conn:JST_S2B-PH-SM4-TB"
+			(at 1.778 -16.002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "DigiKey_Part_Number" "455-S2B-PH-SM4-TBTR-ND"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/S2B-PH-SM4-TB/JST/view-part/?ref=snap"
+			(at -0.254 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "\n                        \n                            Connector Header Surface Mount, Right Angle 2 position 0.079 (2.00mm)\n                        \n"
+			(at -0.254 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "None"
+			(at -1.27 -21.336 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/S2B-PH-SM4-TB/JST/view-part/?ref=eda"
+			(at -0.254 -10.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MF" "JST Sales"
+			(at 0 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "S2B-PH-SM4-TB"
+			(at 0 -12.954 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "JST"
+			(at -1.27 -23.114 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(symbol "S2B-PH-SM4-TB_1_0"
+			(pin passive line
+				(at -3.81 1.27 0)
+				(length 2.54)
+				(name "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at -3.81 -1.27 0)
+				(length 2.54)
+				(name "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+				(number "2"
+					(effects
+						(font
+							(size 1.016 1.016)
+						)
+					)
+				)
+			)
+		)
+		(symbol "S2B-PH-SM4-TB_1_1"
+			(rectangle
+				(start -1.27 2.54)
+				(end 1.27 -2.54)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type background)
+				)
+			)
+		)
+	)
 	(symbol "USB4110GFA"
 		(pin_names
 			(offset 1.016)
@@ -438,8 +624,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Footprint" "USB4110GFA:GCT_USB4110GFA"
-			(at 1.016 -34.798 0)
+		(property "Footprint" "MB-Conn:GCT_USB4110GFA"
+			(at -0.508 -17.018 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -467,7 +653,7 @@
 			)
 		)
 		(property "DigiKey_Part_Number" "2073-USB4110-GF-A-2-ND"
-			(at 0.762 -37.084 0)
+			(at -0.762 -19.304 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -477,7 +663,7 @@
 			)
 		)
 		(property "MF" "Global Connector Technology"
-			(at 0.762 -39.116 0)
+			(at -0.762 -21.336 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -487,7 +673,7 @@
 			)
 		)
 		(property "Description_1" "\n                        \n                            USB-C (USB TYPE-C) USB 2.0 Receptacle Connector 24 (16+8 Dummy) Position Surface Mount, Right Angle\n                        \n"
-			(at -8.128 -49.022 0)
+			(at -9.652 -31.242 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -497,7 +683,7 @@
 			)
 		)
 		(property "Package" "None"
-			(at -0.254 -49.53 0)
+			(at -1.778 -31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -507,7 +693,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at -0.254 -53.848 0)
+			(at -1.778 -36.068 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -517,7 +703,7 @@
 			)
 		)
 		(property "SnapEDA_Link" "https://www.snapeda.com/parts/USB4110GFA/Global+Connector+Technology/view-part/?ref=snap"
-			(at 0.762 -41.91 0)
+			(at -0.762 -24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -527,7 +713,7 @@
 			)
 		)
 		(property "MP" "USB4110GFA"
-			(at 56.134 -3.048 0)
+			(at -0.508 -15.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -537,7 +723,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 0 -51.308 0)
+			(at -1.524 -33.528 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -547,7 +733,7 @@
 			)
 		)
 		(property "Check_prices" "https://www.snapeda.com/parts/USB4110GFA/Global+Connector+Technology/view-part/?ref=eda"
-			(at 0.762 -44.45 0)
+			(at -0.762 -26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)

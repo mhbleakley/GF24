@@ -177,8 +177,8 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 2.54 0)
+		(property "Footprint" "MB-DFN:6-WDFN"
+			(at -0.254 -23.114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -242,7 +242,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 -8.89 90)
+				(at -1.27 -8.89 90)
 				(length 2.54)
 				(name "GND"
 					(effects
@@ -314,7 +314,27 @@
 				)
 			)
 		)
-		(symbol "TPS74533PQWDRVRQ1_0_1"
+		(symbol "TPS74533PQWDRVRQ1_1_0"
+			(pin power_in line
+				(at 1.27 -8.89 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(symbol "TPS74533PQWDRVRQ1_1_1"
 			(rectangle
 				(start -6.35 6.35)
 				(end 6.35 -6.35)
@@ -323,7 +343,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)

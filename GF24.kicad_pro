@@ -653,7 +653,8 @@
       "MB-SOD",
       "MB-SOT",
       "MB-STM",
-      "MB-SW"
+      "MB-SW",
+      "MB-SOIC"
     ],
     "pinned_symbol_libs": [
       "MB-GNSS",
@@ -661,7 +662,10 @@
       "MB-EEPROM",
       "MB-V-REG",
       "MB-Opto",
-      "MB-Conn"
+      "MB-Conn",
+      "MB-buzzer",
+      "MB-Buzzer",
+      "MB-SW"
     ]
   },
   "meta": {
@@ -759,21 +763,7 @@
     "meta": {
       "version": 3
     },
-    "net_colors": {
-      "/OSC-IN": "rgb(255, 0, 255)",
-      "/OSC-OUT": "rgb(255, 0, 255)",
-      "BAT+": "rgb(255, 153, 0)",
-      "GND": "rgb(132, 132, 132)",
-      "GNSS-TX": "rgb(0, 72, 0)",
-      "I2C-SCL": "rgb(0, 0, 194)",
-      "I2C-SDA": "rgb(0, 72, 0)",
-      "SCL": "rgb(0, 0, 194)",
-      "SDA": "rgb(0, 0, 194)",
-      "STM32-RX": "rgb(0, 72, 0)",
-      "STM32-TX": "rgb(0, 72, 0)",
-      "VBUS": "rgb(128, 77, 0)",
-      "unconnected-(J2-DN1-PadA7)": "rgb(0, 0, 194)"
-    },
+    "net_colors": null,
     "netclass_assignments": null,
     "netclass_patterns": [
       {

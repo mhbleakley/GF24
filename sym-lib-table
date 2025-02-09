@@ -6,4 +6,6 @@
   (lib (name "MB-EEPROM")(type "KiCad")(uri "${KIPRJMOD}/MB-EEPROM.kicad_sym")(options "")(descr ""))
   (lib (name "MB-Opto")(type "KiCad")(uri "${KIPRJMOD}/MB-Opto.kicad_sym")(options "")(descr ""))
   (lib (name "MB-Conn")(type "KiCad")(uri "${KIPRJMOD}/MB-Conn.kicad_sym")(options "")(descr ""))
+  (lib (name "MB-Buzzer")(type "KiCad")(uri "${KIPRJMOD}/MB-buzzer.kicad_sym")(options "")(descr ""))
+  (lib (name "MB-SW")(type "KiCad")(uri "${KIPRJMOD}/MB-SW.kicad_sym")(options "")(descr ""))
 )

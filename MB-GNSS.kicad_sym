@@ -801,7 +801,7 @@
 				)
 			)
 		)
-		(symbol "SAM-M10Q_0_1"
+		(symbol "SAM-M10Q_1_1"
 			(rectangle
 				(start -12.7 13.97)
 				(end 11.43 -16.51)
@@ -810,7 +810,7 @@
 					(type default)
 				)
 				(fill
-					(type none)
+					(type background)
 				)
 			)
 		)
