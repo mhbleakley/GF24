@@ -3,12 +3,14 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(general
-		(thickness 1.6)
+		(thickness 1.547)
 		(legacy_teardrops no)
 	)
 	(paper "A4")
 	(layers
 		(0 "F.Cu" signal)
+		(1 "In1.Cu" signal)
+		(2 "In2.Cu" signal)
 		(31 "B.Cu" signal)
 		(32 "B.Adhes" user "B.Adhesive")
 		(33 "F.Adhes" user "F.Adhesive")
@@ -52,18 +54,40 @@
 			)
 			(layer "F.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0175)
 			)
 			(layer "dielectric 1"
+				(type "prepreg")
+				(thickness 0.196)
+				(material "7628")
+				(epsilon_r 4.74)
+				(loss_tangent 0.02)
+			)
+			(layer "In1.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 2"
 				(type "core")
-				(thickness 1.51)
-				(material "FR4")
-				(epsilon_r 4.5)
+				(thickness 1.03)
+				(material "Core")
+				(epsilon_r 4.6)
+				(loss_tangent 0.02)
+			)
+			(layer "In2.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 3"
+				(type "prepreg")
+				(thickness 0.196)
+				(material "7628")
+				(epsilon_r 4.74)
 				(loss_tangent 0.02)
 			)
 			(layer "B.Cu"
 				(type "copper")
-				(thickness 0.035)
+				(thickness 0.0175)
 			)
 			(layer "B.Mask"
 				(type "Bottom Solder Mask")
@@ -19982,7 +20006,7 @@
 			(at 0 -2.000001 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "269e76dc-f226-4d8e-a712-7b56c71e1709")
+			(uuid "fc7b6854-59df-4513-9f08-3b057d7848c3")
 			(effects
 				(font
 					(size 1 1)
@@ -19994,7 +20018,7 @@
 			(at 0 2.1 90)
 			(layer "F.SilkS")
 			(hide yes)
-			(uuid "e873aa1c-a559-43ae-8c8c-14314e6d9ff4")
+			(uuid "722eb009-a847-4c2f-a957-bed70d725313")
 			(effects
 				(font
 					(size 1 1)
@@ -20048,7 +20072,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "b6d31aa4-e1b1-4550-b1b9-9466a820361d")
+			(uuid "9a5a42c6-df12-4c2d-a60f-758a2bb7b15a")
 		)
 		(fp_arc
 			(start 2 1)
@@ -20059,7 +20083,7 @@
 				(type solid)
 			)
 			(layer "Dwgs.User")
-			(uuid "a6194d14-fb11-4070-aab5-a16695195227")
+			(uuid "c2e9a13c-db22-43ed-8d5a-f0bef10b5e80")
 		)
 		(fp_circle
 			(center 2 0)
@@ -20070,7 +20094,7 @@
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "e919c6a9-7833-452b-b7eb-093aa5f493e3")
+			(uuid "aec189d3-070d-4f40-95bd-1d52ceeb87d1")
 		)
 		(fp_circle
 			(center -2 0)
@@ -20081,7 +20105,7 @@
 			)
 			(fill none)
 			(layer "Dwgs.User")
-			(uuid "b32b8942-db64-4dd6-8793-0d79932c7bfe")
+			(uuid "63284c3d-94b2-417d-8fdc-e2e092e69a2a")
 		)
 		(fp_line
 			(start 2 0)
@@ -20091,7 +20115,7 @@
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "8dcc5aad-030a-4ba0-b96b-b40268fe7d65")
+			(uuid "78e7e401-4999-4728-9f10-8dab076e3465")
 		)
 		(fp_line
 			(start -2 0)
@@ -20101,49 +20125,49 @@
 				(type solid)
 			)
 			(layer "Eco1.User")
-			(uuid "49e2896e-b2fd-4a80-a70e-7ffcb298d0bc")
+			(uuid "5aa1f72a-71a1-4234-a141-801771fff3fd")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.75 -0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "09a6251c-73f9-4d05-927c-cc2040362dea")
+			(uuid "f4ac8097-73b1-42b7-bf4a-a77f169fb28d")
 		)
 		(pad "" np_thru_hole circle
 			(at -0.75 0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "4ef448c9-345d-446d-94ca-16a4e4c23360")
+			(uuid "fd75fd6b-1bae-43ed-9637-01ba934eca3d")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 -0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "96b65cc3-91e2-4312-999c-6f8dec298eb9")
+			(uuid "2c115543-bdbc-497d-88d7-7f0a3c999895")
 		)
 		(pad "" np_thru_hole circle
 			(at 0 0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "2fc7ba3e-c19c-4ff4-ac8f-f613ae4b841c")
+			(uuid "4bebea10-f310-4407-9922-62501c199372")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.75 -0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "ba329885-2ec2-4b65-ac64-3db36d9c15c7")
+			(uuid "8dc7aa82-9804-4459-8d9b-69fb7e421c2e")
 		)
 		(pad "" np_thru_hole circle
 			(at 0.75 0.75 90)
 			(size 0.5 0.5)
 			(drill 0.5)
 			(layers "*.Cu" "*.Mask")
-			(uuid "69c8b6ce-b333-4cdf-a916-0f38d969d3d2")
+			(uuid "365e1ee3-3f3b-4479-b7ef-dd7ea59f3980")
 		)
 	)
 	(footprint "MB-Generic:R0603_medium"
