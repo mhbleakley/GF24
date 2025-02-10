@@ -682,4 +682,15 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "0d1427a1-e59c-4eaa-996c-37612b54b047")
 	)
+	(model "${KIPRJMOD}/3D/M24C02-WMN6TP.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

@@ -654,7 +654,8 @@
       "MB-SOT",
       "MB-STM",
       "MB-SW",
-      "MB-SOIC"
+      "MB-SOIC",
+      "MB-Tab"
     ],
     "pinned_symbol_libs": [
       "MB-GNSS",

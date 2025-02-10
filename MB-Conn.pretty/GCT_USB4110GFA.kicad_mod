@@ -340,4 +340,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "2ac71bcc-c071-4879-9600-97e3e560c080")
 	)
+	(model "${KIPRJMOD}/3D/USB4110GFA.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

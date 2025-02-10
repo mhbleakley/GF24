@@ -221,4 +221,15 @@
 		(solder_mask_margin 0.102)
 		(uuid "ef0dcb84-eda2-4eb3-9e9c-eba03f33b05f")
 	)
+	(model "${KIPRJMOD}/3D/S2B-PH-SM4-TB--3DModel-STEP-269445.STEP"
+		(offset
+			(xyz 0 7 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
 )

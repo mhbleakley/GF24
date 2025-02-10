@@ -1,4 +1,4 @@
-24470037293924044
+24482211246642316
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65611,12 +65611,26 @@ JST_S2B-PH-SM4-TB
 4
 4
 MB-Conn
+MOLEX_0533980671
+
+
+0
+8
+8
+MB-Conn
 MOLEX_2137160001
 
 
 0
 20
 20
+MB-Conn
+Tag-Connect_TC2030-IDC-FP_2x03_P1.27mm_Vertical
+Tag-Connect programming header; http://www.tag-connect.com/Materials/TC2030-IDC.pdf
+tag connect programming header pogo pins
+0
+6
+6
 MB-Crystal
 CS06465-32M
 
@@ -65799,6 +65813,41 @@ TL1016AAF160QG
 0
 4
 4
+MB-Tab
+mouse-bite-1mm-slot
+
+
+0
+0
+0
+MB-Tab
+mouse-bite-2.54mm-slot
+
+
+0
+0
+0
+MB-Tab
+mouse-bite-2mm-slot
+
+
+0
+0
+0
+MB-Tab
+mouse-bite-3mm-slot
+
+
+0
+0
+0
+MB-Tab
+mouse-bite-5mm-slot
+
+
+0
+0
+0
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

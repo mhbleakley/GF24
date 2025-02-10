@@ -14,4 +14,5 @@
   (lib (name "MB-DFN")(type "KiCad")(uri "${KIPRJMOD}/MB-DFN.pretty")(options "")(descr ""))
   (lib (name "MB-MSOP")(type "KiCad")(uri "${KIPRJMOD}/MB-MSOP.pretty")(options "")(descr ""))
   (lib (name "MB-SOIC")(type "KiCad")(uri "${KIPRJMOD}/MB-SOIC.pretty")(options "")(descr ""))
+  (lib (name "MB-Tab")(type "KiCad")(uri "${KIPRJMOD}/3D/0533980671/MB-Tab.pretty")(options "")(descr ""))
 )
