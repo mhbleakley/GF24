@@ -322,7 +322,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/ndk-nihon-dempa-kogyo-co-ltd/cs06465-32m/7645290"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -361,7 +361,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "NDK (NIHON DEMPA KOGYO CO., LTD)"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -632,7 +632,7 @@
 		)
 		(fp_arc
 			(start 2 1)
-			(mid 1.000001 0)
+			(mid 1 0)
 			(end 2 -1)
 			(stroke
 				(width 0.1)
@@ -790,7 +790,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmp2004k-7/1774201"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -829,7 +829,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1196,7 +1196,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmn3731u-7/10295271"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1235,7 +1235,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1605,7 +1605,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-074k7l/727212"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1644,7 +1644,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1867,7 +1867,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1906,7 +1906,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2129,7 +2129,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kingbright/apda3020lseck-j3-pf/5177426"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2168,7 +2168,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2405,7 +2405,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2444,7 +2444,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2667,7 +2667,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0805c105k8ractu/411171"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2706,7 +2706,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2931,7 +2931,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0603c104k8ractu/411094"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2970,7 +2970,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3195,7 +3195,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-074k7l/727212"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3234,7 +3234,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3454,7 +3454,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmn3731u-7/10295271"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3493,7 +3493,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3863,7 +3863,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3902,7 +3902,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4125,7 +4125,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0402c103k8ractu/2196222"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4164,7 +4164,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4372,7 +4372,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0533980671"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -4520,6 +4520,45 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0de38924-a3a2-4c01-a322-040a9c96d3a2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/molex/0533980671/699070"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1dd8713b-de57-4c38-b0ad-016f54a59afa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6907d24e-2c0a-4c34-a7d7-59d7f7dd587e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer PN" "0533980671"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f008afba-f483-40d4-bcab-609766cf678d")
 			(effects
 				(font
 					(size 1 1)
@@ -4842,7 +4881,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0747rl/727252"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4881,7 +4920,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5103,7 +5142,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0805c105k8ractu/411171"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5142,7 +5181,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5366,7 +5405,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kingbright/apda3020lseck-j3-pf/5177426"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5405,7 +5444,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5642,7 +5681,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0603c104k8ractu/411094"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5681,7 +5720,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5906,7 +5945,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5945,7 +5984,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6168,7 +6207,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0747rl/727252"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6207,7 +6246,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6430,7 +6469,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-07127rl/726926"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6469,7 +6508,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6679,12 +6718,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "TL1016AAF160QG"
 			(at 0 8 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "6150f77f-0fdd-4899-aa2a-282f46e54891")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/tl1016aaf160qg/16530047"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c5a02eb8-4420-4af3-b5bb-466af386176c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "79702572-10fa-4bdf-b59c-353d7a317369")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer PN" "TL1016AAF160QG"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "173c967b-943e-451f-a630-770115a50d3d")
 			(effects
 				(font
 					(size 1 1)
@@ -6841,12 +6919,51 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "PTS815SJM250SMTRLFS"
 			(at 0 2.000001 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "902ae0a9-9bf9-4abc-bedb-9eebcbfc4fb8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/c-k/pts815sjm250smtrlfs/9947846"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7209c652-6b25-4f8c-92df-fb8fa7e8b966")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "C&K"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aba92d1a-4f09-4611-a652-6ed43ee58168")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer PN" "PTS815SJM250SMTRLFS"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9398b572-f943-4744-8893-2cb9cf6514a3")
 			(effects
 				(font
 					(size 1 1)
@@ -7083,7 +7200,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/texas-instruments/tps74533pqwdrvrq1/11308854"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7122,7 +7239,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Texas Instruments"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7407,7 +7524,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7446,7 +7563,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7607,7 +7724,7 @@
 		(uuid "815ba6c3-93ef-487a-910e-5b2f3b39afd9")
 		(at 126 109 45)
 		(property "Reference" "C1"
-			(at 0 -2.000001 45)
+			(at -0.282843 -1.979899 45)
 			(unlocked yes)
 			(layer "F.SilkS" knockout)
 			(uuid "230ffc3e-5abb-4f32-a1b9-a9eb1ae47320")
@@ -7669,7 +7786,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/C1206C475K8RACTU/1090855?s=N4IgTCBcDaIMIEYwAYBscAsB2ArAaQA4AlAQTgBUBVEAXQF8g"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7708,7 +7825,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 45)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7933,7 +8050,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0402c100c8gactu/2196146"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7972,7 +8089,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8208,7 +8325,7 @@
 		)
 		(fp_arc
 			(start 2 1)
-			(mid 1.000001 0)
+			(mid 1 0)
 			(end 2 -1)
 			(stroke
 				(width 0.1)
@@ -8369,7 +8486,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/C1206C475K8RACTU/1090855?s=N4IgTCBcDaIMIEYwAYBscAsB2ArAaQA4AlAQTgBUBVEAXQF8g"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8408,7 +8525,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8633,7 +8750,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8672,7 +8789,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8894,7 +9011,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0402c100c8gactu/2196146"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8933,7 +9050,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 -135)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9155,7 +9272,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmp2004k-7/1774201"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9194,7 +9311,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9561,7 +9678,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/diodes-incorporated/dmp2004k-7/1774201"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9600,7 +9717,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9956,7 +10073,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "M24C02-WMN6TP"
 			(at 0 0 90)
 			(layer "F.Fab")
 			(hide yes)
@@ -9964,6 +10081,45 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/m24c02-wmn6tp/1663568"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "12392be8-8a26-465f-843f-2596f04208d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d1af19a1-2c46-4897-a119-0c9ca569f264")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer PN" "M24C02-WMN6TP"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa95d614-41c0-466b-961c-28fd31d142cb")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -10681,7 +10837,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0751rl/727281"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10720,7 +10876,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10943,7 +11099,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10982,7 +11138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11205,7 +11361,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/nidec-components-corporation/cjs-1200ta/948332"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11244,7 +11400,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Nidec Components Corporation"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11419,7 +11575,7 @@
 		(descr "LQFP, 48 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ltc2358-16.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
 		(tags "LQFP QFP")
 		(property "Reference" "U1"
-			(at 0 -5.85 0)
+			(at 1.8 -5.85 0)
 			(layer "F.SilkS" knockout)
 			(uuid "6ad7354f-8887-4a46-9df9-e97d010f52ec")
 			(effects
@@ -11476,7 +11632,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/stmicroelectronics/stm32f031c4t6/3947369"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11515,7 +11671,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "STMicroelectronics"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -11528,7 +11684,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" ""
+		(property "Manufacturer PN" "STM32F031C4T6"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12494,7 +12650,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12533,7 +12689,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12756,7 +12912,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -12795,7 +12951,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13018,7 +13174,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/u-blox/sam-m10q-00b/16672678"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13057,7 +13213,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "u-blox"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13070,7 +13226,7 @@
 				)
 			)
 		)
-		(property "Manufacturer PN" ""
+		(property "Manufacturer PN" "SAM-M10Q-00B"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14123,7 +14279,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-07127rl/726926"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14162,7 +14318,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14385,7 +14541,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14424,7 +14580,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14647,7 +14803,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14686,7 +14842,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14909,7 +15065,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0805c105k8ractu/411171"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -14948,7 +15104,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15172,7 +15328,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kingbright/apda3020lzgck/5177430"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15211,7 +15367,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15448,7 +15604,7 @@
 				)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kingbright/apbda3020surkcgkc-gx/2757946"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15487,7 +15643,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Kingbright"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15751,7 +15907,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/C1206C475K8RACTU/1090855?s=N4IgTCBcDaIMIEYwAYBscAsB2ArAaQA4AlAQTgBUBVEAXQF8g"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -15793,7 +15949,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16029,7 +16185,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-0710kl/726880"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16071,7 +16227,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -16233,6 +16389,321 @@
 			)
 		)
 	)
+	(footprint "MB-Initials:initials-5mm"
+		(layer "B.Cu")
+		(uuid "08b352d2-adb8-4655-aa1f-9bb6246fa9be")
+		(at 139.4 124.95 180)
+		(property "Reference" "G***"
+			(at 0 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "e2db8390-8274-453d-84d6-ce4cdaf191e8")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "LOGO"
+			(at 0.75 0 0)
+			(layer "B.SilkS")
+			(hide yes)
+			(uuid "11ef2839-80ee-4407-9bf9-96cee2869c8d")
+			(effects
+				(font
+					(size 1.5 1.5)
+					(thickness 0.3)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "MB-Initials:initials-5mm"
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cf526c8e-c41b-4fcb-a394-de046ca136a6")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b7f4f989-c260-4045-baf1-e8b5bb10964d")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "dc83bb40-6be7-40ed-91b7-454c1641d409")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_poly
+			(pts
+				(xy 1.666666 0.655555) (xy 1.655555 0.644444) (xy 1.644444 0.655555) (xy 1.655555 0.666666)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "e993ef87-3a7f-4ef2-bea0-d989dafa3c25")
+		)
+		(fp_poly
+			(pts
+				(xy 1.902594 2.05251) (xy 1.907517 2.019557) (xy 1.906334 2.005632) (xy 1.910496 1.958568) (xy 1.927777 1.942142)
+				(xy 1.97129 1.936897) (xy 1.977585 1.936111) (xy 1.9897 1.914498) (xy 1.99574 1.862657) (xy 1.995677 1.827777)
+				(xy 1.995291 1.761408) (xy 1.997345 1.665102) (xy 2.001442 1.553276) (xy 2.005542 1.469245) (xy 2.010747 1.353647)
+				(xy 2.011076 1.273191) (xy 2.005893 1.218777) (xy 1.994565 1.181308) (xy 1.984158 1.162565) (xy 1.9587 1.089596)
+				(xy 1.952898 0.97796) (xy 1.950731 0.867909) (xy 1.937452 0.736151) (xy 1.912078 0.574047) (xy 1.898683 0.50069)
+				(xy 1.883494 0.445363) (xy 1.86662 0.411056) (xy 1.858958 0.373683) (xy 1.864749 0.358657) (xy 1.872981 0.320519)
+				(xy 1.87552 0.251683) (xy 1.873204 0.165388) (xy 1.86687 0.074874) (xy 1.857355 -0.006619) (xy 1.845497 -0.065852)
+				(xy 1.836591 -0.086576) (xy 1.824741 -0.122016) (xy 1.815088 -0.189442) (xy 1.809215 -0.2764) (xy 1.808351 -0.308798)
+				(xy 1.803507 -0.452706) (xy 1.794111 -0.597157) (xy 1.781128 -0.734319) (xy 1.765522 -0.856365)
+				(xy 1.748258 -0.955463) (xy 1.7303 -1.023783) (xy 1.71706 -1.05) (xy 1.663035 -1.084779) (xy 1.60817 -1.078267)
+				(xy 1.571871 -1.045133) (xy 1.552948 -0.994074) (xy 1.546919 -0.926593) (xy 1.547405 -0.917355)
+				(xy 1.551008 -0.849075) (xy 1.553824 -0.760508) (xy 1.555601 -0.666615) (xy 1.556084 -0.582354)
+				(xy 1.55502 -0.522688) (xy 1.5543 -0.511112) (xy 1.555351 -0.455051) (xy 1.563452 -0.380175) (xy 1.575663 -0.308121)
+				(xy 1.588032 -0.262848) (xy 1.590284 -0.215223) (xy 1.577774 -0.177773) (xy 1.56678 -0.124198) (xy 1.569176 -0.033621)
+				(xy 1.584519 0.088724) (xy 1.612368 0.237604) (xy 1.613236 0.241695) (xy 1.616609 0.27806) (xy 1.596681 0.286578)
+				(xy 1.562238 0.28035) (xy 1.494222 0.264974) (xy 1.446001 0.254162) (xy 1.396993 0.24047) (xy 1.373249 0.230535)
+				(xy 1.344818 0.224505) (xy 1.283108 0.217071) (xy 1.199222 0.209212) (xy 1.104261 0.201904) (xy 1.009329 0.196128)
+				(xy 0.956146 0.193773) (xy 0.91748 0.178216) (xy 0.876808 0.146296) (xy 0.801126 0.053075) (xy 0.757792 -0.049944)
+				(xy 0.740498 -0.173964) (xy 0.728699 -0.277685) (xy 0.703852 -0.348932) (xy 0.68827 -0.3725) (xy 0.66754 -0.404339)
+				(xy 0.654516 -0.442879) (xy 0.647709 -0.498304) (xy 0.645628 -0.5808) (xy 0.646186 -0.660168) (xy 0.646997 -0.764117)
+				(xy 0.644844 -0.833604) (xy 0.637766 -0.878599) (xy 0.623802 -0.909075) (xy 0.600992 -0.935001)
+				(xy 0.590131 -0.945239) (xy 0.530302 -0.986518) (xy 0.475747 -1.000576) (xy 0.436417 -0.987196)
+				(xy 0.422222 -0.948889) (xy 0.412996 -0.898632) (xy 0.39947 -0.875026) (xy 0.383727 -0.834807) (xy 0.376848 -0.762233)
+				(xy 0.378321 -0.668396) (xy 0.387633 -0.564386) (xy 0.404272 -0.461293) (xy 0.421937 -0.388889)
+				(xy 0.438137 -0.320707) (xy 0.451884 -0.242267) (xy 0.453104 -0.233334) (xy 0.462727 -0.174692)
+				(xy 0.479589 -0.086079) (xy 0.501071 0.019142) (xy 0.518436 0.1) (xy 0.542707 0.218859) (xy 0.564557 0.340872)
+				(xy 0.565357 0.346117) (xy 0.948161 0.346117) (xy 0.950632 0.324688) (xy 0.985833 0.31772) (xy 1.01235 0.318339)
+				(xy 1.065334 0.328283) (xy 1.088609 0.347971) (xy 1.088789 0.35) (xy 1.070935 0.370466) (xy 1.029651 0.377323)
+				(xy 0.983643 0.371086) (xy 0.95162 0.352271) (xy 0.948161 0.346117) (xy 0.565357 0.346117) (xy 0.580952 0.448348)
+				(xy 0.587055 0.5) (xy 0.598949 0.595473) (xy 0.617522 0.713162) (xy 0.63936 0.831994) (xy 0.646448 0.866666)
+				(xy 0.668044 0.984329) (xy 0.686144 1.110513) (xy 0.697632 1.222652) (xy 0.699282 1.249315) (xy 0.704978 1.334076)
+				(xy 0.712429 1.402009) (xy 0.720186 1.440465) (xy 0.721515 1.4433) (xy 0.723804 1.475863) (xy 0.708344 1.514984)
+				(xy 0.684806 1.54265) (xy 0.667087 1.544704) (xy 0.640877 1.544259) (xy 0.629423 1.580126) (xy 0.633622 1.646386)
+				(xy 0.643876 1.697633) (xy 0.668385 1.775177) (xy 0.699995 1.820672) (xy 0.729008 1.839469) (xy 0.802647 1.863016)
+				(xy 0.860858 1.85485) (xy 0.905071 1.812609) (xy 0.936716 1.733935) (xy 0.957224 1.616467) (xy 0.968026 1.457846)
+				(xy 0.968478 1.444444) (xy 0.972012 1.353775) (xy 0.976161 1.277965) (xy 0.980189 1.229754) (xy 0.981335 1.222222)
+				(xy 0.983897 1.168695) (xy 0.978777 1.086283) (xy 0.967905 0.989493) (xy 0.953208 0.892833) (xy 0.936617 0.81081)
+				(xy 0.92006 0.757931) (xy 0.919423 0.756622) (xy 0.898846 0.687786) (xy 0.892558 0.606223) (xy 0.893135 0.595083)
+				(xy 0.9 0.5) (xy 1 0.51087) (xy 1.140249 0.519348) (xy 1.281378 0.516214) (xy 1.404351 0.502142)
+				(xy 1.436824 0.495423) (xy 1.529795 0.486939) (xy 1.606922 0.505752) (xy 1.658566 0.548364) (xy 1.67269 0.581001)
+				(xy 1.677358 0.630444) (xy 1.677381 0.706208) (xy 1.673693 0.777777) (xy 1.66691 0.870459) (xy 1.664064 0.935032)
+				(xy 1.665769 0.987705) (xy 1.67264 1.044689) (xy 1.685291 1.122194) (xy 1.687175 1.133333) (xy 1.702464 1.233847)
+				(xy 1.715893 1.339237) (xy 1.722126 1.4) (xy 1.727724 1.468715) (xy 1.734612 1.558433) (xy 1.741789 1.655451)
+				(xy 1.748253 1.746062) (xy 1.753005 1.816564) (xy 1.754863 1.848412) (xy 1.769434 1.874062) (xy 1.794444 1.902471)
+				(xy 1.825757 1.941561) (xy 1.836325 1.96517) (xy 1.841438 2.009977) (xy 1.841881 2.014289) (xy 1.862246 2.043646)
+				(xy 1.878556 2.052779)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "4960d084-ea16-4f58-b6ef-ed1b48269d6d")
+		)
+		(fp_poly
+			(pts
+				(xy 3.578101 1.83626) (xy 3.61765 1.825353) (xy 3.638891 1.801344) (xy 3.64557 1.785926) (xy 3.670867 1.744658)
+				(xy 3.693894 1.730043) (xy 3.742236 1.724908) (xy 3.755555 1.723615) (xy 3.814633 1.704729) (xy 3.886157 1.663164)
+				(xy 3.959737 1.607618) (xy 4.024979 1.546788) (xy 4.071492 1.489372) (xy 4.088888 1.444652) (xy 4.080882 1.390485)
+				(xy 4.060238 1.318185) (xy 4.032016 1.240729) (xy 4.001277 1.171098) (xy 3.973082 1.122271) (xy 3.957365 1.107342)
+				(xy 3.940273 1.082436) (xy 3.926925 1.032607) (xy 3.926756 1.031526) (xy 3.888232 0.915452) (xy 3.823476 0.815719)
+				(xy 3.794165 0.767206) (xy 3.766536 0.703484) (xy 3.764983 0.699052) (xy 3.73857 0.622222) (xy 3.824207 0.622222)
+				(xy 3.912653 0.610096) (xy 4.008073 0.578208) (xy 4.096157 0.533291) (xy 4.162594 0.482077) (xy 4.185519 0.452232)
+				(xy 4.272629 0.275945) (xy 4.327519 0.124787) (xy 4.351542 -0.005234) (xy 4.352933 -0.042058) (xy 4.347115 -0.107842)
+				(xy 4.324675 -0.164384) (xy 4.277953 -0.229672) (xy 4.267773 -0.242058) (xy 4.218279 -0.307516)
+				(xy 4.1803 -0.36842) (xy 4.166116 -0.4) (xy 4.141692 -0.441357) (xy 4.090861 -0.502838) (xy 4.021649 -0.576468)
+				(xy 3.942084 -0.654275) (xy 3.860195 -0.728284) (xy 3.784007 -0.790521) (xy 3.744444 -0.818848)
+				(xy 3.683609 -0.862181) (xy 3.634709 -0.902162) (xy 3.622222 -0.914407) (xy 3.57909 -0.950719) (xy 3.511556 -0.995945)
+				(xy 3.431495 -1.043442) (xy 3.35078 -1.086563) (xy 3.281288 -1.118664) (xy 3.234892 -1.1331) (xy 3.230998 -1.133334)
+				(xy 3.177364 -1.136572) (xy 3.151817 -1.140803) (xy 3.134548 -1.142466) (xy 3.138888 -1.138951)
+				(xy 3.154568 -1.11263) (xy 3.150328 -1.080172) (xy 3.13185 -1.066667) (xy 3.100123 -1.079028) (xy 3.050976 -1.109708)
+				(xy 3.037406 -1.119542) (xy 2.957943 -1.171501) (xy 2.876953 -1.212248) (xy 2.804916 -1.237734)
+				(xy 2.75231 -1.243907) (xy 2.734437 -1.23666) (xy 2.69648 -1.213597) (xy 2.682222 -1.210924) (xy 2.666139 -1.192496)
+				(xy 2.661153 -1.135494) (xy 2.662842 -1.088659) (xy 2.664568 -1.014349) (xy 2.655547 -0.968034)
+				(xy 2.631253 -0.9337) (xy 2.614712 -0.918397) (xy 2.580842 -0.881762) (xy 2.57232 -0.856975) (xy 2.857427 -0.856975)
+				(xy 2.875387 -0.880266) (xy 2.925507 -0.882644) (xy 3.004491 -0.864534) (xy 3.109042 -0.826358)
+				(xy 3.235863 -0.768542) (xy 3.24298 -0.765018) (xy 3.334048 -0.716776) (xy 3.415081 -0.668494) (xy 3.473991 -0.627609)
+				(xy 3.491593 -0.612034) (xy 3.531795 -0.574368) (xy 3.559929 -0.556221) (xy 3.56179 -0.55594) (xy 3.585729 -0.540399)
+				(xy 3.625775 -0.501676) (xy 3.644588 -0.481009) (xy 3.706987 -0.418814) (xy 3.776492 -0.361507)
+				(xy 3.788202 -0.353231) (xy 3.836379 -0.317146) (xy 3.863982 -0.290131) (xy 3.866514 -0.28457) (xy 3.880451 -0.260738)
+				(xy 3.915952 -0.216583) (xy 3.944399 -0.18457) (xy 3.995795 -0.119245) (xy 4.035941 -0.051777) (xy 4.046601 -0.02633)
+				(xy 4.057158 0.028465) (xy 4.058681 0.090563) (xy 4.05253 0.146798) (xy 4.040067 0.184004) (xy 4.024221 0.190124)
+				(xy 3.999671 0.197971) (xy 3.960448 0.231143) (xy 3.947395 0.245062) (xy 3.914269 0.286082) (xy 3.902225 0.309219)
+				(xy 3.904273 0.311111) (xy 3.906522 0.322757) (xy 3.898888 0.331796) (xy 3.863185 0.346476) (xy 3.798381 0.358268)
+				(xy 3.719784 0.365972) (xy 3.642707 0.368387) (xy 3.582459 0.364314) (xy 3.560817 0.358288) (xy 3.514238 0.338714)
+				(xy 3.450153 0.316058) (xy 3.439799 0.31273) (xy 3.355831 0.301022) (xy 3.295521 0.323678) (xy 3.2633 0.377897)
+				(xy 3.2594 0.426692) (xy 3.262648 0.49078) (xy 3.264956 0.539834) (xy 3.283336 0.584149) (xy 3.329076 0.643469)
+				(xy 3.39241 0.708364) (xy 3.463575 0.769403) (xy 3.532804 0.817156) (xy 3.572329 0.836677) (xy 3.629326 0.861866)
+				(xy 3.649822 0.882479) (xy 3.641887 0.903081) (xy 3.629588 0.943516) (xy 3.638659 0.961111) (xy 3.658627 0.998309)
+				(xy 3.680497 1.0647) (xy 3.701268 1.144444) (xy 3.724482 1.214031) (xy 3.752817 1.264277) (xy 3.779609 1.283751)
+				(xy 3.782317 1.283496) (xy 3.806635 1.297543) (xy 3.817679 1.327742) (xy 3.811839 1.369567) (xy 3.772074 1.397404)
+				(xy 3.762651 1.401115) (xy 3.701908 1.42601) (xy 3.628579 1.458875) (xy 3.60965 1.467817) (xy 3.551302 1.494023)
+				(xy 3.509963 1.509411) (xy 3.50148 1.511111) (xy 3.476081 1.496981) (xy 3.435347 1.461809) (xy 3.389757 1.416417)
+				(xy 3.34979 1.371628) (xy 3.325925 1.338268) (xy 3.324026 1.327825) (xy 3.335143 1.298774) (xy 3.342759 1.247936)
+				(xy 3.345852 1.192205) (xy 3.343399 1.148474) (xy 3.335804 1.133333) (xy 3.321372 1.11361) (xy 3.29944 1.061309)
+				(xy 3.274194 0.986734) (xy 3.26818 0.966913) (xy 3.242408 0.886566) (xy 3.218763 0.824048) (xy 3.201614 0.790672)
+				(xy 3.199228 0.788412) (xy 3.185283 0.759523) (xy 3.18131 0.715943) (xy 3.17663 0.662971) (xy 3.162813 0.585331)
+				(xy 3.145639 0.511111) (xy 3.123289 0.406964) (xy 3.104577 0.28908) (xy 3.096071 0.211238) (xy 3.085563 0.126268)
+				(xy 3.069928 0.054315) (xy 3.053013 0.011849) (xy 3.029051 -0.044779) (xy 3.022222 -0.092079) (xy 3.017278 -0.141385)
+				(xy 3.004146 -0.219225) (xy 2.98537 -0.311004) (xy 2.979466 -0.337135) (xy 2.956865 -0.441768) (xy 2.936543 -0.547683)
+				(xy 2.922435 -0.634179) (xy 2.921135 -0.643907) (xy 2.906774 -0.72159) (xy 2.887088 -0.787096) (xy 2.874924 -0.812347)
+				(xy 2.857427 -0.856975) (xy 2.57232 -0.856975) (xy 2.566088 -0.838851) (xy 2.565099 -0.772225) (xy 2.565811 -0.759029)
+				(xy 2.584285 -0.656231) (xy 2.619498 -0.581604) (xy 2.650798 -0.531755) (xy 2.666303 -0.495511)
+				(xy 2.666666 -0.492119) (xy 2.683732 -0.462859) (xy 2.685313 -0.461682) (xy 2.756214 -0.461682)
+				(xy 2.774174 -0.466238) (xy 2.779629 -0.466327) (xy 2.819493 -0.458398) (xy 2.829436 -0.452045)
+				(xy 2.830285 -0.426177) (xy 2.807187 -0.395713) (xy 2.774583 -0.378463) (xy 2.769501 -0.378118)
+				(xy 2.763118 -0.387581) (xy 2.777777 -0.400341) (xy 2.799938 -0.421259) (xy 2.782224 -0.44114) (xy 2.777777 -0.444105)
+				(xy 2.756214 -0.461682) (xy 2.685313 -0.461682) (xy 2.702853 -0.448624) (xy 2.724615 -0.426484)
+				(xy 2.713904 -0.412838) (xy 2.700238 -0.385869) (xy 2.711832 -0.354207) (xy 2.722021 -0.294649)
+				(xy 2.713475 -0.271086) (xy 2.705947 -0.225997) (xy 2.724681 -0.159356) (xy 2.734916 -0.135326)
+				(xy 2.766001 -0.031931) (xy 2.777775 0.0856) (xy 2.777777 0.087068) (xy 2.78427 0.177281) (xy 2.801974 0.242438)
+				(xy 2.810404 0.256863) (xy 2.832099 0.307052) (xy 2.843737 0.37545) (xy 2.844267 0.388888) (xy 2.852336 0.49142)
+				(xy 2.871488 0.58243) (xy 2.898487 0.649454) (xy 2.918245 0.673892) (xy 2.942222 0.711717) (xy 2.959852 0.772681)
+				(xy 2.962294 0.788888) (xy 2.975811 0.873484) (xy 2.994249 0.959972) (xy 2.99594 0.966666) (xy 3.011186 1.034156)
+				(xy 3.029201 1.125801) (xy 3.046095 1.221813) (xy 3.046162 1.222222) (xy 3.061684 1.305186) (xy 3.077571 1.371241)
+				(xy 3.090731 1.407805) (xy 3.092307 1.41) (xy 3.109659 1.450069) (xy 3.111111 1.464543) (xy 3.120002 1.501499)
+				(xy 3.143098 1.563646) (xy 3.169385 1.624201) (xy 3.234059 1.731156) (xy 3.314845 1.799251) (xy 3.419086 1.833155)
+				(xy 3.507232 1.839063)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "13769812-755b-41df-a54d-87b6894f8e29")
+		)
+		(fp_poly
+			(pts
+				(xy -2.124709 2.07013) (xy -2.067224 2.021372) (xy -2.010562 1.953892) (xy -1.963375 1.878965) (xy -1.934313 1.807868)
+				(xy -1.929229 1.769377) (xy -1.921242 1.704486) (xy -1.898287 1.629214) (xy -1.890209 1.610315)
+				(xy -1.864643 1.531886) (xy -1.842626 1.420216) (xy -1.825506 1.286452) (xy -1.81463 1.141742) (xy -1.811344 0.997235)
+				(xy -1.811877 0.962034) (xy -1.81107 0.879838) (xy -1.804988 0.822719) (xy -1.794666 0.80006) (xy -1.79403 0.8)
+				(xy -1.786108 0.787274) (xy -1.796349 0.771065) (xy -1.807774 0.736462) (xy -1.806872 0.69047) (xy -1.795763 0.653687)
+				(xy -1.783328 0.644444) (xy -1.757127 0.661605) (xy -1.718188 0.704856) (xy -1.676085 0.761855)
+				(xy -1.640396 0.820256) (xy -1.629272 0.843032) (xy -1.591562 0.91495) (xy -1.545359 0.985667) (xy -1.542415 0.989574)
+				(xy -1.507738 1.04386) (xy -1.489641 1.08941) (xy -1.488889 1.096542) (xy -1.477883 1.128269) (xy -1.466667 1.133333)
+				(xy -1.446121 1.150937) (xy -1.444445 1.161728) (xy -1.429237 1.197826) (xy -1.405556 1.224935)
+				(xy -1.362416 1.27156) (xy -1.333334 1.310643) (xy -1.302087 1.354458) (xy -1.25382 1.418005) (xy -1.205556 1.47927)
+				(xy -1.157973 1.540864) (xy -1.124041 1.589135) (xy -1.111112 1.613618) (xy -1.097515 1.650337)
+				(xy -1.062084 1.709193) (xy -1.012859 1.779419) (xy -0.957879 1.850245) (xy -0.905183 1.910902)
+				(xy -0.862812 1.950622) (xy -0.856096 1.955222) (xy -0.787124 1.984772) (xy -0.70691 2.000336) (xy -0.628132 2.0019)
+				(xy -0.563471 1.989452) (xy -0.525608 1.962978) (xy -0.522223 1.955555) (xy -0.489602 1.918239)
+				(xy -0.453277 1.911111) (xy -0.415332 1.906124) (xy -0.413399 1.884564) (xy -0.420401 1.870071)
+				(xy -0.429437 1.823337) (xy -0.417913 1.804578) (xy -0.405457 1.769869) (xy -0.395285 1.697313)
+				(xy -0.387365 1.593452) (xy -0.381665 1.464824) (xy -0.378154 1.317967) (xy -0.376801 1.159422)
+				(xy -0.377573 0.995726) (xy -0.380439 0.833418) (xy -0.385368 0.679039) (xy -0.392328 0.539126)
+				(xy -0.401288 0.420219) (xy -0.412216 0.328857) (xy -0.42508 0.271578) (xy -0.42531 0.270952) (xy -0.433183 0.236915)
+				(xy -0.425505 0.231305) (xy -0.402711 0.223072) (xy -0.378943 0.191064) (xy -0.364034 0.147278)
+				(xy -0.364194 0.089993) (xy -0.376915 0.015271) (xy -0.391912 -0.080445) (xy -0.401554 -0.190812)
+				(xy -0.406001 -0.306858) (xy -0.405414 -0.41961) (xy -0.399954 -0.520097) (xy -0.389782 -0.599347)
+				(xy -0.375058 -0.64839) (xy -0.364815 -0.659342) (xy -0.342394 -0.68842) (xy -0.33395 -0.740153)
+				(xy -0.341289 -0.794447) (xy -0.350793 -0.815277) (xy -0.395624 -0.85072) (xy -0.46623 -0.871701)
+				(xy -0.544936 -0.873114) (xy -0.549001 -0.872544) (xy -0.601819 -0.852333) (xy -0.648937 -0.8151)
+				(xy -0.678873 -0.772746) (xy -0.680143 -0.737165) (xy -0.67996 -0.736864) (xy -0.674775 -0.709958)
+				(xy -0.668684 -0.643925) (xy -0.661625 -0.53773) (xy -0.653537 -0.390334) (xy -0.644359 -0.200701)
+				(xy -0.63403 0.032206) (xy -0.632801 0.060984) (xy -0.627514 0.148711) (xy -0.620358 0.219932) (xy -0.612647 0.262446)
+				(xy -0.610503 0.267651) (xy -0.601979 0.299281) (xy -0.591713 0.363488) (xy -0.581468 0.448544)
+				(xy -0.577897 0.484444) (xy -0.570156 0.616548) (xy -0.575618 0.725833) (xy -0.592011 0.818908)
+				(xy -0.605529 0.897216) (xy -0.618393 1.005539) (xy -0.629133 1.129452) (xy -0.636185 1.252241)
+				(xy -0.642173 1.399893) (xy -0.646906 1.508877) (xy -0.651257 1.584917) (xy -0.6561 1.633737) (xy -0.662311 1.661064)
+				(xy -0.670764 1.672622) (xy -0.682333 1.674136) (xy -0.697893 1.67133) (xy -0.700145 1.670963) (xy -0.747082 1.649331)
+				(xy -0.785023 1.615408) (xy -0.832645 1.558627) (xy -0.866727 1.518371) (xy -0.911071 1.461679)
+				(xy -0.94526 1.412986) (xy -0.982657 1.364346) (xy -1.037179 1.302699) (xy -1.071555 1.267007) (xy -1.120077 1.211301)
+				(xy -1.146565 1.165917) (xy -1.148521 1.147053) (xy -1.153061 1.108667) (xy -1.174973 1.074659)
+				(xy -1.223725 1.015758) (xy -1.281468 0.936388) (xy -1.342314 0.845907) (xy -1.400373 0.753672)
+				(xy -1.449758 0.669042) (xy -1.484579 0.601373) (xy -1.498949 0.560023) (xy -1.498967 0.559802)
+				(xy -1.516232 0.491786) (xy -1.541715 0.442212) (xy -1.579281 0.387319) (xy -1.622566 0.321783)
+				(xy -1.629093 0.311682) (xy -1.675673 0.253175) (xy -1.72668 0.208106) (xy -1.735374 0.20271) (xy -1.799921 0.183397)
+				(xy -1.864152 0.189889) (xy -1.912376 0.21869) (xy -1.92716 0.245456) (xy -1.952369 0.281059) (xy -1.975579 0.288888)
+				(xy -1.99331 0.294378) (xy -2.004117 0.316278) (xy -2.009409 0.362733) (xy -2.010598 0.441889) (xy -2.010191 0.488691)
+				(xy -2.011041 0.595417) (xy -2.017749 0.668865) (xy -2.031877 0.719991) (xy -2.047272 0.748754)
+				(xy -2.074293 0.812323) (xy -2.075392 0.891294) (xy -2.07387 0.903376) (xy -2.077062 1.021832) (xy -2.094334 1.082202)
+				(xy -2.111747 1.149763) (xy -2.12481 1.246691) (xy -2.131547 1.357971) (xy -2.131746 1.366666) (xy -2.135582 1.457692)
+				(xy -2.142442 1.531822) (xy -2.151121 1.5778) (xy -2.155276 1.586284) (xy -2.189312 1.597583) (xy -2.2297 1.568547)
+				(xy -2.276971 1.498375) (xy -2.331654 1.386264) (xy -2.394279 1.231411) (xy -2.400626 1.214539)
+				(xy -2.428278 1.148133) (xy -2.452609 1.102592) (xy -2.46609 1.088888) (xy -2.485087 1.070164) (xy -2.506932 1.024448)
+				(xy -2.509215 1.018109) (xy -2.535659 0.957775) (xy -2.564353 0.912554) (xy -2.58747 0.874183) (xy -2.617588 0.808553)
+				(xy -2.64508 0.738206) (xy -2.673343 0.665478) (xy -2.698421 0.610897) (xy -2.714338 0.586894) (xy -2.731709 0.556817)
+				(xy -2.733334 0.542731) (xy -2.74432 0.509082) (xy -2.773359 0.449799) (xy -2.814575 0.376702) (xy -2.822223 0.363994)
+				(xy -2.864421 0.293321) (xy -2.895773 0.2385) (xy -2.91062 0.209487) (xy -2.911112 0.20762) (xy -2.920458 0.175726)
+				(xy -2.943427 0.124441) (xy -2.972414 0.068369) (xy -2.999815 0.022115) (xy -3.018023 0.000285)
+				(xy -3.019221 0) (xy -3.036727 -0.019022) (xy -3.058803 -0.066669) (xy -3.066285 -0.08773) (xy -3.091261 -0.145518)
+				(xy -3.118178 -0.182441) (xy -3.125397 -0.187032) (xy -3.146548 -0.215826) (xy -3.155534 -0.271251)
+				(xy -3.155556 -0.27436) (xy -3.165566 -0.335721) (xy -3.190011 -0.378686) (xy -3.190909 -0.379454)
+				(xy -3.214953 -0.41094) (xy -3.25197 -0.472466) (xy -3.296962 -0.554203) (xy -3.344933 -0.646323)
+				(xy -3.390886 -0.738997) (xy -3.429824 -0.822397) (xy -3.456749 -0.886693) (xy -3.466667 -0.921852)
+				(xy -3.478552 -0.951662) (xy -3.488889 -0.955556) (xy -3.509302 -0.97323) (xy -3.511112 -0.98473)
+				(xy -3.521749 -1.029093) (xy -3.548566 -1.092022) (xy -3.583919 -1.159246) (xy -3.620165 -1.216489)
+				(xy -3.649661 -1.249481) (xy -3.654213 -1.251966) (xy -3.684557 -1.278665) (xy -3.688889 -1.294364)
+				(xy -3.704422 -1.329715) (xy -3.733334 -1.361511) (xy -3.767386 -1.405732) (xy -3.777778 -1.441506)
+				(xy -3.793927 -1.490806) (xy -3.811112 -1.511112) (xy -3.839156 -1.54519) (xy -3.844445 -1.562203)
+				(xy -3.858809 -1.60439) (xy -3.896524 -1.667665) (xy -3.94952 -1.741681) (xy -4.00973 -1.816091)
+				(xy -4.069085 -1.880548) (xy -4.119516 -1.924705) (xy -4.134176 -1.933763) (xy -4.187343 -1.957688)
+				(xy -4.221646 -1.967169) (xy -4.226546 -1.966047) (xy -4.262026 -1.954503) (xy -4.324846 -1.952173)
+				(xy -4.399109 -1.957973) (xy -4.468919 -1.97082) (xy -4.510845 -1.985426) (xy -4.571466 -2.013308)
+				(xy -4.605169 -2.019295) (xy -4.623607 -2.003573) (xy -4.630846 -1.987359) (xy -4.632454 -1.973274)
+				(xy -4.62516 -1.953878) (xy -4.605476 -1.925168) (xy -4.569916 -1.883143) (xy -4.564951 -1.877778)
+				(xy -4.288889 -1.877778) (xy -4.277778 -1.888889) (xy -4.266667 -1.877778) (xy -4.277778 -1.866667)
+				(xy -4.288889 -1.877778) (xy -4.564951 -1.877778) (xy -4.514994 -1.823802) (xy -4.437222 -1.743142)
+				(xy -4.333114 -1.637164) (xy -4.2707 -1.574041) (xy -4.179751 -1.480396) (xy -4.114235 -1.407772)
+				(xy -4.066852 -1.347129) (xy -4.030298 -1.289426) (xy -4.009755 -1.250929) (xy -3.966133 -1.173927)
+				(xy -3.918626 -1.103608) (xy -3.893685 -1.073073) (xy -3.854792 -1.018569) (xy -3.834633 -0.966066)
+				(xy -3.834003 -0.959812) (xy -3.821346 -0.912316) (xy -3.804245 -0.891512) (xy -3.777616 -0.857212)
+				(xy -3.767841 -0.828318) (xy -3.749697 -0.771257) (xy -3.719822 -0.707563) (xy -3.687415 -0.654987)
+				(xy -3.666825 -0.633431) (xy -3.65057 -0.603249) (xy -3.644445 -0.555556) (xy -3.63746 -0.504727)
+				(xy -3.622223 -0.477778) (xy -3.603147 -0.446241) (xy -3.6 -0.423632) (xy -3.583914 -0.375652) (xy -3.566912 -0.355759)
+				(xy -3.544919 -0.32446) (xy -3.546001 -0.308594) (xy -3.545155 -0.28968) (xy -3.540201 -0.288634)
+				(xy -3.521022 -0.270142) (xy -3.492885 -0.223545) (xy -3.478305 -0.19419) (xy -3.4326 -0.103899)
+				(xy -3.375912 -0.003015) (xy -3.315726 0.096177) (xy -3.259527 0.181389) (xy -3.214798 0.240335)
+				(xy -3.211123 0.244444) (xy -3.173038 0.295561) (xy -3.128821 0.368399) (xy -3.100505 0.422222)
+				(xy -3.064999 0.494377) (xy -3.034903 0.554671) (xy -3.020388 0.583031) (xy -3.004591 0.634984)
+				(xy -3 0.681282) (xy -2.988882 0.739922) (xy -2.969374 0.776028) (xy -2.939843 0.817944) (xy -2.903202 0.880465)
+				(xy -2.866667 0.949753) (xy -2.837456 1.011969) (xy -2.822783 1.053277) (xy -2.822223 1.058213)
+				(xy -2.806774 1.092302) (xy -2.788889 1.111111) (xy -2.76063 1.149361) (xy -2.755556 1.170169) (xy -2.744033 1.210204)
+				(xy -2.71748 1.259674) (xy -2.688704 1.311174) (xy -2.674716 1.34973) (xy -2.656772 1.391036) (xy -2.635014 1.420365)
+				(xy -2.607471 1.458083) (xy -2.6 1.478005) (xy -2.590551 1.507606) (xy -2.565572 1.56508) (xy -2.530122 1.640318)
+				(xy -2.489257 1.723208) (xy -2.448033 1.803642) (xy -2.411508 1.87151) (xy -2.384739 1.916701) (xy -2.374108 1.929629)
+				(xy -2.358418 1.955068) (xy -2.355556 1.978002) (xy -2.336362 2.014548) (xy -2.288844 2.051349)
+				(xy -2.228096 2.079167) (xy -2.174364 2.088889)
+			)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.SilkS")
+			(uuid "0317cc75-277e-47f7-b81a-8ee9b46b35e5")
+		)
+	)
 	(footprint "MB-Conn:GCT_USB4110GFA"
 		(layer "B.Cu")
 		(uuid "0be0a880-61be-45af-9e46-bb899dd13299")
@@ -16287,7 +16758,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "USB4110-GF-A"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -16418,6 +16889,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "679da2d2-30b3-4d4a-b9bb-7cfac104baea")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/gct/usb4110-gf-a/10384547"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c0c9187c-680c-493a-a7b6-f475cd2068fe")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "GCT"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3e91e42c-b05e-4f66-8776-d7dcbec64ea0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "USB4110-GF-A"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "09958e02-73e6-4a4d-9d2b-fab5ff57d0bd")
 			(effects
 				(font
 					(size 1 1)
@@ -16812,7 +17325,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" "ST-025BH"
+		(property "Datasheet" ""
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16825,7 +17338,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "ST-025BH"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -16833,6 +17346,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/soberton-inc/st-025bh/3065215"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "34fcab7f-9da4-4b1e-a5e0-ac725db8f944")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Soberton Inc."
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ed817543-6491-43d1-b8e7-7006965f3eb5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "ST-025BH"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "f97e999f-6056-419c-8101-b9bde052ee05")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -17213,7 +17768,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-074k12l/727204"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17255,7 +17810,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -17471,7 +18026,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "S2B-PH-SM4-TB"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -17588,6 +18143,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6c75648e-4a2f-49b6-885c-731c5d4b89e1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/jst-sales-america-inc/s2b-ph-sm4-tb/926655"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "cadbd62f-a564-4dfc-a323-17d6eb5d9a11")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "JST Sales America Inc."
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "eabd2d2d-1598-4513-8b53-27cf855c0221")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "S2B-PH-SM4-TB"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "497ceb1c-78b8-4800-b12b-b7c199f435e8")
 			(effects
 				(font
 					(size 1 1)
@@ -17837,7 +18434,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "500ASSP1SM6QE"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -17845,6 +18442,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/500assp1sm6qe/4027902"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "b2a3aefd-adea-48eb-bfbd-b58a94af36f8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "623b0477-d2e3-47c8-a55d-0b27534c4fdb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "500ASSP1SM6QE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "bba0ae24-2d3e-4134-b4ac-3a2c2cfc9635")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -18238,7 +18877,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/onsemi/mmsd4148t1g/919705"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18280,7 +18919,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "onsemi"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18529,7 +19168,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0805c105k8ractu/411171"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18571,7 +19210,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18807,7 +19446,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/murata-electronics/ncu18xh103f6srb/7243451"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -18849,7 +19488,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Murata Electronics"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19083,7 +19722,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/analog-devices-inc/ltc1733emse-trpbf/961156"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19125,7 +19764,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "Analog Devices Inc."
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19478,7 +20117,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/onsemi/mmbt3904lt1g/919601"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19520,7 +20159,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "onsemi"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19902,7 +20541,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071k5l/726864"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -19944,7 +20583,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20181,7 +20820,7 @@
 		(path "/ec057c75-758f-4668-a87b-270d19d4b1dc")
 		(sheetname "Root")
 		(sheetfile "GF24.kicad_sch")
-		(attr exclude_from_pos_files exclude_from_bom)
+		(attr exclude_from_pos_files exclude_from_bom dnp)
 		(fp_line
 			(start -1.905 -0.635)
 			(end -1.905 -1.27)
@@ -20451,7 +21090,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "0533980671"
 			(at 0 0 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -20610,6 +21249,48 @@
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "d81020ea-3c5a-40fb-984a-69c041dc5963")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/molex/0533980671/699070"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ac8c6bb2-1663-4b22-b620-2f689385d51d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "Molex"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "946df90b-7d12-4bb7-a6be-4d35160744f2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "0533980671"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8b23a947-ee5c-4d08-94bc-75195909cca3")
 			(effects
 				(font
 					(size 1 1)
@@ -20938,7 +21619,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0805c105k8ractu/411171"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -20980,7 +21661,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21216,7 +21897,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-071kl/726843"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21258,7 +21939,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21474,7 +22155,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "500ASSP1SM6QE"
 			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -21482,6 +22163,48 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/e-switch/500assp1sm6qe/4027902"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "1bbeead1-77b1-402d-8828-14121d52cc0d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer" "E-Switch"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "35420885-fe06-4ee3-b0b4-c222bd0e39e0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Manufacturer PN" "500ASSP1SM6QE"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "83e76688-f993-4fda-9158-66188c8366e0")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -21847,7 +22570,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-07180rl/726994"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -21889,7 +22612,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "YAGEO"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22123,7 +22846,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Distributor Link" ""
+		(property "Distributor Link" "https://www.digikey.com/en/products/detail/kemet/c0603c104k8ractu/411094"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22165,7 +22888,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Manufacturer" ""
+		(property "Manufacturer" "KEMET"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -22328,6 +23051,176 @@
 				(xyz 0 0 0)
 			)
 		)
+	)
+	(gr_line
+		(start 122.4 110.15)
+		(end 121.95 110.15)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "1fd6f4ac-5b44-4132-ba42-03542d0ad7d8")
+	)
+	(gr_line
+		(start 124.5 103.95)
+		(end 124.5 104.45)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "3b20c7d4-a63b-45b9-b95f-e3a30b5fb224")
+	)
+	(gr_line
+		(start 142.6 111.65)
+		(end 143.85 111.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "44fd449e-dc45-4f25-8aa5-9fdd56e67553")
+	)
+	(gr_line
+		(start 137.7 113.8)
+		(end 137.8 113.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "04a80c47-4e10-4d6d-9893-9d05cf4a5b18")
+	)
+	(gr_line
+		(start 129.3 109.05)
+		(end 129.3 108.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0ab9177d-1211-4ce9-9f37-b59bf5f1cad9")
+	)
+	(gr_line
+		(start 125.4 118.2)
+		(end 125.6 118)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0e185951-5678-4087-a60f-d08b8f792d7b")
+	)
+	(gr_line
+		(start 134.6 108.8)
+		(end 134.85 108.8)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16346d2b-2e6e-4e71-b3cc-ab2e56bdf8c3")
+	)
+	(gr_line
+		(start 138.75 118.8)
+		(end 138.35 119.2)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "16e910da-0190-4b5a-b91a-50f267dbc191")
+	)
+	(gr_line
+		(start 116.7 106.1)
+		(end 116.3 106.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "1eb3d170-9b75-43b5-a036-2eff4c02cb6b")
+	)
+	(gr_line
+		(start 136.55 121.3)
+		(end 136.75 121.3)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "359b5989-326d-491b-8321-01b8114394a3")
+	)
+	(gr_line
+		(start 124.75 117.55)
+		(end 124.95 117.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "4c9bc71e-ff96-496e-9118-7ab55a5b93bd")
+	)
+	(gr_line
+		(start 136.5 111.85)
+		(end 136.5 111.65)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "57a85f2f-6b10-4fa3-8239-423a0ea0c270")
+	)
+	(gr_line
+		(start 128.2 120.15)
+		(end 128.5 119.85)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7088fff6-0fd5-4175-8793-fa01c33c2f95")
+	)
+	(gr_line
+		(start 126.85 119.5)
+		(end 127 119.35)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "7fb9830b-e24b-4ee9-843b-7e6c38a1dfb8")
+	)
+	(gr_line
+		(start 129.75 109.05)
+		(end 129.75 108.4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9d4ba6a3-9685-4765-83c8-9181b61b2bb2")
+	)
+	(gr_line
+		(start 130.5 122.6)
+		(end 130.5 122.25)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "bc210189-e86a-4186-acdd-ea2900353ffc")
+	)
+	(gr_line
+		(start 137.7 112.95)
+		(end 137.85 112.95)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ec3ed796-0fb9-46ea-bd04-36da7a06f32f")
 	)
 	(gr_circle
 		(center 114 128)
@@ -22668,6 +23561,334 @@
 		(fill none)
 		(layer "Edge.Cuts")
 		(uuid "efacf487-1564-4323-a9ed-22ab83111e5d")
+	)
+	(gr_text "VBUS"
+		(at 142.65 112.5 0)
+		(layer "B.SilkS" knockout)
+		(uuid "0b697f85-a30e-422a-8ad7-c9634aea3019")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "PWR"
+		(at 117.35 95 90)
+		(layer "B.SilkS" knockout)
+		(uuid "3069fd69-c786-4d9c-8192-3acd92d8dd73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "MODE"
+		(at 134.7 94.4 90)
+		(layer "B.SilkS" knockout)
+		(uuid "36b1a397-4c75-4bb2-9c7a-4a7d22536dca")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "BAT+"
+		(at 126.15 110.55 0)
+		(layer "B.SilkS" knockout)
+		(uuid "5c68acc4-09d3-4f95-8699-aade78cb0d38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "TC"
+		(at 143.55 120.85 0)
+		(layer "B.SilkS" knockout)
+		(uuid "6056c85a-447a-445a-9789-b4c581c408f5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "BAT+"
+		(at 126.1 104 0)
+		(layer "B.SilkS" knockout)
+		(uuid "d7f67f4f-0f09-4e65-a39c-b44a6e2c8b17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom mirror)
+		)
+	)
+	(gr_text "RESET"
+		(at 112.8 111.9 270)
+		(layer "F.SilkS" knockout)
+		(uuid "0b5a8de7-f879-4fbd-ba7b-8e524fa81f90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NRST"
+		(at 116.5 106.7 0)
+		(layer "F.SilkS" knockout)
+		(uuid "26b122ef-e391-40f2-ac23-61d0ef0df48d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWIO"
+		(at 136.3 111.65 0)
+		(layer "F.SilkS" knockout)
+		(uuid "2c40ca53-e16b-4981-a70d-fb4dae109be4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BOOT"
+		(at 126 99.7 -90)
+		(layer "F.SilkS" knockout)
+		(uuid "469ffe03-7ce0-433c-82ed-eaa2a1f69b84")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 122.7 110.3 45)
+		(layer "F.SilkS")
+		(uuid "4863538b-ab3f-47c0-982b-2107c65b5684")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "GeoFence\nRev. 1"
+		(at 141.15 129.25 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6adf5efa-4677-40a3-8f1b-62000d829102")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "MOD"
+		(at 137.65 114.65 0)
+		(layer "F.SilkS" knockout)
+		(uuid "6fb34f67-1d84-4719-ac78-66ad2f394f0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "STRX"
+		(at 123.35 121.25 45)
+		(layer "F.SilkS" knockout)
+		(uuid "715e6d4e-bad0-4867-aa2c-ba386abdf000")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 125.45 107.75 45)
+		(layer "F.SilkS")
+		(uuid "7b700e59-5d96-4f60-a14f-07a26900cae5")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SWCK"
+		(at 134.7 109.65 0)
+		(layer "F.SilkS" knockout)
+		(uuid "8e5a2155-9d38-406e-87d0-ac803a6d5bf9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "PLEDS"
+		(at 130.3 108.1 135)
+		(layer "F.SilkS" knockout)
+		(uuid "9b6ab4df-43de-44b9-ad5b-9bf47200bfb7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "STTX"
+		(at 124.85 122.35 45)
+		(layer "F.SilkS" knockout)
+		(uuid "b3e85e87-50b0-4ae4-b45a-ab0012063820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "ACTION"
+		(at 146.25 94.9 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b531ae0e-1106-4334-8b03-2afd3e1c54c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SDA"
+		(at 138.9 119.3 45)
+		(layer "F.SilkS" knockout)
+		(uuid "ba43fd8e-1a64-4e4b-9862-8459570d1815")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "-"
+		(at 134 119.25 -135)
+		(layer "F.SilkS")
+		(uuid "c26dd2cb-9cae-4c75-aaa7-8140918af4f0")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "+"
+		(at 137.1 114 -135)
+		(layer "F.SilkS")
+		(uuid "c2dac380-8483-46e9-9903-6abb67938fc8")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BUZZ"
+		(at 126.85 123.85 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cb2755d4-3364-4e81-9d75-95237d4873da")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "SCL"
+		(at 133.65 122.2 0)
+		(layer "F.SilkS" knockout)
+		(uuid "dfda26e2-55b3-431f-9f6c-596c6c126820")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "NR"
+		(at 123.4 119.1 45)
+		(layer "F.SilkS" knockout)
+		(uuid "e44dfc16-f0f7-4738-b46b-9e1370a315dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "TP"
+		(at 127.5 121.9 45)
+		(layer "F.SilkS" knockout)
+		(uuid "f6b87bae-17a2-4597-a6b1-f333f0391ef0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "BUT"
+		(at 137.7 113.1 0)
+		(layer "F.SilkS" knockout)
+		(uuid "fb921117-8649-40d4-b87d-201ff90f643c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 124.65 105.1)
