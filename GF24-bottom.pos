@@ -1,0 +1,25 @@
+### Footprint positions - created on 2025-03-10T10:42:19-0400 ###
+### Printed by KiCad version 8.0.8
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val            Package                 PosX       PosY       Rot  Side
+C11       4.7uF          C1206_medium        133.7500  -106.0000  -90.0000  bottom
+C12       0.1uF          C0603_medium        135.7500  -107.7500  -90.0000  bottom
+C13       1uF            C0805_medium        124.5000  -106.0000  -90.0000  bottom
+C15       1uF            C0805_medium        139.5000  -108.5000    0.0000  bottom
+D1        D              SOD-123-2           127.7500  -124.5000  -90.0000  bottom
+J2        USB4110GFA     GCT_USB4110GFA      145.5700  -109.2500  -90.0000  bottom
+J3        S2B-PH-SM4-TB  JST_S2B-PH-SM4-TB   120.0000  -111.1000  -90.0000  bottom
+J5        0533980671     MOLEX_0533980671     74.0000  -110.0000   90.0000  bottom
+Q1        3904           SOT-23-3            130.2500  -128.0000  180.0000  bottom
+R2        180            R0603_medium        130.5000  -123.7500   90.0000  bottom
+R5        1.5k           R0603_medium        129.5000  -109.5000  180.0000  bottom
+R6        4.12k          R0603_medium        127.0000  -108.0000  180.0000  bottom
+R13       10k            R0603_medium        137.7500  -104.7500  -90.0000  bottom
+R14       1k             R0603_medium        141.5000  -105.7500  -90.0000  bottom
+SW4       ~              SW_500ASSP1SM6QE    123.0000   -96.5000    0.0000  bottom
+SW5       ~              SW_500ASSP1SM6QE    141.0000   -96.5000    0.0000  bottom
+TH1       10K            R0603_medium        132.7500  -114.5500    0.0000  bottom
+U4        LTC1733        10-MSOP-TE          129.3500  -105.5000  180.0000  bottom
+U5        ST-025BH       ST-025BH_SOB        121.5000  -124.5000  180.0000  bottom
+## End
