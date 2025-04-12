@@ -2124,59 +2124,27 @@
 				)
 			)
 		)
-		(symbol "MB-Buzzer:ST-025BH"
-			(pin_names
-				(offset 0.254)
-			)
+		(symbol "MB-Buzzer:SMTB-0927-TW-R"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 11.43 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "ST-025BH"
-				(at 0 8.89 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "MB-Buzzer:ST-025BH_SOB"
-				(at 0.508 -4.064 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "ST-025BH"
-				(at 0.508 -6.096 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at -22.86 1.27 0)
+			(property "Reference" "BZ"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(hide yes)
 				)
 			)
-			(property "ki_keywords" "ST-025BH"
+			(property "Value" "SMTB-0927-TW-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "MB-Buzzer:SMTB-0927-TW-R"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2185,7 +2153,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "ST-025BH_SOB"
+			(property "Datasheet" "https://puiaudio.com/file/specs-SMTB-0927-TW-R.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2194,20 +2162,29 @@
 					(hide yes)
 				)
 			)
-			(symbol "ST-025BH_1_1"
-				(rectangle
-					(start -2.54 2.54)
-					(end 3.81 -2.54)
+			(property "Description" "SMTB-0927-TW-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SMTB-0927-TW-R_1_1"
+				(circle
+					(center 0 0)
+					(radius 4.0161)
 					(stroke
-						(width 0)
+						(width 0.635)
 						(type default)
 					)
 					(fill
 						(type background)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 1.27 0)
+				(pin input line
+					(at 0 6.35 270)
 					(length 2.54)
 					(name "+"
 						(effects
@@ -2224,8 +2201,8 @@
 						)
 					)
 				)
-				(pin unspecified line
-					(at -5.08 -1.27 0)
+				(pin output line
+					(at 0 -6.35 90)
 					(length 2.54)
 					(name "-"
 						(effects
@@ -2235,42 +2212,6 @@
 						)
 					)
 					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 6.35 -1.27 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 6.35 1.27 180)
-					(length 2.54)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6488,12 +6429,6 @@
 		)
 	)
 	(junction
-		(at 227.33 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "09897132-9185-42ff-a9c4-e52c34a180c0")
-	)
-	(junction
 		(at 125.73 27.94)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6546,6 +6481,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1650a564-1b3e-407b-aee2-61d3d1361d9b")
+	)
+	(junction
+		(at 209.55 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1963e54e-d529-44c6-9057-65a712b3333d")
 	)
 	(junction
 		(at 91.44 193.04)
@@ -6656,7 +6597,7 @@
 		(uuid "60573a7b-ce0e-4bad-bdde-1a9176489044")
 	)
 	(junction
-		(at 224.79 121.92)
+		(at 209.55 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "67b0b122-e637-49fd-94f4-b36f33aa2edb")
@@ -6810,12 +6751,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d0a0cb28-18a1-4a3c-a802-d449d0118a9d")
-	)
-	(junction
-		(at 224.79 132.08)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5a0dc39-962a-4124-a91f-6a7c8d8fc46a")
 	)
 	(junction
 		(at 54.61 143.51)
@@ -7141,7 +7076,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 220.98 130.81)
+			(xy 205.74 139.7) (xy 205.74 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7301,7 +7236,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 143.51) (xy 224.79 144.78)
+			(xy 209.55 152.4) (xy 209.55 154.94)
 		)
 		(stroke
 			(width 0)
@@ -7328,6 +7263,16 @@
 			(type default)
 		)
 		(uuid "18108266-8ba5-41f2-9873-b5819575b4c6")
+	)
+	(wire
+		(pts
+			(xy 215.9 139.7) (xy 215.9 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "182dff6b-75ac-4d87-a600-e271aa480593")
 	)
 	(wire
 		(pts
@@ -7991,7 +7936,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 128.27) (xy 213.36 129.54)
+			(xy 198.12 130.81) (xy 198.12 132.08)
 		)
 		(stroke
 			(width 0)
@@ -8011,7 +7956,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 132.08) (xy 224.79 132.08)
+			(xy 205.74 139.7) (xy 209.55 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8121,16 +8066,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 128.27) (xy 227.33 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54f2000e-8951-495a-bc53-d52664fc4567")
-	)
-	(wire
-		(pts
 			(xy 64.77 29.21) (xy 64.77 31.75)
 		)
 		(stroke
@@ -8151,7 +8086,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 224.79 121.92)
+			(xy 205.74 124.46) (xy 209.55 124.46)
 		)
 		(stroke
 			(width 0)
@@ -8331,7 +8266,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 213.36 137.16)
+			(xy 198.12 147.32) (xy 198.12 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8411,16 +8346,6 @@
 	)
 	(wire
 		(pts
-			(xy 227.33 121.92) (xy 227.33 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6d749ec2-b96e-46bb-8a5f-425015b116c2")
-	)
-	(wire
-		(pts
 			(xy 256.54 133.35) (xy 256.54 132.08)
 		)
 		(stroke
@@ -8458,26 +8383,6 @@
 			(type default)
 		)
 		(uuid "71866c7d-a0dc-4697-8836-67cbff06a9b8")
-	)
-	(wire
-		(pts
-			(xy 224.79 132.08) (xy 224.79 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75132943-ab07-43eb-b509-5d140195ac7a")
-	)
-	(wire
-		(pts
-			(xy 227.33 132.08) (xy 228.6 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75d97038-38c9-4fba-96bd-876eb44015d0")
 	)
 	(wire
 		(pts
@@ -8631,7 +8536,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 138.43) (xy 217.17 138.43)
+			(xy 198.12 147.32) (xy 201.93 147.32)
 		)
 		(stroke
 			(width 0)
@@ -9011,7 +8916,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 120.65) (xy 224.79 121.92)
+			(xy 209.55 123.19) (xy 209.55 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9591,7 +9496,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 121.92) (xy 227.33 121.92)
+			(xy 209.55 124.46) (xy 215.9 124.46)
 		)
 		(stroke
 			(width 0)
@@ -9691,7 +9596,7 @@
 	)
 	(wire
 		(pts
-			(xy 220.98 121.92) (xy 220.98 123.19)
+			(xy 205.74 124.46) (xy 205.74 127)
 		)
 		(stroke
 			(width 0)
@@ -9941,7 +9846,17 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 132.08) (xy 227.33 132.08)
+			(xy 209.55 139.7) (xy 209.55 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc23506a-e2fd-4d02-a64a-ca5617a39fb2")
+	)
+	(wire
+		(pts
+			(xy 209.55 139.7) (xy 215.9 139.7)
 		)
 		(stroke
 			(width 0)
@@ -10096,8 +10011,8 @@
 		(uuid 8c4d877e-0f4f-438c-aaff-e616948517e3)
 	)
 	(rectangle
-		(start 212.09 114.3)
-		(end 240.03 148.59)
+		(start 195.58 116.84)
+		(end 240.03 158.75)
 		(stroke
 			(width 0)
 			(type default)
@@ -10270,7 +10185,7 @@
 	)
 	(text "OUTPUTS"
 		(exclude_from_sim no)
-		(at 232.41 153.67 0)
+		(at 238.252 163.83 0)
 		(effects
 			(font
 				(size 2.032 2.032)
@@ -10327,7 +10242,7 @@
 	)
 	(text "Buzzer"
 		(exclude_from_sim no)
-		(at 219.202 118.364 0)
+		(at 203.962 120.904 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10435,7 +10350,7 @@
 	)
 	(text "Flyback"
 		(exclude_from_sim no)
-		(at 217.932 126.746 90)
+		(at 202.692 129.286 90)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -10604,7 +10519,7 @@
 	)
 	(text "Make sure\nbuzzer goes\nto PWM pin"
 		(exclude_from_sim no)
-		(at 234.696 134.366 0)
+		(at 224.028 137.16 0)
 		(effects
 			(font
 				(size 0.762 0.762)
@@ -10802,7 +10717,7 @@
 		(uuid "3306717a-6148-452f-94b9-87820aad0541")
 	)
 	(label "BUZZ-QB"
-		(at 217.17 138.43 270)
+		(at 201.93 147.32 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10989,7 +10904,7 @@
 		(uuid "a8ef860d-c7f9-4c28-98a1-51dbfb6a1764")
 	)
 	(label "BUZZ-"
-		(at 228.6 132.08 0)
+		(at 215.9 139.7 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11430,7 +11345,7 @@
 	)
 	(global_label "BUZZER"
 		(shape input)
-		(at 213.36 128.27 90)
+		(at 198.12 130.81 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -11440,7 +11355,7 @@
 		)
 		(uuid "5ed6b844-6d20-4127-98e0-da179835a5fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 213.36 121.1247 90)
+			(at 198.12 123.6647 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12757,7 +12672,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 213.36 133.35 180)
+		(at 198.12 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12765,7 +12680,7 @@
 		(dnp no)
 		(uuid "0e8c96bc-952b-4d6a-922c-06be701ba48a")
 		(property "Reference" "R2"
-			(at 215.646 133.35 90)
+			(at 200.406 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12773,7 +12688,7 @@
 			)
 		)
 		(property "Value" "180"
-			(at 217.678 133.35 90)
+			(at 202.438 135.89 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12781,7 +12696,7 @@
 			)
 		)
 		(property "Footprint" "MB-Generic:R0603_medium"
-			(at 215.138 133.35 90)
+			(at 199.898 135.89 90)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12790,7 +12705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12799,7 +12714,7 @@
 			)
 		)
 		(property "Description" "RC0603FR-07180RL"
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -12808,7 +12723,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.com/en/products/detail/yageo/rc0603fr-07180rl/726994"
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12817,7 +12732,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12826,7 +12741,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12835,7 +12750,7 @@
 			)
 		)
 		(property "Manufacturer" "YAGEO"
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12844,7 +12759,7 @@
 			)
 		)
 		(property "Manufacturer PN" "RC0603FR-07180RL"
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12853,7 +12768,7 @@
 			)
 		)
 		(property "OPTION" ""
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12862,7 +12777,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12871,7 +12786,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 213.36 133.35 0)
+			(at 198.12 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14030,7 +13945,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 224.79 120.65 0)
+		(at 209.55 123.19 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14039,7 +13954,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e24d89b-1512-4884-bfc6-948401b0dafc")
 		(property "Reference" "#PWR012"
-			(at 224.79 124.46 0)
+			(at 209.55 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14048,7 +13963,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 224.79 115.57 0)
+			(at 209.55 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14056,7 +13971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 120.65 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -14065,7 +13980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 120.65 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -14074,7 +13989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 224.79 120.65 0)
+			(at 209.55 123.19 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15440,7 +15355,7 @@
 	)
 	(symbol
 		(lib_id "Device:D")
-		(at 220.98 127 270)
+		(at 205.74 130.81 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15449,7 +15364,7 @@
 		(fields_autoplaced yes)
 		(uuid "413c84a6-5d39-479c-bf2d-b463d067428f")
 		(property "Reference" "D1"
-			(at 223.52 125.7299 90)
+			(at 208.28 129.5399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15458,7 +15373,7 @@
 			)
 		)
 		(property "Value" "D"
-			(at 223.52 128.2699 90)
+			(at 208.28 132.0799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15467,7 +15382,7 @@
 			)
 		)
 		(property "Footprint" "MB-SOD:SOD-123-2"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15476,7 +15391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15485,7 +15400,7 @@
 			)
 		)
 		(property "Description" "MMSD4148T1G"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15494,7 +15409,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15503,7 +15418,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15512,7 +15427,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.com/en/products/detail/onsemi/mmsd4148t1g/919705"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15521,7 +15436,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15530,7 +15445,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15539,7 +15454,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15548,7 +15463,7 @@
 			)
 		)
 		(property "Manufacturer PN" "MMSD4148T1G"
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15557,7 +15472,7 @@
 			)
 		)
 		(property "OPTION" ""
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15566,7 +15481,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15575,7 +15490,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 220.98 127 0)
+			(at 205.74 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15668,7 +15583,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 144.78 0)
+		(at 209.55 154.94 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15677,7 +15592,7 @@
 		(fields_autoplaced yes)
 		(uuid "447fba5e-651b-4658-8cc5-e9035fc10de5")
 		(property "Reference" "#PWR015"
-			(at 224.79 151.13 0)
+			(at 209.55 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15686,7 +15601,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 149.86 0)
+			(at 209.55 160.02 0)
 			(show_name yes)
 			(effects
 				(font
@@ -15696,7 +15611,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 144.78 0)
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15705,7 +15620,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 144.78 0)
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15714,7 +15629,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 144.78 0)
+			(at 209.55 154.94 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15877,7 +15792,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_BJT:2SC4213")
-		(at 222.25 138.43 0)
+		(at 207.01 147.32 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15886,7 +15801,7 @@
 		(fields_autoplaced yes)
 		(uuid "5384cfef-2c2e-4e81-a689-08fdf84887e5")
 		(property "Reference" "Q1"
-			(at 227.33 137.16 0)
+			(at 212.09 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15895,7 +15810,7 @@
 			)
 		)
 		(property "Value" "3904"
-			(at 227.33 139.7 0)
+			(at 212.09 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15904,7 +15819,7 @@
 			)
 		)
 		(property "Footprint" "MB-SOT:SOT-23-3"
-			(at 227.33 140.335 0)
+			(at 212.09 149.225 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15915,7 +15830,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15925,7 +15840,7 @@
 			)
 		)
 		(property "Description" "MMBT3904LT1G"
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 0.75 0.75)
@@ -15934,7 +15849,7 @@
 			)
 		)
 		(property "Distributor Link" "https://www.digikey.com/en/products/detail/onsemi/mmbt3904lt1g/919601"
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15943,7 +15858,7 @@
 			)
 		)
 		(property "MANUFACTURER" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15952,7 +15867,7 @@
 			)
 		)
 		(property "MAXIMUM_PACKAGE_HEIGHT" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15961,7 +15876,7 @@
 			)
 		)
 		(property "Manufacturer" "onsemi"
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15970,7 +15885,7 @@
 			)
 		)
 		(property "Manufacturer PN" "MMBT3904LT1G"
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15979,7 +15894,7 @@
 			)
 		)
 		(property "OPTION" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15988,7 +15903,7 @@
 			)
 		)
 		(property "PARTREV" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15997,7 +15912,7 @@
 			)
 		)
 		(property "STANDARD" ""
-			(at 222.25 138.43 0)
+			(at 207.01 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18586,6 +18501,76 @@
 		)
 	)
 	(symbol
+		(lib_id "MB-Buzzer:SMTB-0927-TW-R")
+		(at 215.9 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8746ad5a-7475-403c-aac6-ae333ba7e4b9")
+		(property "Reference" "BZ1"
+			(at 220.98 129.5399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SMTB-0927-TW-R"
+			(at 220.98 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MB-Buzzer:SMTB-0927-TW-R"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://puiaudio.com/file/specs-SMTB-0927-TW-R.pdf"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "SMTB-0927-TW-R"
+			(at 215.9 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "54acc5cc-0634-4b0a-9533-de1a83d8fa59")
+		)
+		(pin "2"
+			(uuid "def3a2b2-5b3d-4e4c-8ecb-4998de6a327a")
+		)
+		(instances
+			(project ""
+				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
+					(reference "BZ1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 151.13 96.52 0)
 		(unit 1)
@@ -19750,108 +19735,6 @@
 			(project "GF24"
 				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "MB-Buzzer:ST-025BH")
-		(at 232.41 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a6aee259-6691-4ab6-b0ee-14fa9eb51105")
-		(property "Reference" "U5"
-			(at 233.045 119.38 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Value" "ST-025BH"
-			(at 233.68 122.428 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-			)
-		)
-		(property "Footprint" "MB-Buzzer:ST-025BH_SOB"
-			(at 232.918 131.064 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 232.918 133.096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "ST-025BH"
-			(at 209.55 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Distributor Link" "https://www.digikey.com/en/products/detail/soberton-inc/st-025bh/3065215"
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Soberton Inc."
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer PN" "ST-025BH"
-			(at 232.41 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "c0edc518-24b0-449a-bbea-79f25ebd037e")
-		)
-		(pin "3"
-			(uuid "1bf50c8d-0f61-46f2-84bb-f508e82995fd")
-		)
-		(pin "4"
-			(uuid "4db0c2a3-e101-4abb-85b0-169594039216")
-		)
-		(pin "1"
-			(uuid "0d2299ef-eeb4-4afc-bdc5-b965da50af08")
-		)
-		(instances
-			(project ""
-				(path "/d7f5d038-1fc1-4384-87c8-ac3b01beb09a"
-					(reference "U5")
 					(unit 1)
 				)
 			)
