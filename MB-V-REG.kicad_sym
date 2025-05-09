@@ -360,7 +360,7 @@
 				)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "TPS79533DCQR"
 			(at 0 0 0)
 			(effects
 				(font
