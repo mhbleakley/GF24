@@ -1,4 +1,4 @@
-24490914119370728
+24497903388301278
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -65771,6 +65771,20 @@ Kingbright-APDA3020
 0
 2
 2
+MB-Opto
+WE-0603-Mono-Chip-Advance
+
+
+0
+2
+2
+MB-Opto
+WE-1204-Mono-Side
+
+
+0
+3
+3
 MB-SOD
 SOD-123-2
 
@@ -65829,6 +65843,20 @@ ES02MSABE
 5
 MB-SW
 PTS815SJM250SMTRLFS
+
+
+0
+4
+4
+MB-SW
+SW2_1825027-F_TEC
+
+1-1825027-7 
+0
+4
+4
+MB-SW
+SW_1-1825027-1
 
 
 0
