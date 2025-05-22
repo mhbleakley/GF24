@@ -325,4 +325,15 @@
 		(remove_unused_layers no)
 		(uuid "6dd6a9f6-2f7a-47a7-bf50-151d8e62e101")
 	)
+	(model "${KIPRJMOD}/3D/1_1825027_7/c-1-1825027-7-g-3d.stp"
+		(offset
+			(xyz 2.5 -2.5 4)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
 )

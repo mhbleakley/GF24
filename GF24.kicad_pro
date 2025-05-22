@@ -813,7 +813,7 @@
       "plot": "Outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "GF24.step",
       "svg": "",
       "vrml": ""
     },
