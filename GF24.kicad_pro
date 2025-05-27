@@ -802,6 +802,10 @@
       {
         "netclass": "OSC",
         "pattern": "/OSC*"
+      },
+      {
+        "netclass": "USB",
+        "pattern": "/USB*"
       }
     ]
   },
@@ -996,6 +1000,12 @@
           "group_by": false,
           "label": "Availability",
           "name": "Availability",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "SNAPEDA_PN",
+          "name": "SNAPEDA_PN",
           "show": false
         }
       ],
